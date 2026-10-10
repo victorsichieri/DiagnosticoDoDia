@@ -4,14 +4,15 @@ Estas regras valem para cada lote semanal. O lote nunca vai direto para o jogo: 
 
 ## O que gerar
 - 7 casos por nível (facil, inter, dificil, mdificil) = 28 casos, um por dia.
-- Datas: os 7 dias seguintes à última data já presente em `casos.json`.
+- Datas: os 7 dias seguintes à última data já presente em `casos.json` (ignorar casos com `"data": null`).
+- Casos com `"data": null` são só de treino: aparecem no Treino desde já e nunca como caso do dia. Casos com data só entram no Treino depois que o dia deles passa.
 - Não repetir um diagnóstico que já esteja no mesmo nível. Evitar repetir em qualquer nível nos últimos 60 dias.
 
 ## Formato de cada caso
 ```json
 {
   "id": "nivel-slug-do-diagnostico",
-  "data": "AAAA-MM-DD",
+  "data": "AAAA-MM-DD (ou null para caso só de treino)",
   "nivel": "facil | inter | dificil | mdificil",
   "diagnostico": "Nome completo em português",
   "sinonimos": ["siglas", "nomes alternativos", "sem acento tudo bem"],

@@ -20,7 +20,7 @@ def checar(casos, rotulo):
     ids, slots, dx_nivel = set(), set(), {}
     for c in casos:
         cid = c.get("id", "?")
-        for campo in ("id", "data", "nivel", "diagnostico", "sinonimos", "dicas", "comentario"):
+        for campo in ("id", "nivel", "diagnostico", "sinonimos", "dicas", "comentario"):
             if campo not in c:
                 erros.append(f"{cid}: falta o campo '{campo}'")
         if cid in ids:
@@ -28,14 +28,16 @@ def checar(casos, rotulo):
         ids.add(cid)
         if c.get("nivel") not in NIVEIS:
             erros.append(f"{cid}: nível inválido '{c.get('nivel')}'")
-        try:
-            date.fromisoformat(c.get("data", ""))
-        except ValueError:
-            erros.append(f"{cid}: data inválida '{c.get('data')}'")
-        slot = (c.get("data"), c.get("nivel"))
-        if slot in slots:
-            erros.append(f"{cid}: já existe caso para {slot[1]} em {slot[0]}")
-        slots.add(slot)
+        # "data": null (ou ausente) = caso só de treino, sem dia agendado
+        if c.get("data") is not None:
+            try:
+                date.fromisoformat(c.get("data", ""))
+            except ValueError:
+                erros.append(f"{cid}: data inválida '{c.get('data')}'")
+            slot = (c.get("data"), c.get("nivel"))
+            if slot in slots:
+                erros.append(f"{cid}: já existe caso para {slot[1]} em {slot[0]}")
+            slots.add(slot)
         dicas = c.get("dicas", [])
         if len(dicas) != 5 or not all(isinstance(d, str) and len(d) > 15 for d in dicas):
             erros.append(f"{cid}: precisa de exatamente 5 dicas com texto")

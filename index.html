@@ -193,12 +193,15 @@ function lev(a, b) {
   }
   return prev[n];
 }
+const mark = s => ["hiper", "hipo"].filter(w => s.includes(w)).concat(["com", "sem"].filter(w => ` ${s} `.includes(` ${w} `))).join();
 function isCorrect(guess, c) {
   const g = norm(guess).replace(/^(doenca|sindrome) (de |do |da )?/, "");
   const pool = [c.dx, ...c.a].map(norm);
   return pool.some(p => {
     const q = p.replace(/^(doenca|sindrome) (de |do |da )?/, "");
-    return g === p || g === q || (q.length >= 8 && lev(g, q) <= 2);
+    // Tolerância a erro de digitação, mas "hiper" x "hipo" e "com" x "sem" mudam o diagnóstico
+    const flip = mark(g) !== mark(q);
+    return g === p || g === q || (q.length >= 8 && !flip && lev(g, q) <= 2);
   });
 }
 
@@ -219,6 +222,8 @@ let mode = "daily";
 let game;
 
 function published(lv) { const p = BANK[lv].map((c, i) => i).filter(i => !BANK[lv][i].data || BANK[lv][i].data <= dateKey); return p.length ? p : BANK[lv].map((c, i) => i); }
+/* Treino: casos sem data (só treino) e casos do dia cujo dia já passou. O caso de hoje e os futuros ficam de fora. */
+function trainable(lv) { const p = BANK[lv].map((c, i) => i).filter(i => !BANK[lv][i].data || BANK[lv][i].data < dateKey); return p.length ? p : published(lv); }
 function dailyIndex(lv) {
   const exact = BANK[lv].findIndex(c => c.data === dateKey);
   if (exact >= 0) return exact;
@@ -234,7 +239,7 @@ function newGame() {
     game = saved && saved.id === BANK[level][idx].id ? saved : { guesses: [], done: false, won: false };
     game.idx = idx; game.id = BANK[level][idx].id;
   } else {
-    const p = published(level); let k = Math.floor(Math.random() * p.length);
+    const p = trainable(level); let k = Math.floor(Math.random() * p.length);
     if (game && game.mode === "train" && game.level === level && p.length > 1 && p[k] === game.idx) k = (k + 1) % p.length;
     game = { idx: p[k], id: BANK[level][p[k]].id, guesses: [], done: false, won: false };
   }
