@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Diagnóstico do Dia</title>
+<meta name="description" content="Um caso clínico por dia: 5 dicas para acertar o diagnóstico.">
+<meta name="theme-color" content="#c1233a">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Dx do Dia">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: uma coluna estreita sobre papel de ECG; o caso é uma ficha que se preenche dica a dica */
+:root {
+  --paper: #f6f2f3; --grid: rgba(200, 70, 92, .10); --grid-strong: rgba(200, 70, 92, .18);
+  --card: #ffffff; --ink: #1c2230; --muted: #5d6474; --line: #e2d9dc;
+  --accent: #c1233a; --accent-ink: #ffffff; --ok: #1d7656; --ok-soft: #e3f3ec; --bad-soft: #fbe7ea;
+  --l1: #1d7656; --l2: #b7791f; --l3: #c2410c; --l4: #6d28d9;
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #14161b; --grid: rgba(230, 90, 110, .06); --grid-strong: rgba(230, 90, 110, .11);
+  --card: #1c1f26; --ink: #ecebf0; --muted: #9da3b1; --line: #2d313b;
+  --accent: #f0566b; --accent-ink: #1a0b0e; --ok: #4fc493; --ok-soft: #173126; --bad-soft: #3a1a20;
+  --l1: #4fc493; --l2: #e3a63f; --l3: #f07a45; --l4: #a78bfa; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --paper: #14161b; --grid: rgba(230, 90, 110, .06); --grid-strong: rgba(230, 90, 110, .11);
+  --card: #1c1f26; --ink: #ecebf0; --muted: #9da3b1; --line: #2d313b;
+  --accent: #f0566b; --accent-ink: #1a0b0e; --ok: #4fc493; --ok-soft: #173126; --bad-soft: #3a1a20;
+  --l1: #4fc493; --l2: #e3a63f; --l3: #f07a45; --l4: #a78bfa; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+:root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+html, body { margin: 0; }
+[hidden] { display: none !important; }
+body {
+  background-color: var(--paper); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.5;
+  background-image:
+    linear-gradient(var(--grid-strong) 1px, transparent 1px), linear-gradient(90deg, var(--grid-strong) 1px, transparent 1px),
+    linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 40px 40px, 40px 40px, 8px 8px, 8px 8px;
+}
+.wrap { max-width: 640px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 48px; display: grid; gap: 18px; }
+
+header { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(1.9rem, 7vw, 2.6rem); line-height: 1; margin: 0; letter-spacing: -.02em; text-wrap: balance; }
+h1 .dx { color: var(--accent); }
+.trace { display: block; width: 100%; max-width: 220px; height: 26px; margin-top: 6px; }
+.trace path { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.date { font-family: var(--mono); font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+
+.levels { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.lvl {
+  font: 600 .82rem/1.15 var(--body); padding: 10px 6px; border-radius: 10px; cursor: pointer;
+  border: 1.5px solid var(--line); background: var(--card); color: var(--muted); display: grid; gap: 4px; justify-items: center; text-align: center;
+}
+.lvl .bars { display: flex; gap: 3px; }
+.lvl .bars i { width: 6px; height: 10px; border-radius: 2px; background: var(--line); }
+.lvl[aria-pressed="true"] { color: var(--ink); border-color: var(--lc); box-shadow: inset 0 0 0 1px var(--lc); }
+.lvl[aria-pressed="true"] .bars i.on, .lvl .bars i.on { background: var(--lc); }
+.lvl .st { font-family: var(--mono); font-size: .68rem; font-weight: 500; min-height: 1em; }
+.lvl:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.modebar { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; font-size: .88rem; color: var(--muted); }
+.seg { display: inline-flex; border: 1.5px solid var(--line); border-radius: 999px; padding: 3px; background: var(--card); }
+.seg button { border: 0; background: transparent; color: var(--muted); font: 600 .82rem var(--body); padding: 6px 14px; border-radius: 999px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+
+.chart { background: var(--card); border: 1.5px solid var(--line); border-radius: 14px; overflow: hidden; }
+.chart-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 12px 16px; border-bottom: 1.5px dashed var(--line); }
+.chart-head .lab { font: 600 .72rem var(--body); text-transform: uppercase; letter-spacing: .1em; color: var(--muted); }
+.chart-head .tag { font: 600 .74rem var(--body); color: var(--lc); border: 1.5px solid var(--lc); padding: 2px 9px; border-radius: 999px; }
+ol.clues { list-style: none; margin: 0; padding: 6px 16px 14px; display: grid; }
+ol.clues li { display: grid; grid-template-columns: 2.1rem 1fr; gap: 8px; padding: 12px 0; border-bottom: 1px solid var(--line); min-width: 0; animation: in .35s ease both; }
+ol.clues li:last-child { border-bottom: 0; }
+ol.clues .n { font-family: var(--mono); font-size: .8rem; color: var(--accent); padding-top: 2px; }
+ol.clues .t { min-width: 0; }
+ol.clues li.locked .t { color: var(--muted); font-style: italic; font-size: .9rem; }
+ol.clues li.locked .n { color: var(--muted); }
+@keyframes in { from { opacity: .3; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+.beats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.beat { height: 40px; border-radius: 8px; border: 1.5px solid var(--line); background: var(--card); display: grid; place-items: center; }
+.beat svg { width: 70%; height: 22px; }
+.beat svg path { fill: none; stroke: var(--line); stroke-width: 2; stroke-linejoin: round; }
+.beat.miss { background: var(--bad-soft); border-color: var(--accent); }
+.beat.miss svg path { stroke: var(--accent); }
+.beat.hit { background: var(--ok-soft); border-color: var(--ok); }
+.beat.hit svg path { stroke: var(--ok); }
+.beat.cur { border-color: var(--ink); }
+
+form.guess { position: relative; display: flex; gap: 8px; }
+form.guess input {
+  flex: 1; min-width: 0; font: 500 1rem var(--body); padding: 13px 14px; border-radius: 10px;
+  border: 1.5px solid var(--line); background: var(--card); color: var(--ink);
+}
+.btn { font: 600 .95rem var(--body); padding: 12px 18px; border-radius: 10px; border: 0; background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+.btn.ghost { background: transparent; color: var(--ink); border: 1.5px solid var(--line); }
+.btn:disabled { opacity: .45; cursor: default; }
+.sugg { position: absolute; left: 0; right: 0; top: calc(100% + 4px); z-index: 5; list-style: none; margin: 0; padding: 4px; background: var(--card); border: 1.5px solid var(--line); border-radius: 10px; box-shadow: 0 10px 28px rgba(0,0,0,.14); }
+.sugg li { padding: 9px 10px; border-radius: 7px; cursor: pointer; font-size: .93rem; }
+.sugg li[aria-selected="true"], .sugg li:hover { background: var(--paper); }
+
+.wrong { display: flex; flex-wrap: wrap; gap: 6px; }
+.wrong span { font-size: .82rem; padding: 4px 10px; border-radius: 999px; background: var(--bad-soft); color: var(--ink); text-decoration: line-through; text-decoration-color: var(--accent); }
+.msg { font-size: .9rem; color: var(--muted); min-height: 1.3em; }
+
+.result { border-radius: 14px; padding: 18px; border: 1.5px solid var(--rc); background: var(--card); display: grid; gap: 10px; }
+.result .k { font: 600 .72rem var(--body); text-transform: uppercase; letter-spacing: .1em; color: var(--rc); }
+.result h2 { font-family: var(--display); font-weight: 800; font-size: 1.6rem; line-height: 1.1; margin: 0; text-wrap: balance; }
+.result p { margin: 0; max-width: 62ch; }
+.result .row { display: flex; gap: 8px; flex-wrap: wrap; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; border-top: 1px dashed var(--line); padding-top: 12px; }
+.stats div { display: grid; }
+.stats b { font: 500 1.3rem var(--mono); font-variant-numeric: tabular-nums; }
+.stats small { color: var(--muted); font-size: .75rem; }
+
+footer { font-size: .8rem; color: var(--muted); }
+footer p { margin: 0; max-width: 62ch; }
+@media (prefers-reduced-motion: reduce) { ol.clues li { animation: none; } }
+@media (max-width: 420px) { .lvl { font-size: .74rem; } .btn { padding: 12px 14px; } }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Diagnóstico <span class="dx">do Dia</span></h1>
+      <svg class="trace" viewBox="0 0 220 26" aria-hidden="true"><path d="M0 16 H70 l6 -4 l6 4 h8 l4 6 l6 -22 l6 26 l4 -10 h12 l8 -6 l8 6 H220"/></svg>
+    </div>
+    <div class="date" id="today"></div>
+  </header>
+
+  <div class="levels" role="group" aria-label="Nível" id="levels"></div>
+
+  <div class="modebar">
+    <div class="seg" role="group" aria-label="Modo">
+      <button type="button" id="mDaily" aria-pressed="true">Caso do dia</button>
+      <button type="button" id="mTrain" aria-pressed="false">Treino</button>
+    </div>
+    <span id="modeHint">5 chances · uma nova dica a cada erro</span>
+  </div>
+
+  <section class="chart" id="chart">
+    <div class="chart-head"><span class="lab" id="caseLab">Caso clínico</span><span class="tag" id="lvlTag"></span></div>
+    <ol class="clues" id="clues"></ol>
+  </section>
+
+  <div class="beats" id="beats" aria-label="Tentativas"></div>
+
+  <div id="play">
+    <form class="guess" id="form" autocomplete="off">
+      <input id="guess" type="text" placeholder="Digite o diagnóstico…" aria-label="Seu diagnóstico" aria-autocomplete="list" aria-controls="sugg" spellcheck="false">
+      <button class="btn" type="submit" id="send">Enviar</button>
+      <ul class="sugg" id="sugg" role="listbox" hidden></ul>
+    </form>
+  </div>
+  <div class="msg" id="msg" role="status"></div>
+  <div class="wrong" id="wrong"></div>
+
+  <section class="result" id="result" hidden></section>
+
+  <footer><p>O caso do dia muda à meia-noite e é o mesmo para todos em cada nível. Sinônimos e pequenos erros de digitação são aceitos. Conteúdo educacional para estudo; não substitui avaliação clínica.</p></footer>
+</div>
+
+<script>
+const LEVELS = [
+  { id: "facil", name: "Fácil", c: "--l1" },
+  { id: "inter", name: "Intermediário", c: "--l2" },
+  { id: "dificil", name: "Difícil", c: "--l3" },
+  { id: "mdificil", name: "Muito difícil", c: "--l4" },
+];
+
+let BANK = { facil: [], inter: [], dificil: [], mdificil: [] };
+let ALL_DX = [];
+const $ = id => document.getElementById(id);
+const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim();
+function lev(a, b) {
+  const m = a.length, n = b.length; if (Math.abs(m - n) > 2) return 9;
+  let prev = Array.from({ length: n + 1 }, (_, j) => j);
+  for (let i = 1; i <= m; i++) {
+    const cur = [i];
+    for (let j = 1; j <= n; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    prev = cur;
+  }
+  return prev[n];
+}
+function isCorrect(guess, c) {
+  const g = norm(guess).replace(/^(doenca|sindrome) (de |do |da )?/, "");
+  const pool = [c.dx, ...c.a].map(norm);
+  return pool.some(p => {
+    const q = p.replace(/^(doenca|sindrome) (de |do |da )?/, "");
+    return g === p || g === q || (q.length >= 8 && lev(g, q) <= 2);
+  });
+}
+
+
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} },
+};
+
+const now = new Date();
+const dateKey = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+const dayNum = Math.floor(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()) / 864e5);
+$("today").textContent = now.toLocaleDateString("pt-BR", { weekday: "short", day: "2-digit", month: "short" });
+
+let level = store.get("dx:level", "facil");
+if (!BANK[level]) level = "facil";
+let mode = "daily";
+let game;
+
+function published(lv) { const p = BANK[lv].map((c, i) => i).filter(i => !BANK[lv][i].data || BANK[lv][i].data <= dateKey); return p.length ? p : BANK[lv].map((c, i) => i); }
+function dailyIndex(lv) {
+  const exact = BANK[lv].findIndex(c => c.data === dateKey);
+  if (exact >= 0) return exact;
+  const p = published(lv), off = LEVELS.findIndex(l => l.id === lv) * 3;
+  return p[(dayNum + off) % p.length];
+}
+function lvlInfo(id) { return LEVELS.find(l => l.id === id); }
+
+function newGame() {
+  if (mode === "daily") {
+    const saved = store.get(`dx:${dateKey}:${level}`, null);
+    const idx = dailyIndex(level);
+    game = saved && saved.id === BANK[level][idx].id ? saved : { guesses: [], done: false, won: false };
+    game.idx = idx; game.id = BANK[level][idx].id;
+  } else {
+    const p = published(level); let k = Math.floor(Math.random() * p.length);
+    if (game && game.mode === "train" && game.level === level && p.length > 1 && p[k] === game.idx) k = (k + 1) % p.length;
+    game = { idx: p[k], id: BANK[level][p[k]].id, guesses: [], done: false, won: false };
+  }
+  game.mode = mode; game.level = level;
+  render();
+}
+
+function save() {
+  if (mode !== "daily") return;
+  store.set(`dx:${dateKey}:${level}`, { id: game.id, idx: game.idx, guesses: game.guesses, done: game.done, won: game.won });
+}
+
+function recordStats() {
+  if (mode !== "daily") return;
+  const s = store.get(`dx:stats:${level}`, { played: 0, wins: 0, streak: 0, best: 0, last: null, dist: [0,0,0,0,0] });
+  if (s.last === dateKey) return;
+  s.played++;
+  if (game.won) {
+    s.wins++; s.dist[game.guesses.length - 1]++;
+    const y = new Date(now); y.setDate(y.getDate() - 1);
+    const yk = `${y.getFullYear()}-${String(y.getMonth() + 1).padStart(2, "0")}-${String(y.getDate()).padStart(2, "0")}`;
+    s.streak = s.lastWin === yk ? s.streak + 1 : 1; s.lastWin = dateKey; s.best = Math.max(s.best, s.streak);
+  } else s.streak = 0;
+  s.last = dateKey;
+  store.set(`dx:stats:${level}`, s);
+}
+
+const BEAT = '<svg viewBox="0 0 40 22" aria-hidden="true"><path d="M0 14 H12 l3 -3 l3 3 h2 l2 4 l3 -16 l3 18 l2 -6 H40"/></svg>';
+
+function renderLevels() {
+  $("levels").innerHTML = LEVELS.map((l, i) => {
+    const st = store.get(`dx:${dateKey}:${l.id}`, null);
+    const mark = st && st.done ? (st.won ? `✓ ${st.guesses.length}/5` : "✗ 5/5") : "";
+    const bars = [0,1,2,3].map(b => `<i class="${b <= i ? "on" : ""}"></i>`).join("");
+    return `<button type="button" class="lvl" style="--lc:var(${l.c})" data-l="${l.id}" aria-pressed="${l.id === level}"><span class="bars">${bars}</span>${l.name}<span class="st">${mark}</span></button>`;
+  }).join("");
+  $("levels").querySelectorAll(".lvl").forEach(b => b.onclick = () => { level = b.dataset.l; store.set("dx:level", level); newGame(); });
+}
+
+function render() {
+  const c = BANK[level][game.idx], L = lvlInfo(level);
+  document.documentElement.style.setProperty("--lc", `var(${L.c})`);
+  renderLevels();
+  $("mDaily").setAttribute("aria-pressed", mode === "daily"); $("mTrain").setAttribute("aria-pressed", mode === "train");
+  $("modeHint").textContent = mode === "daily" ? "5 chances · uma nova dica a cada erro" : "Casos aleatórios · não conta nas estatísticas";
+  $("lvlTag").textContent = L.name; $("lvlTag").style.setProperty("--lc", `var(${L.c})`);
+  $("caseLab").textContent = mode === "daily" ? `Caso do dia · ${dateKey.split("-").reverse().join("/")}` : "Caso de treino";
+
+  const shown = game.done ? 5 : Math.min(game.guesses.length + 1, 5);
+  $("clues").innerHTML = c.clues.map((t, i) => i < shown
+    ? `<li><span class="n">${String(i + 1).padStart(2, "0")}</span><span class="t">${t}</span></li>`
+    : `<li class="locked"><span class="n">${String(i + 1).padStart(2, "0")}</span><span class="t">Dica liberada após o ${i}º erro</span></li>`).join("");
+
+  $("beats").innerHTML = [0,1,2,3,4].map(i => {
+    let cls = "beat";
+    if (i < game.guesses.length) cls += (game.won && i === game.guesses.length - 1) ? " hit" : " miss";
+    else if (i === game.guesses.length && !game.done) cls += " cur";
+    return `<div class="${cls}">${BEAT}</div>`;
+  }).join("");
+
+  const wrongs = game.won ? game.guesses.slice(0, -1) : game.guesses;
+  $("wrong").innerHTML = wrongs.map(g => `<span>${esc(g)}</span>`).join("");
+
+  $("play").hidden = game.done;
+  $("guess").value = ""; hideSugg();
+  if (!game.done) $("msg").textContent = game.guesses.length ? `Restam ${5 - game.guesses.length} tentativa${5 - game.guesses.length > 1 ? "s" : ""}.` : "Leia a dica e arrisque um diagnóstico.";
+  else $("msg").textContent = "";
+  renderResult(c);
+}
+
+function renderResult(c) {
+  const r = $("result");
+  if (!game.done) { r.hidden = true; return; }
+  r.hidden = false;
+  r.style.setProperty("--rc", game.won ? "var(--ok)" : "var(--accent)");
+  const n = game.guesses.length;
+  const head = game.won ? (n === 1 ? "Na primeira dica!" : `Acertou com ${n} dicas`) : "Não foi desta vez";
+  let statsHtml = "";
+  if (mode === "daily") {
+    const s = store.get(`dx:stats:${level}`, { played: 0, wins: 0, streak: 0 });
+    const pct = s.played ? Math.round(100 * s.wins / s.played) : 0;
+    statsHtml = `<div class="stats"><div><b>${s.played}</b><small>jogos</small></div><div><b>${pct}%</b><small>acertos</small></div><div><b>${s.streak}</b><small>sequência</small></div></div>`;
+  }
+  r.innerHTML = `<span class="k">${head}</span><h2>${c.dx}</h2><p>${c.ex}</p>
+    <div class="row">${mode === "daily" ? '<button class="btn" type="button" id="share">Copiar resultado</button>' : ""}
+    <button class="btn ${mode === "daily" ? "ghost" : ""}" type="button" id="more">${mode === "daily" ? "Treinar mais casos" : "Próximo caso"}</button></div>
+    <span class="msg" id="shareMsg" role="status"></span>${statsHtml}`;
+  const sh = $("share");
+  if (sh) sh.onclick = async () => {
+    const L = lvlInfo(level).name;
+    const sq = game.guesses.map((_, i) => game.won && i === n - 1 ? "🟩" : "🟥").join("");
+    const txt = `Diagnóstico do Dia · ${L} · ${dateKey.split("-").reverse().join("/")}\n${game.won ? n : "X"}/5 ${sq}`;
+    try { await navigator.clipboard.writeText(txt); $("shareMsg").textContent = "Resultado copiado."; }
+    catch (e) { $("shareMsg").textContent = txt; }
+  };
+  $("more").onclick = () => { mode = "train"; newGame(); };
+}
+
+function esc(s) { return s.replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch])); }
+
+function submit(val) {
+  if (game.done) return;
+  const v = val.trim();
+  if (v.length < 3) { $("msg").textContent = "Digite um diagnóstico com pelo menos 3 letras."; return; }
+  if (game.guesses.some(g => norm(g) === norm(v))) { $("msg").textContent = "Você já tentou esse. Tente outro."; return; }
+  const c = BANK[level][game.idx];
+  game.guesses.push(v);
+  if (isCorrect(v, c)) { game.won = true; game.done = true; }
+  else if (game.guesses.length >= 5) game.done = true;
+  save();
+  if (game.done) recordStats();
+  render();
+  if (!game.done) { $("msg").textContent = `"${v}" não é. Nova dica liberada · restam ${5 - game.guesses.length}.`; $("guess").focus(); }
+}
+
+/* sugestões */
+let sel = -1;
+function hideSugg() { $("sugg").hidden = true; sel = -1; $("guess").setAttribute("aria-expanded", "false"); }
+function showSugg() {
+  const q = norm($("guess").value);
+  if (q.length < 2) return hideSugg();
+  const list = ALL_DX.filter(d => norm(d).includes(q)).slice(0, 6);
+  if (!list.length) return hideSugg();
+  sel = -1;
+  $("sugg").innerHTML = list.map((d, i) => `<li role="option" id="op${i}" aria-selected="false">${esc(d)}</li>`).join("");
+  $("sugg").hidden = false; $("guess").setAttribute("aria-expanded", "true");
+  $("sugg").querySelectorAll("li").forEach(li => li.onmousedown = e => { e.preventDefault(); $("guess").value = li.textContent; hideSugg(); });
+}
+$("guess").addEventListener("input", showSugg);
+$("guess").addEventListener("blur", () => setTimeout(hideSugg, 100));
+$("guess").addEventListener("keydown", e => {
+  const items = [...$("sugg").querySelectorAll("li")];
+  if ($("sugg").hidden || !items.length) return;
+  if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+    e.preventDefault();
+    sel = (sel + (e.key === "ArrowDown" ? 1 : -1) + items.length) % items.length;
+    items.forEach((li, i) => li.setAttribute("aria-selected", i === sel));
+  } else if (e.key === "Enter" && sel >= 0) {
+    e.preventDefault(); $("guess").value = items[sel].textContent; hideSugg();
+  } else if (e.key === "Escape") hideSugg();
+});
+$("form").addEventListener("submit", e => { e.preventDefault(); submit($("guess").value); });
+$("mDaily").onclick = () => { mode = "daily"; newGame(); };
+$("mTrain").onclick = () => { mode = "train"; newGame(); };
+
+async function boot() {
+  try {
+    const r = await fetch("casos.json", { cache: "no-cache" });
+    const d = await r.json();
+    for (const c of d.casos) {
+      if (!BANK[c.nivel] || c.revisado === false) continue;
+      BANK[c.nivel].push({ id: c.id, data: c.data, dx: c.diagnostico, a: c.sinonimos || [], clues: c.dicas, ex: c.comentario });
+    }
+    for (const lv in BANK) BANK[lv].sort((x, y) => (x.data || "").localeCompare(y.data || ""));
+    ALL_DX = [...new Set([...d.casos.map(c => c.diagnostico), ...(d.distratores || [])])].sort((x, y) => x.localeCompare(y, "pt"));
+    newGame();
+  } catch (e) {
+    $("clues").innerHTML = '<li><span class="n">!</span><span class="t">Não foi possível carregar os casos. Verifique a conexão e abra o app de novo.</span></li>';
+    $("play").hidden = true;
+  }
+}
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+boot();
+</script>
+</body>
+</html>

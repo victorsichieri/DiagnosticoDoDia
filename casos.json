@@ -1,0 +1,714 @@
+{
+  "versao": 1,
+  "atualizado": "2026-10-09",
+  "distratores": [
+    "Angina instável",
+    "IAM sem supra de ST",
+    "Pericardite aguda",
+    "Miocardite",
+    "Insuficiência cardíaca descompensada",
+    "Edema agudo de pulmão",
+    "Fibrilação atrial",
+    "Pneumotórax hipertensivo",
+    "DPOC exacerbado",
+    "Bronquiolite",
+    "Tuberculose pulmonar",
+    "Derrame pleural",
+    "Colecistite aguda",
+    "Coledocolitíase",
+    "Diverticulite aguda",
+    "Obstrução intestinal",
+    "Hemorragia digestiva alta",
+    "Úlcera péptica perfurada",
+    "Isquemia mesentérica",
+    "Gastroenterite aguda",
+    "Hepatite viral aguda",
+    "Cirrose hepática",
+    "Encefalopatia hepática",
+    "Estado hiperosmolar hiperglicêmico",
+    "Hipoglicemia",
+    "Crise tireotóxica",
+    "Coma mixedematoso",
+    "Síndrome de Cushing",
+    "Hiperaldosteronismo primário",
+    "AVC hemorrágico",
+    "Hemorragia subaracnóidea",
+    "Crise convulsiva",
+    "Encefalite herpética",
+    "Esclerose múltipla",
+    "Esclerose lateral amiotrófica",
+    "Doença de Parkinson",
+    "Síndrome serotoninérgica",
+    "Hipertermia maligna",
+    "Intoxicação por organofosforado",
+    "Sepse",
+    "Choque séptico",
+    "Anafilaxia",
+    "Dengue grave",
+    "Leptospirose",
+    "Malária",
+    "Febre maculosa",
+    "Cistite",
+    "Litíase renal",
+    "Lesão renal aguda",
+    "Torção testicular",
+    "Doença inflamatória pélvica",
+    "Pré-eclâmpsia",
+    "Descolamento prematuro de placenta",
+    "Artrite reumatoide",
+    "Artrite séptica",
+    "Gota",
+    "Esclerose sistêmica",
+    "Vasculite",
+    "Granulomatose com poliangeíte",
+    "Arterite temporal",
+    "Púrpura trombocitopênica imune",
+    "CIVD",
+    "Síndrome hemolítico-urêmica",
+    "Anemia falciforme",
+    "Leucemia aguda",
+    "Linfoma",
+    "Mieloma múltiplo",
+    "Doença celíaca",
+    "Doença de Crohn",
+    "Retocolite ulcerativa",
+    "Hemocromatose",
+    "Hepatite autoimune",
+    "Amiloidose",
+    "Doença de Lyme",
+    "Botulismo",
+    "Tétano",
+    "Raiva",
+    "Encefalopatia de Wernicke",
+    "Doença de Behçet",
+    "Doença de Still do adulto"
+  ],
+  "casos": [
+    {
+      "id": "facil-infarto-agudo-do-miocardio-com-supra-de-st",
+      "data": "2026-10-10",
+      "nivel": "facil",
+      "diagnostico": "Infarto agudo do miocárdio com supra de ST",
+      "sinonimos": [
+        "iam",
+        "infarto",
+        "infarto agudo do miocardio",
+        "iamcsst",
+        "iam com supra",
+        "iam com supra de st",
+        "infarto do miocardio",
+        "sca com supra",
+        "sca com supra de st",
+        "sindrome coronariana aguda com supra",
+        "iamcsst inferior",
+        "iam inferior",
+        "infarto inferior"
+      ],
+      "dicas": [
+        "Homem, 58 anos, chega à UPA com dor torácica que começou há 2 horas, em repouso.",
+        "A dor é em aperto, retroesternal, irradia para o membro superior esquerdo e veio com sudorese fria e náuseas.",
+        "Hipertenso, diabético e tabagista de 40 maços-ano. Não melhora com repouso.",
+        "ECG: supradesnivelamento do segmento ST em DII, DIII e aVF, com infra em DI e aVL.",
+        "Troponina ultrassensível muito elevada. Cardiologia aciona a hemodinâmica."
+      ],
+      "comentario": "IAMCSST de parede inferior. A meta é reperfusão: porta-balão em até 90 min ou trombólise em até 30 min quando a angioplastia não está disponível em até 120 min.",
+      "revisado": true
+    },
+    {
+      "id": "facil-apendicite-aguda",
+      "data": "2026-10-11",
+      "nivel": "facil",
+      "diagnostico": "Apendicite aguda",
+      "sinonimos": [
+        "apendicite",
+        "apendicite aguda"
+      ],
+      "dicas": [
+        "Rapaz, 21 anos, com dor abdominal há 18 horas.",
+        "A dor começou difusa, em torno do umbigo, e depois se localizou no quadrante inferior direito.",
+        "Perdeu o apetite e vomitou duas vezes. Temperatura 37,9 °C.",
+        "Dor à descompressão brusca no ponto de McBurney (Blumberg positivo) e sinal de Rovsing positivo.",
+        "Leucocitose com desvio à esquerda. TC: estrutura tubular de 11 mm na FID, com borramento da gordura adjacente."
+      ],
+      "comentario": "Apendicite aguda. A migração da dor periumbilical para a FID é o achado clássico; escore de Alvarado ajuda na estratificação.",
+      "revisado": true
+    },
+    {
+      "id": "facil-pneumonia-adquirida-na-comunidade",
+      "data": "2026-10-12",
+      "nivel": "facil",
+      "diagnostico": "Pneumonia adquirida na comunidade",
+      "sinonimos": [
+        "pneumonia",
+        "pac",
+        "pneumonia adquirida na comunidade",
+        "pneumonia bacteriana",
+        "pneumonia lobar",
+        "pneumonia pneumococica"
+      ],
+      "dicas": [
+        "Mulher, 64 anos, com tosse há 4 dias.",
+        "A tosse ficou produtiva, com escarro amarelo-ferruginoso, e surgiu febre de 38,9 °C com calafrios.",
+        "Dor em pontada no hemitórax direito que piora com a inspiração profunda.",
+        "FR 24 irpm, SpO2 92% em ar ambiente. Estertores crepitantes e sopro tubário em base direita.",
+        "Radiografia de tórax: consolidação homogênea em lobo inferior direito com broncograma aéreo."
+      ],
+      "comentario": "PAC, provavelmente pneumocócica. Use CURB-65 para decidir entre tratamento ambulatorial, enfermaria ou UTI.",
+      "revisado": true
+    },
+    {
+      "id": "facil-cetoacidose-diabetica",
+      "data": "2026-10-13",
+      "nivel": "facil",
+      "diagnostico": "Cetoacidose diabética",
+      "sinonimos": [
+        "cetoacidose",
+        "cetoacidose diabetica",
+        "cad",
+        "cetoacidose diabetica grave"
+      ],
+      "dicas": [
+        "Estudante, 19 anos, trazida pela mãe por mal-estar e vômitos há 1 dia.",
+        "Nas últimas semanas, urinava muito, tinha muita sede e perdeu 6 kg sem tentar.",
+        "Dor abdominal difusa. Está desidratada, com hálito de cheiro adocicado, de 'frutas'.",
+        "Respiração rápida e profunda (Kussmaul). Glicemia capilar: 486 mg/dL.",
+        "Gasometria: pH 7,08, bicarbonato 7 mEq/L, ânion gap 26. Cetonemia positiva."
+      ],
+      "comentario": "Cetoacidose diabética como abertura de DM1. Prioridades: hidratação vigorosa, corrigir potássio antes da insulina se K < 3,3 e insulina regular em infusão.",
+      "revisado": true
+    },
+    {
+      "id": "facil-avc-isquemico",
+      "data": "2026-10-14",
+      "nivel": "facil",
+      "diagnostico": "AVC isquêmico",
+      "sinonimos": [
+        "avc",
+        "avc isquemico",
+        "avci",
+        "ave",
+        "ave isquemico",
+        "acidente vascular cerebral",
+        "acidente vascular cerebral isquemico",
+        "acidente vascular encefalico",
+        "acidente vascular encefalico isquemico",
+        "derrame"
+      ],
+      "dicas": [
+        "Senhora, 74 anos. A filha conta que, no café da manhã, ela 'ficou estranha' de repente.",
+        "Não consegue falar direito: entende pouco e troca palavras.",
+        "Desvio da comissura labial e perda de força no braço e na perna direitos.",
+        "Tem fibrilação atrial e parou o anticoagulante por conta própria há um mês.",
+        "TC de crânio sem contraste: sem sangramento. Início dos sintomas há 2h10. NIHSS 14."
+      ],
+      "comentario": "AVC isquêmico cardioembólico em território de ACM esquerda. Dentro de 4,5 h, sem contraindicações, é candidata a trombólise; avaliar trombectomia se oclusão de grande vaso.",
+      "revisado": true
+    },
+    {
+      "id": "facil-crise-asmatica",
+      "data": "2026-10-15",
+      "nivel": "facil",
+      "diagnostico": "Crise asmática",
+      "sinonimos": [
+        "asma",
+        "crise asmatica",
+        "crise de asma",
+        "exacerbacao de asma",
+        "asma exacerbada",
+        "broncoespasmo",
+        "asma aguda"
+      ],
+      "dicas": [
+        "Jovem, 16 anos, chega com falta de ar há algumas horas.",
+        "Piorou depois de faxinar um quarto empoeirado. Sente aperto no peito e tosse seca.",
+        "Desde a infância usa 'bombinha' quando precisa. Tem rinite alérgica.",
+        "Sibilos expiratórios difusos, tempo expiratório prolongado e uso de musculatura acessória.",
+        "Pico de fluxo expiratório em 45% do previsto. Melhora parcial após salbutamol inalatório."
+      ],
+      "comentario": "Exacerbação moderada a grave de asma. Tratamento: beta-2 de curta ação repetido, ipratrópio e corticoide sistêmico precoce.",
+      "revisado": true
+    },
+    {
+      "id": "facil-pielonefrite-aguda",
+      "data": "2026-10-16",
+      "nivel": "facil",
+      "diagnostico": "Pielonefrite aguda",
+      "sinonimos": [
+        "pielonefrite",
+        "pielonefrite aguda",
+        "itu alta",
+        "infeccao urinaria alta",
+        "infeccao do trato urinario alta"
+      ],
+      "dicas": [
+        "Mulher, 29 anos, com febre há 2 dias.",
+        "Antes da febre, sentia ardência para urinar e ia ao banheiro muitas vezes.",
+        "Agora tem calafrios, náuseas e dor no flanco direito.",
+        "Punho-percussão lombar dolorosa à direita (Giordano positivo).",
+        "Urina tipo I: leucocitúria, nitrito positivo e cilindros leucocitários."
+      ],
+      "comentario": "Pielonefrite aguda. Os cilindros leucocitários indicam origem renal da infecção; E. coli é o agente mais comum.",
+      "revisado": true
+    },
+    {
+      "id": "inter-tromboembolismo-pulmonar",
+      "data": "2026-10-10",
+      "nivel": "inter",
+      "diagnostico": "Tromboembolismo pulmonar",
+      "sinonimos": [
+        "tep",
+        "tromboembolismo pulmonar",
+        "embolia pulmonar",
+        "tromboembolia pulmonar",
+        "tvp com tep",
+        "tep agudo"
+      ],
+      "dicas": [
+        "Mulher, 46 anos, internada, apresenta falta de ar súbita no 5º dia de pós-operatório.",
+        "A cirurgia foi uma artroplastia de quadril. Ela ainda não saiu do leito.",
+        "Taquicárdica (FC 118 bpm), taquipneica, SpO2 88%. Ausculta pulmonar sem alterações.",
+        "A panturrilha esquerda está edemaciada e dolorosa. ECG com taquicardia sinusal e padrão S1Q3T3.",
+        "Angiotomografia de tórax: falha de enchimento em ramos da artéria pulmonar direita."
+      ],
+      "comentario": "TEP. Hipoxemia com pulmão 'limpo' na ausculta e fator de risco claro é o padrão. Escore de Wells guia D-dímero versus angioTC.",
+      "revisado": true
+    },
+    {
+      "id": "inter-disseccao-aguda-de-aorta",
+      "data": "2026-10-11",
+      "nivel": "inter",
+      "diagnostico": "Dissecção aguda de aorta",
+      "sinonimos": [
+        "disseccao de aorta",
+        "disseccao aortica",
+        "disseccao aguda de aorta",
+        "sindrome aortica aguda",
+        "disseccao de aorta tipo a",
+        "disseccao aortica tipo a",
+        "stanford a"
+      ],
+      "dicas": [
+        "Homem, 61 anos, com dor torácica de início súbito e máxima intensidade desde o começo.",
+        "Ele descreve a dor como 'rasgando' e diz que ela passa para as costas, entre as escápulas.",
+        "Hipertenso de longa data, sem tratamento regular.",
+        "PA de 190x100 mmHg no braço direito e 140x80 mmHg no esquerdo. Sopro diastólico aórtico novo.",
+        "Radiografia com alargamento do mediastino. AngioTC: flap intimal na aorta ascendente."
+      ],
+      "comentario": "Dissecção de aorta Stanford A: emergência cirúrgica. Trombolítico e anticoagulante estão contraindicados; controle de FC e PA com betabloqueador.",
+      "revisado": true
+    },
+    {
+      "id": "inter-pancreatite-aguda",
+      "data": "2026-10-12",
+      "nivel": "inter",
+      "diagnostico": "Pancreatite aguda",
+      "sinonimos": [
+        "pancreatite",
+        "pancreatite aguda",
+        "pancreatite alcoolica",
+        "pancreatite aguda alcoolica"
+      ],
+      "dicas": [
+        "Homem, 44 anos, com dor abdominal intensa há 10 horas.",
+        "A dor é epigástrica, irradia em faixa para o dorso e melhora um pouco quando ele se inclina para frente.",
+        "Vômitos repetidos. Bebe cerca de 10 latas de cerveja por dia há anos.",
+        "Abdome distendido e doloroso, com ruídos diminuídos. Equimose em flancos (Grey-Turner).",
+        "Lipase sérica 9 vezes acima do limite superior. TC com edema pancreático e coleção peripancreática."
+      ],
+      "comentario": "Pancreatite aguda alcoólica. Diagnóstico com 2 de 3 critérios: dor típica, lipase/amilase acima de 3x o normal e imagem compatível.",
+      "revisado": true
+    },
+    {
+      "id": "inter-meningite-bacteriana",
+      "data": "2026-10-13",
+      "nivel": "inter",
+      "diagnostico": "Meningite bacteriana",
+      "sinonimos": [
+        "meningite",
+        "meningite bacteriana",
+        "meningite meningococica",
+        "meningococcemia",
+        "doenca meningococica"
+      ],
+      "dicas": [
+        "Universitário, 20 anos, com febre alta e cefaleia intensa desde a madrugada.",
+        "Vomitou várias vezes e não tolera a luz do quarto.",
+        "Está sonolento e confuso. Dor e resistência ao fletir o pescoço.",
+        "Kernig e Brudzinski positivos. Lesões petequiais e purpúricas em membros inferiores.",
+        "Líquor turvo: 2.800 células com 90% neutrófilos, glicose baixa e proteína elevada. Diplococos gram-negativos."
+      ],
+      "comentario": "Meningite meningocócica. Não atrase o antibiótico (ceftriaxona) por causa de TC ou punção; dexametasona e quimioprofilaxia dos contactantes.",
+      "revisado": true
+    },
+    {
+      "id": "inter-gravidez-ectopica-rota",
+      "data": "2026-10-14",
+      "nivel": "inter",
+      "diagnostico": "Gravidez ectópica rota",
+      "sinonimos": [
+        "gravidez ectopica",
+        "gravidez ectopica rota",
+        "gestacao ectopica",
+        "gestacao ectopica rota",
+        "prenhez ectopica",
+        "ectopica rota",
+        "ectopica"
+      ],
+      "dicas": [
+        "Mulher, 27 anos, com dor no baixo ventre de início súbito.",
+        "A última menstruação foi há 7 semanas. Há 2 dias tem um sangramento vaginal escuro e escasso.",
+        "Ela fica tonta ao sentar. PA 84x50 mmHg, FC 124 bpm, pálida.",
+        "Abdome com defesa difusa. Dor intensa ao toque no fundo de saco posterior (grito de Douglas).",
+        "Beta-hCG positivo. USG transvaginal: útero vazio e grande quantidade de líquido livre na pelve."
+      ],
+      "comentario": "Gravidez ectópica rota com choque hemorrágico. Toda mulher em idade fértil com dor abdominal faz beta-hCG; instabilidade indica cirurgia imediata.",
+      "revisado": true
+    },
+    {
+      "id": "inter-tamponamento-cardiaco",
+      "data": "2026-10-15",
+      "nivel": "inter",
+      "diagnostico": "Tamponamento cardíaco",
+      "sinonimos": [
+        "tamponamento",
+        "tamponamento cardiaco",
+        "tamponamento pericardico",
+        "derrame pericardico com tamponamento"
+      ],
+      "dicas": [
+        "Mulher, 55 anos, em tratamento de câncer de pulmão, com dispneia progressiva há 1 semana.",
+        "Hoje não consegue deitar. Está hipotensa (PA 80x60 mmHg) e taquicárdica.",
+        "Veias do pescoço muito ingurgitadas, mesmo sentada. Bulhas cardíacas abafadas.",
+        "A PA sistólica cai 18 mmHg durante a inspiração (pulso paradoxal).",
+        "ECG de baixa voltagem com alternância elétrica. POCUS: grande derrame com colapso diastólico do VD."
+      ],
+      "comentario": "Tamponamento cardíaco, provavelmente derrame neoplásico. Tríade de Beck: hipotensão, turgência jugular e bulhas abafadas. Tratamento: pericardiocentese.",
+      "revisado": true
+    },
+    {
+      "id": "inter-colangite-aguda",
+      "data": "2026-10-16",
+      "nivel": "inter",
+      "diagnostico": "Colangite aguda",
+      "sinonimos": [
+        "colangite",
+        "colangite aguda",
+        "colangite bacteriana",
+        "colangite ascendente"
+      ],
+      "dicas": [
+        "Senhora, 78 anos, trazida da casa de repouso por febre e calafrios.",
+        "Há 3 dias se queixa de dor no lado direito do abdome, abaixo das costelas.",
+        "Os cuidadores notaram que os olhos dela ficaram amarelados e a urina, escura como café.",
+        "Agora está confusa e com PA de 82x50 mmHg.",
+        "Bilirrubina direta e FA elevadas. USG: colédoco dilatado com cálculo no seu interior."
+      ],
+      "comentario": "Colangite aguda grave. Tríade de Charcot (febre, icterícia, dor em HD) mais choque e confusão formam a pêntade de Reynolds. Antibiótico e drenagem por CPRE.",
+      "revisado": true
+    },
+    {
+      "id": "dificil-sindrome-de-guillain-barre",
+      "data": "2026-10-10",
+      "nivel": "dificil",
+      "diagnostico": "Síndrome de Guillain-Barré",
+      "sinonimos": [
+        "guillain barre",
+        "sindrome de guillain barre",
+        "sgb",
+        "polirradiculoneuropatia desmielinizante inflamatoria aguda",
+        "aidp",
+        "polirradiculoneuropatia aguda"
+      ],
+      "dicas": [
+        "Homem, 34 anos, com dificuldade para andar que começou há 5 dias.",
+        "Antes disso, sentia formigamento nos pés. Três semanas atrás, teve um quadro de diarreia.",
+        "A fraqueza subiu das pernas para os braços. Agora não consegue levantar da cadeira.",
+        "Fraqueza simétrica com reflexos profundos abolidos nos quatro membros. Sensibilidade pouco alterada.",
+        "Líquor com proteína de 180 mg/dL e apenas 3 células (dissociação proteinocitológica)."
+      ],
+      "comentario": "Guillain-Barré pós-Campylobacter. Monitore capacidade vital e disautonomia; tratamento com imunoglobulina IV ou plasmaférese.",
+      "revisado": true
+    },
+    {
+      "id": "dificil-feocromocitoma",
+      "data": "2026-10-11",
+      "nivel": "dificil",
+      "diagnostico": "Feocromocitoma",
+      "sinonimos": [
+        "feocromocitoma",
+        "paraganglioma",
+        "feocromocitoma adrenal"
+      ],
+      "dicas": [
+        "Mulher, 38 anos, encaminhada por 'crises de pânico' que não melhoram com tratamento.",
+        "Nas crises: dor de cabeça forte, palpitação e suor intenso. Duram de 10 a 30 minutos.",
+        "Durante uma crise na UPA, a PA estava em 230x130 mmHg. Fora dela, a PA é limítrofe.",
+        "Perdeu peso, tem hiperglicemia leve e tremor. TSH normal.",
+        "Metanefrinas plasmáticas livres muito elevadas. TC: massa adrenal direita de 4 cm."
+      ],
+      "comentario": "Feocromocitoma. Tríade cefaleia, sudorese e palpitação com HAS paroxística. Antes da cirurgia: alfa-bloqueio primeiro, betabloqueio depois.",
+      "revisado": true
+    },
+    {
+      "id": "dificil-lupus-eritematoso-sistemico",
+      "data": "2026-10-12",
+      "nivel": "dificil",
+      "diagnostico": "Lúpus eritematoso sistêmico",
+      "sinonimos": [
+        "lupus",
+        "les",
+        "lupus eritematoso sistemico",
+        "nefrite lupica",
+        "lupus sistemico"
+      ],
+      "dicas": [
+        "Mulher, 24 anos, com dores articulares e cansaço há 3 meses.",
+        "As dores são nas mãos e punhos, simétricas, sem deformidade. Tem tido feridas indolores na boca.",
+        "Surgiu uma mancha avermelhada nas bochechas e no nariz, que poupa os sulcos nasolabiais e piora no sol.",
+        "Edema de membros inferiores. Urina com proteinúria de 2 g/24h e hemácias dismórficas.",
+        "FAN 1:1280 padrão homogêneo, anti-DNA dupla hélice positivo e complemento baixo."
+      ],
+      "comentario": "LES com nefrite lúpica. Hidroxicloroquina para todos; nefrite classe III/IV pede biópsia e imunossupressão.",
+      "revisado": true
+    },
+    {
+      "id": "dificil-endocardite-infecciosa",
+      "data": "2026-10-13",
+      "nivel": "dificil",
+      "diagnostico": "Endocardite infecciosa",
+      "sinonimos": [
+        "endocardite",
+        "endocardite infecciosa",
+        "endocardite bacteriana",
+        "endocardite tricuspide",
+        "endocardite estafilococica"
+      ],
+      "dicas": [
+        "Homem, 31 anos, com febre persistente há 2 semanas.",
+        "Faz uso de drogas injetáveis. Tem calafrios e perda de apetite.",
+        "Sopro sistólico novo em foco tricúspide que aumenta na inspiração.",
+        "Lesões indolores nas palmas (Janeway), nódulos dolorosos nas polpas digitais (Osler) e hemorragias em lasca.",
+        "Três hemoculturas com Staphylococcus aureus. Eco: vegetação de 14 mm na valva tricúspide."
+      ],
+      "comentario": "Endocardite infecciosa (critérios de Duke). Em UDI, a valva tricúspide e o S. aureus são os mais frequentes; podem ocorrer êmbolos sépticos pulmonares.",
+      "revisado": true
+    },
+    {
+      "id": "dificil-miastenia-gravis",
+      "data": "2026-10-14",
+      "nivel": "dificil",
+      "diagnostico": "Miastenia gravis",
+      "sinonimos": [
+        "miastenia",
+        "miastenia gravis",
+        "miastenia grave",
+        "mg"
+      ],
+      "dicas": [
+        "Mulher, 29 anos, diz que as pálpebras 'caem' e às vezes vê tudo duplicado.",
+        "Os sintomas pioram ao final do dia e melhoram depois que ela descansa.",
+        "Tem tido dificuldade para mastigar carne e a voz fica fanhosa quando fala muito.",
+        "Ptose que melhora após 2 minutos com bolsa de gelo sobre o olho. Reflexos e sensibilidade normais.",
+        "Anticorpo antirreceptor de acetilcolina positivo. TC de tórax: aumento do timo."
+      ],
+      "comentario": "Miastenia gravis. Fraqueza flutuante e fatigável, sem alteração sensitiva. Tratamento com piridostigmina, imunossupressão e timectomia quando há timoma.",
+      "revisado": true
+    },
+    {
+      "id": "dificil-insuficiencia-adrenal-primaria",
+      "data": "2026-10-15",
+      "nivel": "dificil",
+      "diagnostico": "Insuficiência adrenal primária",
+      "sinonimos": [
+        "doenca de addison",
+        "addison",
+        "insuficiencia adrenal",
+        "insuficiencia adrenal primaria",
+        "insuficiencia suprarrenal",
+        "insuficiencia suprarrenal primaria",
+        "crise addisoniana",
+        "crise adrenal"
+      ],
+      "dicas": [
+        "Mulher, 42 anos, com cansaço intenso e perda de 8 kg em 4 meses.",
+        "Tem náuseas, dor abdominal vaga e vontade de comer sal.",
+        "A pele escureceu, principalmente nas dobras das mãos, cicatrizes e gengiva.",
+        "PA 86x54 mmHg, com tontura ao levantar. Sódio 126 mEq/L, potássio 6,1 mEq/L, glicemia 62 mg/dL.",
+        "Cortisol às 8h de 1,8 mcg/dL com ACTH muito elevado. Teste de cortrosina sem resposta."
+      ],
+      "comentario": "Doença de Addison. Hiperpigmentação indica causa primária (ACTH alto). Na crise: hidrocortisona IV e soro fisiológico, sem esperar exames.",
+      "revisado": true
+    },
+    {
+      "id": "dificil-sindrome-neuroleptica-maligna",
+      "data": "2026-10-16",
+      "nivel": "dificil",
+      "diagnostico": "Síndrome neuroléptica maligna",
+      "sinonimos": [
+        "sindrome neuroleptica maligna",
+        "snm",
+        "neuroleptica maligna"
+      ],
+      "dicas": [
+        "Homem, 36 anos, internado na psiquiatria, fica febril e confuso.",
+        "Começou a receber haloperidol em doses crescentes há 5 dias por um surto psicótico.",
+        "Temperatura de 40,2 °C, sudorese profusa, PA oscilando e taquicardia.",
+        "Rigidez muscular generalizada 'em cano de chumbo'. Reflexos normais, sem clônus.",
+        "CPK de 18.000 U/L, leucocitose e urina escura com mioglobinúria."
+      ],
+      "comentario": "Síndrome neuroléptica maligna. Diferencia-se da serotoninérgica pela instalação em dias, bradicinesia e rigidez sem clônus. Suspender o antipsicótico; dantrolene ou bromocriptina.",
+      "revisado": true
+    },
+    {
+      "id": "mdificil-doenca-de-whipple",
+      "data": "2026-10-10",
+      "nivel": "mdificil",
+      "diagnostico": "Doença de Whipple",
+      "sinonimos": [
+        "whipple",
+        "doenca de whipple",
+        "tropheryma whipplei"
+      ],
+      "dicas": [
+        "Homem, 54 anos, agricultor, com dores em várias articulações que vêm e vão há anos.",
+        "Há 6 meses começou com diarreia crônica gordurosa e perdeu 14 kg.",
+        "Linfonodomegalias, febre baixa e pele levemente escurecida.",
+        "Recentemente, alterações de memória e movimentos rítmicos dos olhos sincronizados com a mastigação.",
+        "Biópsia duodenal: macrófagos PAS-positivos na lâmina própria. PCR para Tropheryma whipplei positivo."
+      ],
+      "comentario": "Doença de Whipple. A miorritmia oculomastigatória é praticamente patognomônica. Tratamento: ceftriaxona seguida de sulfametoxazol-trimetoprima por 1 ano.",
+      "revisado": true
+    },
+    {
+      "id": "mdificil-porfiria-aguda-intermitente",
+      "data": "2026-10-11",
+      "nivel": "mdificil",
+      "diagnostico": "Porfiria aguda intermitente",
+      "sinonimos": [
+        "porfiria",
+        "porfiria aguda intermitente",
+        "pai",
+        "porfiria aguda",
+        "crise porfirica"
+      ],
+      "dicas": [
+        "Mulher, 23 anos, terceira ida à emergência no mês com dor abdominal fortíssima.",
+        "O abdome é flácido e pouco doloroso à palpação, apesar da dor intensa. Já fez laparotomia branca.",
+        "Desta vez está ansiosa e alucinando. Taquicardia e hipertensão. Sódio 122 mEq/L.",
+        "As crises surgem na fase pré-menstrual e pioraram após usar um barbitúrico. Agora tem fraqueza nos braços.",
+        "A urina deixada no sol escurece para cor de vinho. Porfobilinogênio urinário muito elevado."
+      ],
+      "comentario": "Porfiria aguda intermitente. Dor abdominal desproporcional ao exame, neuropatia e sintomas psiquiátricos. Tratamento com hemina IV e glicose; evitar drogas porfirinogênicas.",
+      "revisado": true
+    },
+    {
+      "id": "mdificil-doenca-de-wilson",
+      "data": "2026-10-12",
+      "nivel": "mdificil",
+      "diagnostico": "Doença de Wilson",
+      "sinonimos": [
+        "wilson",
+        "doenca de wilson",
+        "degeneracao hepatolenticular"
+      ],
+      "dicas": [
+        "Rapaz, 19 anos, trazido pelos pais por mudança de comportamento e queda no rendimento escolar.",
+        "Está irritável, com episódios de euforia. Há um ano teve uma 'hepatite' sem causa definida.",
+        "Tremor nas mãos que piora com os braços estendidos, como 'bater de asas', e fala arrastada.",
+        "Na lâmpada de fenda: anel castanho-esverdeado na periferia da córnea.",
+        "Ceruloplasmina baixa e cobre urinário de 24h elevado."
+      ],
+      "comentario": "Doença de Wilson. Pense nela em jovens com hepatopatia mais sintomas neuropsiquiátricos. Anéis de Kayser-Fleischer; tratamento com quelantes (D-penicilamina, trientina) e zinco.",
+      "revisado": true
+    },
+    {
+      "id": "mdificil-sindrome-de-lemierre",
+      "data": "2026-10-13",
+      "nivel": "mdificil",
+      "diagnostico": "Síndrome de Lemierre",
+      "sinonimos": [
+        "lemierre",
+        "sindrome de lemierre",
+        "tromboflebite septica da jugular",
+        "tromboflebite septica jugular"
+      ],
+      "dicas": [
+        "Adolescente de 17 anos com dor de garganta há uma semana, que melhorou sozinha.",
+        "Agora voltou a ter febre alta com calafrios e muito mal-estar.",
+        "Dor e inchaço no lado esquerdo do pescoço, ao longo do músculo esternocleidomastoideo.",
+        "Tosse com dor torácica. A TC mostra vários nódulos pulmonares, alguns escavados.",
+        "Trombo na veia jugular interna esquerda. Hemocultura com Fusobacterium necrophorum."
+      ],
+      "comentario": "Síndrome de Lemierre: tromboflebite séptica da jugular interna após faringite, com êmbolos sépticos pulmonares. Antibiótico com cobertura anaeróbia por semanas.",
+      "revisado": true
+    },
+    {
+      "id": "mdificil-sarcoidose",
+      "data": "2026-10-14",
+      "nivel": "mdificil",
+      "diagnostico": "Sarcoidose",
+      "sinonimos": [
+        "sarcoidose",
+        "sindrome de lofgren",
+        "lofgren",
+        "sarcoidose aguda"
+      ],
+      "dicas": [
+        "Mulher, 33 anos, com dor nos tornozelos e febre baixa há 2 semanas.",
+        "Apareceram nódulos vermelhos, quentes e dolorosos na face anterior das pernas.",
+        "Tosse seca e leve cansaço. Ausculta pulmonar normal.",
+        "Radiografia de tórax: aumento bilateral e simétrico dos linfonodos hilares. Cálcio sérico levemente elevado.",
+        "Enzima conversora de angiotensina alta. Biópsia de linfonodo: granulomas não caseosos."
+      ],
+      "comentario": "Sarcoidose na forma de síndrome de Löfgren (eritema nodoso, adenopatia hilar bilateral, artrite de tornozelos e febre). Tem bom prognóstico e costuma regredir sozinha.",
+      "revisado": true
+    },
+    {
+      "id": "mdificil-purpura-trombocitopenica-trombotica",
+      "data": "2026-10-15",
+      "nivel": "mdificil",
+      "diagnostico": "Púrpura trombocitopênica trombótica",
+      "sinonimos": [
+        "ptt",
+        "purpura trombocitopenica trombotica",
+        "sindrome de moschcowitz",
+        "microangiopatia trombotica",
+        "mat"
+      ],
+      "dicas": [
+        "Mulher, 37 anos, com cansaço e manchas roxas que apareceram sozinhas nas pernas.",
+        "Há 2 dias tem dor de cabeça e episódios de confusão que vêm e vão.",
+        "Febre baixa, palidez e icterícia leve.",
+        "Hb 7,2 g/dL, plaquetas 14.000, LDH muito elevado, haptoglobina indetectável e creatinina 1,6 mg/dL. Coagulograma normal.",
+        "Esfregaço com muitos esquizócitos. Atividade de ADAMTS13 menor que 10%."
+      ],
+      "comentario": "PTT. Anemia hemolítica microangiopática com plaquetopenia; coagulograma normal afasta CIVD. Plasmaférese urgente; transfusão de plaquetas deve ser evitada.",
+      "revisado": true
+    },
+    {
+      "id": "mdificil-doenca-de-creutzfeldt-jakob",
+      "data": "2026-10-16",
+      "nivel": "mdificil",
+      "diagnostico": "Doença de Creutzfeldt-Jakob",
+      "sinonimos": [
+        "creutzfeldt jakob",
+        "doenca de creutzfeldt jakob",
+        "dcj",
+        "cjd",
+        "doenca priônica",
+        "doenca prionica",
+        "prion",
+        "encefalopatia espongiforme"
+      ],
+      "dicas": [
+        "Homem, 64 anos, com piora rápida da memória e da capacidade de se organizar em 2 meses.",
+        "Ficou desequilibrado ao andar e tem alterações visuais estranhas.",
+        "Abalos musculares súbitos, principalmente quando se assusta com barulho.",
+        "EEG: complexos periódicos de ondas agudas a cada 1 segundo.",
+        "RM com hipersinal cortical em difusão ('fita cortical') e nos núcleos da base. Proteína 14-3-3 e RT-QuIC positivos no líquor."
+      ],
+      "comentario": "Doença de Creutzfeldt-Jakob esporádica. Demência rapidamente progressiva com mioclonias de sobressalto. Sem tratamento; óbito em meses.",
+      "revisado": true
+    }
+  ]
+}
