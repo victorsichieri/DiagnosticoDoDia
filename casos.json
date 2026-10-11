@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado": "2026-10-09",
+  "atualizado": "2026-10-11",
   "distratores": [
     "Angina instável",
     "IAM sem supra de ST",
@@ -2963,6 +2963,685 @@
       ],
       "comentario": "Doença de Behçet: vasculite de vasos de qualquer calibre, com úlceras orais e genitais, uveíte e trombose. Trombose é inflamatória: o tratamento-base é imunossupressão; colchicina para lesões mucocutâneas.",
       "revisado": true
+    },
+    {
+      "id": "facil-influenza",
+      "data": "2026-11-11",
+      "nivel": "facil",
+      "diagnostico": "Influenza",
+      "sinonimos": [
+        "influenza",
+        "gripe",
+        "influenza a",
+        "gripe influenza",
+        "infeccao por influenza",
+        "infeccao pelo virus influenza",
+        "h3n2",
+        "h1n1",
+        "influenza sazonal"
+      ],
+      "dicas": [
+        "Mulher, 67 anos, procura a UPA com febre e tosse seca há 2 dias.",
+        "O quadro começou de forma súbita, com febre de 39 °C, calafrios, dor no corpo intensa, cefaleia e dor de garganta. Várias colegas do grupo de dança tiveram o mesmo quadro na última semana.",
+        "É diabética tipo 2 e hipertensa. Não tomou a vacina da campanha deste ano. Nega falta de ar.",
+        "T 38,6 °C, FC 98 bpm, FR 18 irpm, PA 132/80 mmHg, SpO2 96% em ar ambiente. Orofaringe hiperemiada, ausculta pulmonar limpa.",
+        "RT-PCR de swab de nasofaringe: detectado vírus influenza A (H3N2). Pesquisa de SARS-CoV-2 não detectada."
+      ],
+      "comentario": "Influenza: início súbito de febre alta, mialgia e tosse em surto sazonal. Idosa e diabética é grupo de risco: oseltamivir está indicado, idealmente nas primeiras 48 h, mesmo sem sinais de gravidade.",
+      "revisado": false
+    },
+    {
+      "id": "inter-taquicardia-ventricular",
+      "data": "2026-11-11",
+      "nivel": "inter",
+      "diagnostico": "Taquicardia ventricular",
+      "sinonimos": [
+        "taquicardia ventricular",
+        "tv",
+        "tv monomorfica",
+        "tv sustentada",
+        "tv monomorfica sustentada",
+        "tvms",
+        "taquicardia ventricular monomorfica",
+        "taquicardia ventricular sustentada",
+        "taquicardia ventricular monomorfica sustentada"
+      ],
+      "dicas": [
+        "Homem, 64 anos, chega ao pronto-socorro com palpitações e mal-estar há 1 hora.",
+        "As palpitações começaram de repente, em repouso. Sente tontura e leve aperto no peito, sem desmaio.",
+        "Teve infarto anterior há 4 anos e tem insuficiência cardíaca com fração de ejeção reduzida. Usa carvedilol, sacubitril-valsartana e espironolactona.",
+        "PA 102/68 mmHg, FC 180 bpm, pulso regular, consciente e orientado. Ondas 'a' em canhão intermitentes no pulso jugular.",
+        "ECG: taquicardia regular de QRS largo (160 ms), com dissociação atrioventricular, batimentos de captura e de fusão e concordância negativa nas precordiais."
+      ],
+      "comentario": "TV monomórfica sustentada: QRS largo com dissociação AV, captura e fusão em cardiopata com cicatriz de infarto. Estável: amiodarona ou cardioversão elétrica sincronizada; instável: cardioversão imediata. Taquicardia de QRS largo em cardiopata é TV até prova em contrário.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-tireoidite-subaguda-granulomatosa",
+      "data": "2026-11-11",
+      "nivel": "dificil",
+      "diagnostico": "Tireoidite subaguda granulomatosa",
+      "sinonimos": [
+        "tireoidite subaguda",
+        "tireoidite subaguda granulomatosa",
+        "tireoidite granulomatosa",
+        "tireoidite de quervain",
+        "tireoidite de de quervain",
+        "tireoidite viral",
+        "tireoidite subaguda dolorosa",
+        "tireoidite granulomatosa subaguda"
+      ],
+      "dicas": [
+        "Mulher, 42 anos, procura o pronto-socorro com dor no pescoço há 10 dias.",
+        "A dor é na frente do pescoço, irradia para a mandíbula e os ouvidos e piora ao engolir. Também está com palpitações, tremor e perdeu 3 kg.",
+        "Há 3 semanas teve um resfriado com dor de garganta e coriza. Nenhum problema prévio na tireoide.",
+        "T 37,8 °C, FC 108 bpm. Tireoide aumentada, endurecida e muito dolorosa à palpação, mais à direita. Sem exoftalmia.",
+        "TSH < 0,01 mUI/L, T4 livre 3,2 ng/dL, VHS 92 mm/h. Captação de iodo radioativo em 24 h de 1% (muito baixa)."
+      ],
+      "comentario": "Tireoidite subaguda (de Quervain): tireoide dolorosa após quadro viral, tireotoxicose com VHS alta e captação baixa (destruição, não hiperprodução). AINE (ou prednisona se intensa) e betabloqueador; antitireoidiano não tem papel.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-sindrome-de-sweet",
+      "data": "2026-11-11",
+      "nivel": "mdificil",
+      "diagnostico": "Síndrome de Sweet",
+      "sinonimos": [
+        "sindrome de sweet",
+        "sweet",
+        "dermatose neutrofilica febril aguda",
+        "dermatose neutrofilica aguda febril",
+        "dermatose neutrofilica febril"
+      ],
+      "dicas": [
+        "Mulher, 48 anos, procura o pronto-socorro com febre e lesões de pele há 5 dias.",
+        "As lesões surgiram de repente no rosto, pescoço e braços; doem, mas não coçam. Vieram junto com febre de 39 °C.",
+        "Teve uma infecção de garganta 2 semanas antes. Usa apenas losartana. Sem doença intestinal conhecida.",
+        "Placas eritematovioláceas, edematosas, bem delimitadas e dolorosas, com superfície de aspecto pseudovesicular, em face, pescoço e dorso das mãos. Conjuntivite bilateral.",
+        "Leucócitos 15.800/mm³ com 85% de neutrófilos, VHS 70 mm/h. Biópsia: denso infiltrado de neutrófilos na derme superior com edema papilar intenso, sem vasculite."
+      ],
+      "comentario": "Síndrome de Sweet: febre, neutrofilia e placas dolorosas pseudovesiculares com infiltrado neutrofílico dérmico sem vasculite. Resposta dramática a corticoide sistêmico; investigar neoplasia hematológica, infecção, fármacos e doença inflamatória intestinal.",
+      "revisado": false
+    },
+    {
+      "id": "facil-impetigo",
+      "data": "2026-11-12",
+      "nivel": "facil",
+      "diagnostico": "Impetigo",
+      "sinonimos": [
+        "impetigo",
+        "impetigo contagioso",
+        "impetigo nao bolhoso",
+        "impetigo crostoso",
+        "impetigo estafilococico",
+        "impetigo estreptococico"
+      ],
+      "dicas": [
+        "Menino, 5 anos, trazido pela mãe por feridas no rosto há 4 dias.",
+        "Começaram como pequenas bolhas em volta do nariz e da boca, que se romperam e deixaram crostas. Coçam um pouco. Sem febre.",
+        "Frequenta creche, onde outra criança teve lesões parecidas. Está com coriza há uma semana e vive coçando o nariz.",
+        "Erosões cobertas por crostas amarelo-douradas, cor de mel, nas regiões perinasal e perioral. Bom estado geral, sem linfonodomegalia importante.",
+        "Cultura da secreção sob a crosta: Staphylococcus aureus sensível à oxacilina."
+      ],
+      "comentario": "Impetigo não bolhoso: crostas melicéricas periorificiais por S. aureus e/ou S. pyogenes. Lesões localizadas: mupirocina ou ácido fusídico tópicos; lesões extensas: cefalexina oral.",
+      "revisado": false
+    },
+    {
+      "id": "inter-hipotermia-acidental",
+      "data": "2026-11-12",
+      "nivel": "inter",
+      "diagnostico": "Hipotermia acidental",
+      "sinonimos": [
+        "hipotermia",
+        "hipotermia acidental",
+        "hipotermia moderada",
+        "hipotermia ambiental",
+        "hipotermia acidental moderada"
+      ],
+      "dicas": [
+        "Homem, 58 anos, trazido pelo SAMU após ser encontrado caído na calçada, sonolento, numa madrugada fria.",
+        "Está confuso, com fala arrastada e sem tremores. Não há sinais de trauma. As roupas estavam encharcadas pela chuva.",
+        "Pessoa em situação de rua, com uso pesado de álcool. Glicemia capilar de 92 mg/dL.",
+        "PA 96/60 mmHg, FC 44 bpm, FR 10 irpm. Pele fria e pálida, rigidez muscular, pupilas pouco reativas. O termômetro axilar não registra a temperatura.",
+        "Temperatura esofágica de 29 °C. ECG: bradicardia sinusal com onda J de Osborn proeminente no final do QRS e QT prolongado."
+      ],
+      "comentario": "Hipotermia acidental moderada (28–32 °C): rebaixamento sem tremores, bradicardia e onda J de Osborn. Manipular com cuidado (risco de FV), reaquecimento ativo externo e fluidos aquecidos; ninguém está morto até estar quente e morto.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-polimialgia-reumatica",
+      "data": "2026-11-12",
+      "nivel": "dificil",
+      "diagnostico": "Polimialgia reumática",
+      "sinonimos": [
+        "polimialgia reumatica",
+        "polimialgia",
+        "pmr",
+        "polimialgia reumatica isolada"
+      ],
+      "dicas": [
+        "Mulher, 71 anos, procura o pronto-socorro porque mal consegue sair da cama de manhã há 6 semanas.",
+        "Tem dor e rigidez nos ombros e nos quadris, dos dois lados, que duram mais de 1 hora ao acordar. Não consegue pentear o cabelo nem vestir a blusa.",
+        "Perdeu 3 kg e tem febre baixa ocasional. Nega cefaleia nova, dor ao mastigar ou alteração visual.",
+        "Força muscular preservada quando a dor permite, dor à mobilização ativa e passiva dos ombros, sem sinovite nas mãos. Artérias temporais com pulso normal e indolores.",
+        "VHS 88 mm/h, PCR 54 mg/L, CK normal, fator reumatoide e anti-CCP negativos. USG com bursite subdeltóidea bilateral. Melhora quase completa 3 dias após prednisona 15 mg/dia."
+      ],
+      "comentario": "Polimialgia reumática: dor e rigidez matinal de cinturas escapular e pélvica após os 50 anos, VHS/PCR altas e CK normal. Prednisona em dose baixa (12,5–25 mg/dia) com redução lenta; sempre investigar arterite de células gigantes associada.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-crioglobulinemia-mista",
+      "data": "2026-11-12",
+      "nivel": "mdificil",
+      "diagnostico": "Crioglobulinemia mista",
+      "sinonimos": [
+        "crioglobulinemia",
+        "crioglobulinemia mista",
+        "crioglobulinemia mista tipo ii",
+        "crioglobulinemia tipo ii",
+        "crioglobulinemia tipo 2",
+        "vasculite crioglobulinemica",
+        "crioglobulinemia por hepatite c",
+        "crioglobulinemia associada ao hcv"
+      ],
+      "dicas": [
+        "Homem, 57 anos, procura o pronto-socorro por manchas roxas nas pernas e inchaço há 1 mês.",
+        "As manchas aparecem em surtos, são elevadas ao toque e pioram no frio. Também tem dor nas articulações das mãos e joelhos, fraqueza e formigamento nos pés.",
+        "Recebeu transfusão de sangue em 1988 após um acidente e nunca fez exames para hepatites.",
+        "Púrpura palpável em membros inferiores com úlceras maleolares, edema 3+/4+, PA 168/100 mmHg e hipoestesia em bota. Urina com proteinúria de 2,5 g/24 h e hematúria dismórfica.",
+        "Crioglobulinas séricas positivas (precipitado a 4 °C), C4 muito baixo, fator reumatoide positivo e anti-HCV reagente com RNA-HCV detectável."
+      ],
+      "comentario": "Crioglobulinemia mista associada ao HCV: púrpura, artralgia e fraqueza (tríade de Meltzer), com neuropatia e glomerulonefrite membranoproliferativa; C4 baixo e FR positivo. Tratar o HCV com antivirais de ação direta; nas formas graves (rim, nervo), associar rituximabe.",
+      "revisado": false
+    },
+    {
+      "id": "facil-fratura-de-colles",
+      "data": "2026-11-13",
+      "nivel": "facil",
+      "diagnostico": "Fratura de Colles",
+      "sinonimos": [
+        "fratura de colles",
+        "colles",
+        "fratura distal do radio",
+        "fratura do radio distal",
+        "fratura de radio distal",
+        "fratura da extremidade distal do radio",
+        "fratura do terco distal do radio"
+      ],
+      "dicas": [
+        "Mulher, 72 anos, chega à UPA com dor no punho direito após uma queda.",
+        "Escorregou no banheiro e caiu apoiando-se com a mão espalmada e o punho estendido. Não consegue mexer o punho por causa da dor.",
+        "Está na menopausa há 20 anos e nunca fez densitometria. Não usa anticoagulante. Não bateu a cabeça.",
+        "Edema e equimose no punho, com deformidade em 'dorso de garfo' quando vista de perfil. Pulso radial presente e sensibilidade preservada nos dedos.",
+        "Radiografia do punho: fratura transversa da metáfise distal do rádio, a cerca de 2 cm da articulação, com desvio dorsal do fragmento distal."
+      ],
+      "comentario": "Fratura de Colles: queda sobre a mão estendida em idosa com osteoporose, com desvio dorsal (dorso de garfo). Redução fechada e imobilização gessada na maioria; por ser fratura por fragilidade, investigar e tratar osteoporose.",
+      "revisado": false
+    },
+    {
+      "id": "inter-sindrome-de-boerhaave",
+      "data": "2026-11-13",
+      "nivel": "inter",
+      "diagnostico": "Síndrome de Boerhaave",
+      "sinonimos": [
+        "boerhaave",
+        "sindrome de boerhaave",
+        "ruptura esofagica",
+        "ruptura de esofago",
+        "ruptura do esofago",
+        "ruptura espontanea do esofago",
+        "perfuracao esofagica",
+        "perfuracao de esofago",
+        "perfuracao do esofago",
+        "perfuracao espontanea do esofago"
+      ],
+      "dicas": [
+        "Homem, 52 anos, chega ao pronto-socorro com dor torácica intensa iniciada há 4 horas.",
+        "A dor começou logo após vários episódios de vômitos fortes depois de uma festa. É retroesternal, irradia para o dorso e piora ao engolir.",
+        "Bebe muito nos fins de semana. Sem doença cardíaca conhecida. ECG e troponina sem alterações.",
+        "T 38,2 °C, FC 118 bpm, FR 26 irpm. Crepitação à palpação da fossa supraclavicular e do pescoço; à ausculta, estalido sincrônico com os batimentos cardíacos (sinal de Hamman).",
+        "TC de tórax com contraste oral hidrossolúvel: pneumomediastino, derrame pleural à esquerda e extravasamento do contraste pela parede do esôfago distal, à esquerda."
+      ],
+      "comentario": "Síndrome de Boerhaave: ruptura transmural do esôfago distal após vômitos, com enfisema subcutâneo e pneumomediastino (tríade de Mackler: vômitos, dor torácica e enfisema subcutâneo). Jejum, antibiótico de amplo espectro e reparo cirúrgico ou endoscópico precoce; a mortalidade sobe muito após 24 h.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-prolactinoma",
+      "data": "2026-11-13",
+      "nivel": "dificil",
+      "diagnostico": "Prolactinoma",
+      "sinonimos": [
+        "prolactinoma",
+        "microprolactinoma",
+        "adenoma secretor de prolactina",
+        "adenoma hipofisario secretor de prolactina",
+        "adenoma lactotrofo",
+        "hiperprolactinemia por prolactinoma"
+      ],
+      "dicas": [
+        "Mulher, 28 anos, procura atendimento por falta de menstruação há 8 meses.",
+        "Percebeu saída de líquido branco pelos mamilos ao apertá-los. Também tem cefaleia frequente e queda da libido.",
+        "Teste de gravidez negativo. Não usa antipsicóticos, metoclopramida nem outros medicamentos. Função renal e TSH normais.",
+        "Saída de secreção láctea bilateral à expressão dos mamilos, sem nódulos mamários. Campo visual normal por confrontação. IMC 23 kg/m².",
+        "Prolactina sérica de 186 ng/mL, com pesquisa de macroprolactina negativa. RM de sela túrcica: lesão hipofisária hipointensa de 7 mm."
+      ],
+      "comentario": "Prolactinoma: amenorreia e galactorreia com prolactina muito alta após excluir gravidez, fármacos, hipotireoidismo e insuficiência renal. Primeira linha é agonista dopaminérgico (cabergolina), que normaliza a prolactina e reduz o tumor na maioria; cirurgia se refratário ou intolerante.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-doenca-de-moyamoya",
+      "data": "2026-11-13",
+      "nivel": "mdificil",
+      "diagnostico": "Doença de moyamoya",
+      "sinonimos": [
+        "moyamoya",
+        "doenca de moyamoya",
+        "sindrome de moyamoya",
+        "moya moya",
+        "doenca de moya moya",
+        "vasculopatia moyamoya",
+        "arteriopatia moyamoya"
+      ],
+      "dicas": [
+        "Menina, 8 anos, trazida ao pronto-socorro com fraqueza no braço esquerdo há 2 horas.",
+        "A fraqueza começou logo após uma crise de choro intenso. Já teve 3 episódios parecidos, ora de um lado ora do outro, que melhoraram em minutos.",
+        "Eletroforese de hemoglobina normal, ecocardiograma normal, sem trauma cervical, sem febre e sem cefaleia antes dos episódios.",
+        "Hemiparesia esquerda leve, sem alteração de consciência, sem rigidez de nuca. TC de crânio sem sangramento.",
+        "Angiografia cerebral: estenose bilateral das porções terminais das carótidas internas com rede de colaterais finas na base do crânio em 'nuvem de fumaça'."
+      ],
+      "comentario": "Doença de moyamoya: estenose progressiva das carótidas internas distais com colaterais em 'nuvem de fumaça'. Em crianças, causa AIT e AVC isquêmico desencadeados por hiperventilação (choro, esforço); antiagregante e revascularização cirúrgica direta ou indireta.",
+      "revisado": false
+    },
+    {
+      "id": "facil-hernia-de-disco-lombar",
+      "data": "2026-11-14",
+      "nivel": "facil",
+      "diagnostico": "Hérnia de disco lombar",
+      "sinonimos": [
+        "hernia de disco",
+        "hernia de disco lombar",
+        "hernia discal",
+        "hernia discal lombar",
+        "hernia de disco l5 s1",
+        "hernia l5 s1",
+        "hernia de disco com radiculopatia",
+        "extrusao discal",
+        "protrusao discal"
+      ],
+      "dicas": [
+        "Homem, 41 anos, procura o pronto-socorro com dor lombar há 5 dias.",
+        "A dor começou ao levantar uma caixa pesada e agora desce pela parte de trás da coxa e da perna esquerda até o pé, como choque. Piora ao tossir e espirrar.",
+        "Trabalha como carregador. Sem febre, perda de peso ou história de câncer. Urina e evacua normalmente, sem perda de sensibilidade na região do períneo.",
+        "Lasègue positivo a 35° à esquerda. Reflexo aquileu esquerdo diminuído, hipoestesia na borda lateral do pé esquerdo e fraqueza para ficar na ponta do pé esquerdo.",
+        "RM de coluna lombar: extrusão discal posterolateral esquerda em L5-S1 comprimindo a raiz S1 esquerda."
+      ],
+      "comentario": "Hérnia de disco L5-S1 com radiculopatia S1 (aquileu diminuído, Lasègue positivo). Sem sinais de alarme, o tratamento é conservador (analgesia, manter atividade) e a RM só é necessária se houver alarme ou se for considerada cirurgia; operar se déficit progressivo, cauda equina ou dor refratária após 6 semanas.",
+      "revisado": false
+    },
+    {
+      "id": "inter-glaucoma-agudo-de-angulo-fechado",
+      "data": "2026-11-14",
+      "nivel": "inter",
+      "diagnostico": "Glaucoma agudo de ângulo fechado",
+      "sinonimos": [
+        "glaucoma agudo",
+        "glaucoma agudo de angulo fechado",
+        "glaucoma de angulo fechado",
+        "glaucoma agudo primario de angulo fechado",
+        "crise de glaucoma",
+        "crise de glaucoma agudo",
+        "fechamento angular agudo",
+        "glaucoma por fechamento angular"
+      ],
+      "dicas": [
+        "Mulher, 66 anos, chega ao pronto-socorro com dor de cabeça intensa e vômitos há 3 horas.",
+        "A dor é em volta do olho direito, que ficou vermelho e com a visão embaçada. Vê halos coloridos em torno das luzes.",
+        "Começou à noite, num ambiente escuro, depois de tomar um antialérgico com efeito anticolinérgico. É hipermetrope e usa óculos desde jovem.",
+        "Olho direito com hiperemia mais intensa em volta da córnea, córnea turva, pupila em média midríase e não reativa à luz. À palpação, o globo ocular direito está endurecido.",
+        "Tonometria: pressão intraocular de 58 mmHg no olho direito e 16 mmHg no esquerdo. Gonioscopia com ângulo fechado."
+      ],
+      "comentario": "Glaucoma agudo de ângulo fechado: olho vermelho doloroso, halos, midríase média fixa e PIO muito alta. Emergência oftalmológica: reduzir a PIO (timolol, brimonidina, acetazolamida, manitol se refratário) e pilocarpina; tratamento definitivo com iridotomia a laser, também profilática no outro olho.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-sindrome-antifosfolipide",
+      "data": "2026-11-14",
+      "nivel": "dificil",
+      "diagnostico": "Síndrome antifosfolípide",
+      "sinonimos": [
+        "sindrome antifosfolipide",
+        "sindrome antifosfolipideo",
+        "saf",
+        "saf primaria",
+        "sindrome do anticorpo antifosfolipide",
+        "sindrome dos anticorpos antifosfolipides",
+        "sindrome de anticorpos antifosfolipides",
+        "sindrome de hughes",
+        "hughes"
+      ],
+      "dicas": [
+        "Mulher, 33 anos, chega ao pronto-socorro com dor e inchaço na perna esquerda há 3 dias.",
+        "O duplex confirma trombose venosa profunda femoropoplítea. Ela não estava imobilizada, não viajou, não usa anticoncepcional hormonal e não tem câncer.",
+        "Teve 3 abortamentos espontâneos antes de 10 semanas de gestação. Tem manchas arroxeadas rendilhadas nas pernas há anos.",
+        "Livedo reticular em membros inferiores e edema da panturrilha esquerda. Plaquetas 98.000/mm³ e TTPa prolongado que não corrige com a mistura com plasma normal.",
+        "Anticoagulante lúpico positivo e anticardiolipina IgG em título alto, confirmados em nova dosagem após 12 semanas."
+      ],
+      "comentario": "Síndrome antifosfolípide: trombose e/ou morbidade gestacional com anticorpos antifosfolípides persistentes (≥ 12 semanas). Anticoagulação com varfarina (RNI 2–3) por tempo indeterminado; evitar anticoagulantes orais diretos, sobretudo na SAF triplo-positiva ou com trombose arterial.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-vipoma",
+      "data": "2026-11-14",
+      "nivel": "mdificil",
+      "diagnostico": "VIPoma",
+      "sinonimos": [
+        "vipoma",
+        "sindrome de verner morrison",
+        "verner morrison",
+        "sindrome wdha",
+        "wdha",
+        "colera pancreatica",
+        "tumor secretor de vip",
+        "tumor neuroendocrino secretor de vip"
+      ],
+      "dicas": [
+        "Mulher, 50 anos, procura o pronto-socorro por diarreia há 3 meses.",
+        "Evacua 10 a 15 vezes por dia, fezes aquosas cor de chá, em grande volume (mais de 3 L/dia), que continuam mesmo em jejum. Tem fraqueza intensa e cãibras.",
+        "Perdeu 8 kg. Coproculturas, parasitológicos e colonoscopia com biópsias normais. Não usa laxantes. Teve episódios de rubor facial.",
+        "Desidratada, PA 92/58 mmHg, hiporreflexia e fraqueza muscular difusa. K 2,1 mEq/L, bicarbonato 14 mEq/L, cálcio 11,2 mg/dL, glicemia 168 mg/dL e gap osmolar fecal baixo.",
+        "Peptídeo intestinal vasoativo sérico de 720 pg/mL (normal < 75). TC: lesão sólida hipervascular de 3,5 cm na cauda do pâncreas."
+      ],
+      "comentario": "VIPoma (síndrome WDHA ou de Verner-Morrison): diarreia aquosa secretora volumosa que persiste em jejum, hipocalemia e hipo/acloridria, com VIP elevado. Repor volume e potássio, análogo de somatostatina (octreotida) para a diarreia e ressecção do tumor.",
+      "revisado": false
+    },
+    {
+      "id": "facil-abortamento-incompleto",
+      "data": "2026-11-15",
+      "nivel": "facil",
+      "diagnostico": "Abortamento incompleto",
+      "sinonimos": [
+        "abortamento incompleto",
+        "aborto incompleto",
+        "abortamento espontaneo incompleto",
+        "aborto espontaneo incompleto",
+        "restos ovulares",
+        "restos ovulares retidos"
+      ],
+      "dicas": [
+        "Mulher, 27 anos, chega à maternidade com sangramento vaginal e cólica no baixo ventre.",
+        "Está com atraso menstrual de 9 semanas e teste de farmácia positivo. Hoje teve sangramento intenso, com coágulos e saída de 'pedaços de carne'.",
+        "Segunda gestação; o primeiro foi parto normal sem intercorrências. Sem febre. Nega manipulação uterina ou uso de medicamentos.",
+        "PA 110/70 mmHg, FC 92 bpm. Ao especular, sangramento moderado pelo orifício externo do colo; ao toque, colo pérvio e útero menor que o esperado para a idade gestacional.",
+        "USG transvaginal: cavidade uterina com conteúdo heterogêneo de 25 mm de espessura, sem saco gestacional. β-hCG 1.800 mUI/mL."
+      ],
+      "comentario": "Abortamento incompleto: sangramento com eliminação parcial do conteúdo, colo pérvio e restos ovulares à USG. Esvaziamento uterino por AMIU (até 12 semanas) ou misoprostol; imunoglobulina anti-D se Rh negativo.",
+      "revisado": false
+    },
+    {
+      "id": "inter-intoxicacao-por-antidepressivo-triciclico",
+      "data": "2026-11-15",
+      "nivel": "inter",
+      "diagnostico": "Intoxicação por antidepressivo tricíclico",
+      "sinonimos": [
+        "intoxicacao por antidepressivo triciclico",
+        "intoxicacao por antidepressivos triciclicos",
+        "intoxicacao por triciclico",
+        "intoxicacao por triciclicos",
+        "intoxicacao por amitriptilina",
+        "intoxicacao por nortriptilina",
+        "intoxicacao por imipramina",
+        "intoxicacao por clomipramina",
+        "intoxicacao por adt",
+        "intoxicacao triciclica"
+      ],
+      "dicas": [
+        "Mulher, 24 anos, trazida pela família após ser encontrada sonolenta no quarto, com cartelas de remédio vazias ao lado.",
+        "Há cerca de 2 horas ingeriu os comprimidos que usava para dor crônica e insônia. No trajeto teve uma crise convulsiva generalizada.",
+        "Faz acompanhamento para fibromialgia e depressão; a família não sabe o nome do remédio.",
+        "Glasgow 9, T 38,0 °C, FC 132 bpm, PA 84/50 mmHg. Pupilas midriáticas, pele quente e seca, mucosas secas, bexiga palpável e ruídos hidroaéreos diminuídos.",
+        "ECG: taquicardia sinusal com QRS de 140 ms, onda R de 4 mm em aVR e desvio do eixo terminal do QRS para a direita."
+      ],
+      "comentario": "Intoxicação por tricíclico: síndrome anticolinérgica, convulsão, hipotensão e QRS > 100 ms com R alta em aVR (bloqueio dos canais de sódio). Bicarbonato de sódio IV em bolus (alvo de pH 7,45–7,55) se QRS alargado, arritmia ou hipotensão; evitar flumazenil e fisostigmina.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-sindrome-de-sjogren",
+      "data": "2026-11-15",
+      "nivel": "dificil",
+      "diagnostico": "Síndrome de Sjögren",
+      "sinonimos": [
+        "sindrome de sjogren",
+        "sjogren",
+        "sindrome de sjogren primaria",
+        "sjogren primario",
+        "doenca de sjogren",
+        "sindrome sicca"
+      ],
+      "dicas": [
+        "Mulher, 52 anos, procura atendimento por ardência nos olhos e boca seca há 2 anos.",
+        "Sente areia nos olhos, precisa de água para engolir pão e acorda à noite para molhar a boca. Teve várias cáries novas no último ano.",
+        "Tem dor ocasional nas articulações das mãos e episódios de inchaço na frente das orelhas. Não usa antidepressivos nem anti-histamínicos. Sorologias para hepatite C e HIV negativas.",
+        "Aumento bilateral das parótidas, mucosa oral seca, língua despapilada, cáries na região cervical dos dentes. Teste de Schirmer com 3 mm em 5 minutos nos dois olhos.",
+        "Anti-Ro/SSA positivo e FAN 1:640 com padrão nuclear pontilhado fino. Biópsia de glândula salivar menor: sialoadenite linfocítica focal com escore de foco 2."
+      ],
+      "comentario": "Síndrome de Sjögren: síndrome seca (xeroftalmia e xerostomia) com anti-Ro/SSA e sialoadenite linfocítica focal. Tratamento sintomático (lágrima artificial, pilocarpina) e vigilância de linfoma, cujo risco é maior, sobretudo com aumento persistente de parótidas.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-cistinuria",
+      "data": "2026-11-15",
+      "nivel": "mdificil",
+      "diagnostico": "Cistinúria",
+      "sinonimos": [
+        "cistinuria",
+        "litiase por cistina",
+        "calculo de cistina",
+        "calculos de cistina",
+        "nefrolitiase por cistina",
+        "urolitiase por cistina"
+      ],
+      "dicas": [
+        "Rapaz, 19 anos, chega ao pronto-socorro com dor lombar em cólica intensa à direita há 3 horas.",
+        "É o quinto episódio de cálculo renal desde os 12 anos. Já fez duas ureteroscopias. O pai também tem cálculos repetidos.",
+        "Nunca fizeram análise dos cálculos. Bebe pouca água. Função renal normal.",
+        "Giordano positivo à direita, hematúria microscópica. TC sem contraste: cálculo de 7 mm no ureter direito e cálculo coraliforme à esquerda.",
+        "Sedimento urinário com cristais hexagonais incolores; teste do nitroprussiato-cianeto positivo e excreção urinária de cistina de 900 mg/24 h."
+      ],
+      "comentario": "Cistinúria: defeito autossômico recessivo do transporte tubular de cistina e aminoácidos dibásicos, com cálculos recorrentes desde jovem e cristais hexagonais patognomônicos. Ingesta hídrica alta (> 3 L/dia), alcalinizar a urina com citrato de potássio e, se refratário, tiopronina.",
+      "revisado": false
+    },
+    {
+      "id": "facil-ruptura-do-tendao-calcaneo",
+      "data": "2026-11-16",
+      "nivel": "facil",
+      "diagnostico": "Ruptura do tendão calcâneo",
+      "sinonimos": [
+        "ruptura do tendao calcaneo",
+        "ruptura do tendao de aquiles",
+        "ruptura de aquiles",
+        "ruptura do aquiles",
+        "ruptura do tendao de aquiles aguda",
+        "rotura do tendao de aquiles",
+        "rotura do tendao calcaneo",
+        "lesao do tendao de aquiles",
+        "tendao de aquiles"
+      ],
+      "dicas": [
+        "Homem, 44 anos, chega ao pronto-socorro mancando, com dor na parte de trás do tornozelo direito.",
+        "Jogava futsal quando sentiu como se alguém tivesse chutado sua panturrilha e ouviu um estalo. Desde então não consegue ficar na ponta do pé.",
+        "Só joga nos fins de semana. Usou ciprofloxacino para infecção urinária há 1 mês. Nunca teve lesão nesse local.",
+        "Edema e equimose acima do calcanhar, com uma falha palpável cerca de 4 cm acima dele. De bruços, apertar a panturrilha não faz o pé se mover (teste de Thompson positivo).",
+        "USG do tornozelo: descontinuidade completa do tendão calcâneo, com afastamento de 3 cm entre os cotos e hematoma."
+      ],
+      "comentario": "Ruptura aguda do tendão calcâneo: estalo, falha palpável e Thompson positivo; fluoroquinolonas e corticoide são fatores de risco. Tratamento com imobilização em equino e reabilitação funcional ou reparo cirúrgico, decidido com o ortopedista.",
+      "revisado": false
+    },
+    {
+      "id": "inter-acidente-botropico",
+      "data": "2026-11-16",
+      "nivel": "inter",
+      "diagnostico": "Acidente botrópico",
+      "sinonimos": [
+        "acidente botropico",
+        "botropico",
+        "envenenamento botropico",
+        "acidente ofidico botropico",
+        "picada de jararaca",
+        "jararaca",
+        "acidente por jararaca",
+        "bothrops",
+        "acidente por bothrops"
+      ],
+      "dicas": [
+        "Homem, 38 anos, chega à UPA com dor e inchaço no pé esquerdo há 2 horas.",
+        "Trabalhava de chinelo num bananal quando sentiu uma ferroada forte no pé ao mexer num monte de folhas secas.",
+        "Mora na zona rural do Vale do Ribeira (SP). Previamente hígido; última dose de vacina antitetânica há mais de 10 anos.",
+        "Dois pequenos orifícios no dorso do pé, com sangramento persistente, edema endurecido até o tornozelo, equimose local e dor intensa. Gengivorragia discreta. Sem ptose palpebral, visão turva ou urina escura.",
+        "Tempo de coagulação: o sangue não coagula após 30 minutos (incoagulável). Fibrinogênio indetectável e CK pouco elevada."
+      ],
+      "comentario": "Acidente botrópico (jararaca): dor, edema e equimose locais com sangramento e sangue incoagulável. Soro antibotrópico IV o quanto antes, com número de ampolas conforme a gravidade, e TC repetido 24 h depois para avaliar resposta. Sem torniquete nem incisão; atualizar a profilaxia antitetânica.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-trombose-venosa-cerebral",
+      "data": "2026-11-16",
+      "nivel": "dificil",
+      "diagnostico": "Trombose venosa cerebral",
+      "sinonimos": [
+        "trombose venosa cerebral",
+        "tvc",
+        "trombose de seio venoso",
+        "trombose de seios venosos",
+        "trombose dos seios venosos",
+        "trombose de seio venoso cerebral",
+        "trombose dos seios venosos cerebrais",
+        "trombose de seio sagital",
+        "trombose do seio sagital superior",
+        "trombose venosa encefalica"
+      ],
+      "dicas": [
+        "Mulher, 26 anos, chega ao pronto-socorro com dor de cabeça que vem piorando há 5 dias.",
+        "A cefaleia é difusa, pior ao deitar e de manhã, com vômitos. Hoje teve uma crise convulsiva focal no braço direito.",
+        "Usa anticoncepcional oral combinado há 6 meses e fuma. Sem febre, trauma ou história de enxaqueca.",
+        "Sonolenta, Glasgow 14, papiledema bilateral ao fundo de olho e paresia leve do braço direito. Sem rigidez de nuca.",
+        "AngioRM venosa: ausência de fluxo no seio sagital superior e no seio transverso esquerdo, com infarto venoso hemorrágico frontoparietal esquerdo."
+      ],
+      "comentario": "Trombose venosa cerebral: cefaleia progressiva com hipertensão intracraniana, crises e déficit focal em mulher jovem com estrogênio. Anticoagulação com heparina mesmo com infarto hemorrágico, depois anticoagulante oral; suspender o estrogênio.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-pelagra",
+      "data": "2026-11-16",
+      "nivel": "mdificil",
+      "diagnostico": "Pelagra",
+      "sinonimos": [
+        "pelagra",
+        "pellagra",
+        "deficiencia de niacina",
+        "deficiencia de vitamina b3",
+        "deficiencia de acido nicotinico",
+        "hipovitaminose b3"
+      ],
+      "dicas": [
+        "Homem, 54 anos, levado ao pronto-socorro pela família por confusão mental há 1 semana.",
+        "Há 2 meses tem diarreia aquosa, 5 a 6 vezes por dia, e manchas escuras nas áreas expostas ao sol, que ardem.",
+        "Etilista pesado, come mal e há meses se alimenta quase só de cachaça e angu de milho.",
+        "Desorientado e lento. Placas hiperpigmentadas, ásperas e descamativas no dorso das mãos e antebraços, e uma faixa semelhante em volta do pescoço, em forma de colar. Língua vermelha e lisa.",
+        "N1-metilnicotinamida urinária muito baixa. Diarreia e lesões de pele melhoram poucos dias após iniciar nicotinamida oral."
+      ],
+      "comentario": "Pelagra (deficiência de niacina, vitamina B3): os 3 Ds, dermatite fotossensível (colar de Casal), diarreia e demência. Ocorre no alcoolismo, dieta baseada em milho, uso de isoniazida e síndrome carcinoide. Nicotinamida oral e correção das demais deficiências, incluindo tiamina.",
+      "revisado": false
+    },
+    {
+      "id": "facil-abscesso-perianal",
+      "data": "2026-11-17",
+      "nivel": "facil",
+      "diagnostico": "Abscesso perianal",
+      "sinonimos": [
+        "abscesso perianal",
+        "abscesso anorretal",
+        "abscesso perirretal",
+        "abscesso anal",
+        "abscesso perianal agudo"
+      ],
+      "dicas": [
+        "Homem, 36 anos, procura a UPA com dor perto do ânus há 3 dias.",
+        "A dor é contínua e latejante, piora ao sentar e ao evacuar e não o deixa dormir. Ontem começou febre baixa.",
+        "Tem diabetes tipo 2 mal controlado. Nega diarreia crônica, perda de peso ou cirurgias na região.",
+        "T 38,1 °C. Ao lado do ânus, às 5 horas em posição de litotomia, há tumoração de 3 cm, avermelhada, quente, muito dolorosa e flutuante. Toque retal sem outras alterações.",
+        "USG de partes moles da região: coleção hipoecoica de 3 × 2,5 cm com debris, superficial e adjacente ao ânus, sem extensão para a fossa isquiorretal."
+      ],
+      "comentario": "Abscesso perianal: dor anal latejante com tumoração flutuante. Tratamento é a drenagem cirúrgica precoce; antibiótico só como complemento (diabéticos, imunossuprimidos, celulite extensa). Cerca de um terço evolui com fístula anal.",
+      "revisado": false
+    },
+    {
+      "id": "inter-placenta-previa",
+      "data": "2026-11-17",
+      "nivel": "inter",
+      "diagnostico": "Placenta prévia",
+      "sinonimos": [
+        "placenta previa",
+        "placenta previa total",
+        "placenta previa centro total",
+        "placenta previa completa",
+        "placenta previa oclusiva"
+      ],
+      "dicas": [
+        "Gestante, 32 anos, chega à maternidade com sangramento vaginal na 32ª semana.",
+        "O sangue é vermelho vivo, começou de repente enquanto dormia, sem dor e sem contrações. Teve um sangramento menor há 2 semanas.",
+        "Terceira gestação, com duas cesáreas anteriores. Fez poucas consultas de pré-natal.",
+        "PA 118/72 mmHg, FC 96 bpm. Útero indolor, com tônus normal, BCF 140 bpm. Feto em apresentação pélvica. O toque vaginal não foi realizado.",
+        "USG transvaginal: placenta inserida na parede anterior, recobrindo totalmente o orifício interno do colo."
+      ],
+      "comentario": "Placenta prévia: sangramento vermelho vivo, indolor, súbito e recorrente no 3º trimestre, com útero de tônus normal. Toque vaginal contraindicado até a USG. Com cesáreas prévias e placenta anterior, investigar acretismo; se estável e pré-termo, conduta expectante com corticoide antenatal; parto por cesárea.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-sifilis-secundaria",
+      "data": "2026-11-17",
+      "nivel": "dificil",
+      "diagnostico": "Sífilis secundária",
+      "sinonimos": [
+        "sifilis secundaria",
+        "sifilis",
+        "lues",
+        "lues secundaria",
+        "sifilis recente",
+        "sifilis adquirida recente"
+      ],
+      "dicas": [
+        "Homem, 29 anos, procura o pronto-socorro por manchas no corpo há 2 semanas.",
+        "As manchas não coçam, começaram no tronco e agora estão também nas palmas das mãos e nas plantas dos pés. Tem febre baixa, mal-estar e dor de garganta.",
+        "Há cerca de 2 meses teve uma ferida indolor no pênis que sumiu sozinha. Relações sexuais sem preservativo com parcerias diferentes.",
+        "Máculas e pápulas acobreadas e descamativas em tronco, palmas e plantas, linfonodomegalia generalizada indolor, placas esbranquiçadas na mucosa oral e falhas no cabelo em clareira.",
+        "VDRL reagente 1:128 e teste treponêmico (FTA-Abs) reagente. Teste rápido para HIV não reagente."
+      ],
+      "comentario": "Sífilis secundária: exantema com acometimento palmoplantar, linfonodomegalia e lesões mucosas semanas após cancro indolor. Penicilina G benzatina 2,4 milhões UI IM em dose única; notificar, testar e tratar parcerias e acompanhar o VDRL a cada 3 meses.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-doenca-de-kikuchi-fujimoto",
+      "data": "2026-11-17",
+      "nivel": "mdificil",
+      "diagnostico": "Doença de Kikuchi-Fujimoto",
+      "sinonimos": [
+        "kikuchi",
+        "doenca de kikuchi",
+        "doenca de kikuchi fujimoto",
+        "kikuchi fujimoto",
+        "linfadenite histiocitica necrosante",
+        "linfadenite necrosante histiocitica",
+        "linfadenite histiocitica necrotizante"
+      ],
+      "dicas": [
+        "Mulher, 24 anos, procura o pronto-socorro com febre e ínguas no pescoço há 2 semanas.",
+        "Os linfonodos são dolorosos, do lado esquerdo do pescoço. A febre chega a 38,8 °C à tarde, com suor noturno e cansaço. Antibiótico por 7 dias não ajudou.",
+        "Sem contato com tuberculose e sem gatos em casa. Sorologias para HIV, EBV, CMV, toxoplasmose e sífilis negativas. FAN negativo.",
+        "Linfonodos cervicais posteriores de 1,5 a 2 cm, dolorosos, móveis, sem flutuação. Sem hepatoesplenomegalia. Leucócitos 3.200/mm³, LDH e VHS levemente elevados.",
+        "Biópsia excisional de linfonodo: áreas paracorticais de necrose com abundante debris cariorrético, histiócitos com núcleo em crescente e ausência de neutrófilos e de granulomas."
+      ],
+      "comentario": "Doença de Kikuchi-Fujimoto: linfadenite cervical dolorosa com febre em mulher jovem, leucopenia e necrose paracortical sem neutrófilos à biópsia. Autolimitada em semanas a meses (sintomáticos, corticoide se grave); seguimento pela associação com lúpus.",
+      "revisado": false
     },
     {
       "id": "facil-convulsao-febril-simples",
