@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado": "2026-10-09",
+  "atualizado": "2026-10-18",
   "distratores": [
     "Angina instável",
     "IAM sem supra de ST",
@@ -2963,6 +2963,635 @@
       ],
       "comentario": "Doença de Behçet: vasculite de vasos de qualquer calibre, com úlceras orais e genitais, uveíte e trombose. Trombose é inflamatória: o tratamento-base é imunossupressão; colchicina para lesões mucocutâneas.",
       "revisado": true
+    },
+    {
+      "id": "facil-sarampo",
+      "data": "2026-11-18",
+      "nivel": "facil",
+      "diagnostico": "Sarampo",
+      "sinonimos": [
+        "sarampo",
+        "measles",
+        "morbilli",
+        "infeccao pelo virus do sarampo"
+      ],
+      "dicas": [
+        "Menino, 3 anos, trazido ao pronto-socorro com febre alta há 4 dias.",
+        "Tosse seca, coriza e olhos vermelhos lacrimejando. Hoje surgiram manchas avermelhadas que começaram atrás das orelhas e no rosto e estão descendo para o tronco.",
+        "Família voltou de viagem há 12 dias. A carteira vacinal está incompleta: não recebeu a tríplice viral.",
+        "Exantema maculopapular confluente em face e tronco. Na mucosa jugal, na altura dos molares, pequenos pontos branco-azulados sobre base eritematosa.",
+        "IgM específica para sarampo reagente e RT-PCR em swab de orofaringe detectável para o vírus do sarampo."
+      ],
+      "comentario": "Sarampo: pródromo de febre, tosse, coriza e conjuntivite, com manchas de Koplik antes do exantema craniocaudal. Notificação imediata (até 24 h), isolamento respiratório, vitamina A e bloqueio vacinal dos contatos.",
+      "revisado": false
+    },
+    {
+      "id": "inter-ruptura-de-aneurisma-de-aorta-abdominal",
+      "data": "2026-11-18",
+      "nivel": "inter",
+      "diagnostico": "Ruptura de aneurisma de aorta abdominal",
+      "sinonimos": [
+        "aaa roto",
+        "ruptura de aaa",
+        "rotura de aaa",
+        "aneurisma de aorta abdominal roto",
+        "aneurisma de aorta roto",
+        "rotura de aneurisma de aorta abdominal",
+        "aneurisma de aorta abdominal",
+        "aneurisma da aorta abdominal roto"
+      ],
+      "dicas": [
+        "Homem, 72 anos, chega à sala de emergência com dor lombar súbita e intensa há 1 hora.",
+        "A dor irradia para o flanco esquerdo e a virilha. Desmaiou no banheiro de casa antes de chamar o SAMU.",
+        "Tabagista de 50 maços-ano, hipertenso e com DPOC. Nunca fez nenhum exame de rastreamento vascular.",
+        "PA 78x50 mmHg, FC 128 bpm, pálido e sudoreico. Massa pulsátil e dolorosa na região periumbilical e equimose em flanco esquerdo.",
+        "POCUS à beira-leito: aorta abdominal infrarrenal com 7,5 cm de diâmetro e hematoma retroperitoneal."
+      ],
+      "comentario": "Dor lombar ou abdominal + hipotensão + massa pulsátil em idoso tabagista = AAA roto até prova em contrário. Hipotensão permissiva e cirurgia vascular imediata (aberta ou endovascular); não atrasar com TC no paciente instável.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-tireoidite-de-hashimoto",
+      "data": "2026-11-18",
+      "nivel": "dificil",
+      "diagnostico": "Tireoidite de Hashimoto",
+      "sinonimos": [
+        "hashimoto",
+        "tireoidite de hashimoto",
+        "doenca de hashimoto",
+        "tireoidite linfocitica cronica",
+        "tireoidite autoimune cronica",
+        "hipotireoidismo por hashimoto"
+      ],
+      "dicas": [
+        "Mulher, 42 anos, procura atendimento por cansaço e ganho de peso.",
+        "Há 1 ano sente muito frio, tem intestino preso, pele seca, queda de cabelo e menstruação mais volumosa.",
+        "Mãe com vitiligo e irmã com diabetes tipo 1. O LDL subiu muito no último check-up, sem mudança de dieta.",
+        "FC 56 bpm, bócio difuso, indolor, firme e de superfície lobulada. Reflexos aquileus com fase de relaxamento lentificada.",
+        "TSH 28 mUI/L, T4 livre 0,5 ng/dL e anti-TPO 850 UI/mL. USG: tireoide difusamente heterogênea e hipoecoica."
+      ],
+      "comentario": "Hipotireoidismo primário por tireoidite autoimune crônica, a causa mais comum em áreas com iodo suficiente. Levotiroxina em jejum (cerca de 1,6 mcg/kg/dia; começar com dose menor em idosos e coronariopatas) e novo TSH em 6 a 8 semanas.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-mixoma-atrial",
+      "data": "2026-11-18",
+      "nivel": "mdificil",
+      "diagnostico": "Mixoma atrial",
+      "sinonimos": [
+        "mixoma",
+        "mixoma atrial esquerdo",
+        "mixoma de atrio esquerdo",
+        "mixoma cardiaco"
+      ],
+      "dicas": [
+        "Mulher, 48 anos, com falta de ar e febre baixa há alguns meses.",
+        "Perdeu 6 kg, tem dores articulares e a falta de ar piora em certas posições. Quase desmaiou ao se inclinar para amarrar o sapato.",
+        "Há 3 meses teve um AVC isquêmico com recuperação completa. Hemoculturas negativas e VHS elevada.",
+        "Ruído diastólico precoce, logo após B2, que muda de intensidade com a posição do corpo. Baqueteamento digital.",
+        "Ecocardiograma: massa pedunculada e móvel no átrio esquerdo, aderida ao septo interatrial na fossa oval, prolapsando pela valva mitral na diástole."
+      ],
+      "comentario": "Mixoma atrial: tumor cardíaco primário mais comum, com sintomas obstrutivos posicionais, embolias e sintomas constitucionais (o 'tumor plop'). Ressecção cirúrgica precoce pelo risco de embolia e morte súbita.",
+      "revisado": false
+    },
+    {
+      "id": "facil-uretrite-gonococica",
+      "data": "2026-11-19",
+      "nivel": "facil",
+      "diagnostico": "Uretrite gonocócica",
+      "sinonimos": [
+        "gonorreia",
+        "uretrite gonococica",
+        "gonococia",
+        "blenorragia",
+        "infeccao gonococica",
+        "neisseria gonorrhoeae",
+        "uretrite por gonococo"
+      ],
+      "dicas": [
+        "Homem, 24 anos, procura a UPA com ardência para urinar há 3 dias.",
+        "Saída abundante de secreção amarelada e espessa pela uretra, que mancha a cueca, pior pela manhã.",
+        "Relação sexual sem preservativo com parceira casual há 5 dias. Sem febre.",
+        "Meato uretral hiperemiado com secreção purulenta à expressão. Testículos e epidídimos indolores.",
+        "Bacterioscopia (Gram) da secreção uretral: diplococos gram-negativos intracelulares em neutrófilos."
+      ],
+      "comentario": "Corrimento uretral purulento e abundante com diplococos gram-negativos intracelulares. Tratar na hora (PCDT IST do Ministério da Saúde): ceftriaxona 500 mg IM dose única + azitromicina 1 g VO, tratar parcerias e oferecer testes para HIV, sífilis e hepatites.",
+      "revisado": false
+    },
+    {
+      "id": "inter-torcao-anexial",
+      "data": "2026-11-19",
+      "nivel": "inter",
+      "diagnostico": "Torção anexial",
+      "sinonimos": [
+        "torcao de ovario",
+        "torcao do ovario",
+        "torcao ovariana",
+        "torcao anexial",
+        "torcao de anexo",
+        "torcao de anexo uterino"
+      ],
+      "dicas": [
+        "Mulher, 26 anos, chega ao pronto-socorro com dor súbita em fossa ilíaca direita há 4 horas.",
+        "A dor começou durante o treino na academia, é intensa, em ondas, e veio com náuseas e vômitos repetidos.",
+        "Sabe que tem um cisto de 6 cm no ovário direito, visto em exame de rotina. β-hCG negativo.",
+        "Afebril. Dor à palpação de fossa ilíaca direita sem descompressão brusca; ao toque vaginal, massa anexial direita muito dolorosa.",
+        "USG transvaginal com Doppler: ovário direito aumentado (8 cm) e edemaciado, com folículos periféricos, fluxo ausente e sinal do redemoinho no pedículo."
+      ],
+      "comentario": "Dor pélvica súbita com vômitos em mulher com massa anexial: emergência cirúrgica. Laparoscopia com distorção e preservação do ovário sempre que possível, mesmo se escurecido; Doppler com fluxo não exclui o diagnóstico.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-cardiomiopatia-hipertrofica",
+      "data": "2026-11-19",
+      "nivel": "dificil",
+      "diagnostico": "Cardiomiopatia hipertrófica",
+      "sinonimos": [
+        "cmh",
+        "cardiomiopatia hipertrofica",
+        "miocardiopatia hipertrofica",
+        "cardiomiopatia hipertrofica obstrutiva",
+        "miocardiopatia hipertrofica obstrutiva",
+        "cmho",
+        "hipertrofia septal assimetrica"
+      ],
+      "dicas": [
+        "Rapaz, 17 anos, jogador de futebol, trazido após desmaio durante o treino.",
+        "Recuperou-se em segundos. Conta que vinha com falta de ar e dor no peito nos treinos mais puxados.",
+        "Um tio morreu subitamente aos 30 anos, sem causa esclarecida.",
+        "Sopro sistólico ejetivo em borda esternal esquerda que aumenta com a manobra de Valsalva e ao ficar em pé, e diminui ao agachar.",
+        "Ecocardiograma: septo interventricular de 24 mm, movimento sistólico anterior da valva mitral e gradiente de via de saída do VE de 70 mmHg em repouso."
+      ],
+      "comentario": "Síncope ao esforço com sopro que aumenta com Valsalva: causa importante de morte súbita no jovem atleta. Estratificar risco para CDI, betabloqueador, evitar desidratação e vasodilatadores, decisão individualizada sobre esporte competitivo e rastreio dos familiares de 1º grau.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-sindrome-de-goodpasture",
+      "data": "2026-11-19",
+      "nivel": "mdificil",
+      "diagnostico": "Síndrome de Goodpasture",
+      "sinonimos": [
+        "goodpasture",
+        "sindrome de goodpasture",
+        "doenca de goodpasture",
+        "doenca anti mbg",
+        "anti mbg",
+        "doenca antimembrana basal glomerular",
+        "doenca anti membrana basal glomerular"
+      ],
+      "dicas": [
+        "Homem, 24 anos, chega ao pronto-socorro tossindo sangue.",
+        "Hemoptise há 3 dias, urina escura 'cor de coca-cola', cansaço e falta de ar progressiva.",
+        "Tabagista e trabalha como pintor, exposto a solventes. Teve um quadro gripal há 2 semanas.",
+        "PA 160x95 mmHg, estertores crepitantes bilaterais, palidez cutânea. Sem lesões de pele, sem sinusite e sem alterações oculares.",
+        "Creatinina 6,2 mg/dL, hemácias dismórficas e cilindros hemáticos. ANCA negativo, anticorpo anti-MBG positivo e biópsia renal com depósito linear de IgG na membrana basal glomerular."
+      ],
+      "comentario": "Síndrome pulmão-rim por anticorpos anti-membrana basal glomerular; o depósito linear de IgG é o achado característico. Plasmaférese, pulso de corticoide e ciclofosfamida imediatamente, sem esperar a biópsia se a sorologia for positiva.",
+      "revisado": false
+    },
+    {
+      "id": "facil-fratura-do-escafoide",
+      "data": "2026-11-20",
+      "nivel": "facil",
+      "diagnostico": "Fratura do escafoide",
+      "sinonimos": [
+        "fratura de escafoide",
+        "fratura do escafoide",
+        "fratura escafoide",
+        "fratura do escafoide do carpo",
+        "fratura do navicular",
+        "fratura de navicular do carpo"
+      ],
+      "dicas": [
+        "Homem, 22 anos, procura a UPA com dor no punho direito desde ontem.",
+        "Caiu de skate apoiando a mão espalmada, com o punho em extensão. A dor piora ao segurar objetos e fazer pinça.",
+        "Colocou gelo e achou que era só uma torção. Sem deformidade aparente.",
+        "Dor intensa à palpação da tabaqueira anatômica e à compressão axial do polegar. Pulsos e sensibilidade normais.",
+        "Radiografia do punho com incidência específica (PA com desvio ulnar): traço de fratura na cintura do escafoide."
+      ],
+      "comentario": "Dor na tabaqueira anatômica após queda sobre a mão espalmada. Mesmo com RX inicial normal, imobilizar incluindo o polegar e repetir imagem em 10 a 14 dias ou fazer RM/TC, pelo risco de pseudoartrose e necrose avascular do polo proximal.",
+      "revisado": false
+    },
+    {
+      "id": "inter-intoxicacao-por-metanol",
+      "data": "2026-11-20",
+      "nivel": "inter",
+      "diagnostico": "Intoxicação por metanol",
+      "sinonimos": [
+        "intoxicacao por metanol",
+        "intoxicacao metilica",
+        "metanol",
+        "envenenamento por metanol",
+        "intoxicacao por alcool metilico"
+      ],
+      "dicas": [
+        "Homem, 35 anos, chega à emergência com visão borrada e dor abdominal.",
+        "Há cerca de 18 horas esteve numa festa e bebeu destilados comprados sem procedência. Hoje enxerga 'como se tivesse neblina', com cefaleia e vômitos.",
+        "Dois amigos da mesma festa estão internados em outro hospital com sintomas parecidos.",
+        "FR 32 irpm com respiração profunda (Kussmaul), pupilas midriáticas pouco reativas e hiperemia com edema de disco óptico à fundoscopia.",
+        "Gasometria: pH 7,02, HCO₃ 5 mEq/L, ânion gap 32 e gap osmolar de 40 mOsm/kg. Dosagem sérica de metanol elevada."
+      ],
+      "comentario": "Acidose metabólica com ânion gap e gap osmolar elevados + alteração visual após bebida adulterada. Fomepizol ou etanol como antídoto, hemodiálise se acidose grave, alteração visual ou nível elevado, e ácido fólico; notificar o surto.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-neurocisticercose",
+      "data": "2026-11-20",
+      "nivel": "dificil",
+      "diagnostico": "Neurocisticercose",
+      "sinonimos": [
+        "neurocisticercose",
+        "cisticercose",
+        "cisticercose cerebral",
+        "ncc",
+        "taenia solium",
+        "neurocisticercose cerebral"
+      ],
+      "dicas": [
+        "Homem, 32 anos, trazido após a primeira crise convulsiva da vida.",
+        "A crise começou com abalos no braço direito e depois generalizou. Há semanas tinha cefaleia intermitente.",
+        "Cresceu em zona rural de Minas Gerais, com criação de porcos soltos no quintal e água de poço.",
+        "Exame neurológico normal após o período pós-ictal. Afebril, sem rigidez de nuca, sem papiledema.",
+        "TC de crânio: múltiplas calcificações puntiformes e uma lesão cística com ponto hiperdenso central (escólex)."
+      ],
+      "comentario": "Principal causa de epilepsia adquirida em áreas endêmicas. Anticonvulsivante para todos; albendazol (± praziquantel) com corticoide nos cistos viáveis. Não usar antiparasitário em lesões só calcificadas nem com hipertensão intracraniana não controlada.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-paralisia-supranuclear-progressiva",
+      "data": "2026-11-20",
+      "nivel": "mdificil",
+      "diagnostico": "Paralisia supranuclear progressiva",
+      "sinonimos": [
+        "psp",
+        "paralisia supranuclear progressiva",
+        "sindrome de steele richardson olszewski",
+        "steele richardson olszewski",
+        "steele richardson"
+      ],
+      "dicas": [
+        "Homem, 66 anos, trazido pela filha por quedas repetidas.",
+        "As quedas são para trás e começaram há 1 ano. Tem dificuldade para descer escadas e para olhar o prato enquanto come.",
+        "Diagnosticado com Parkinson há 8 meses, sem nenhuma melhora com levodopa. Está apático e mais impulsivo.",
+        "Limitação do olhar vertical para baixo que se corrige com a manobra oculocefálica, rigidez axial maior que apendicular, expressão facial de espanto e sinal do aplauso positivo.",
+        "RM de encéfalo: atrofia do mesencéfalo com ponte preservada, com o sinal do 'beija-flor' no corte sagital."
+      ],
+      "comentario": "Parkinsonismo atípico (taupatia) com quedas precoces para trás e paralisia do olhar vertical; o reflexo oculocefálico preservado mostra que a lesão é supranuclear. Não responde à levodopa; tratamento de suporte e reabilitação.",
+      "revisado": false
+    },
+    {
+      "id": "facil-coqueluche",
+      "data": "2026-11-21",
+      "nivel": "facil",
+      "diagnostico": "Coqueluche",
+      "sinonimos": [
+        "coqueluche",
+        "pertussis",
+        "tosse comprida",
+        "bordetella pertussis",
+        "infeccao por bordetella pertussis"
+      ],
+      "dicas": [
+        "Lactente, 2 meses, trazido pela mãe por tosse há 10 dias.",
+        "A tosse vem em crises seguidas, terminadas com uma inspiração ruidosa e às vezes vômito. Fica roxo durante a crise e parece bem entre elas.",
+        "Recebeu só as vacinas do nascimento; a mãe não tomou a dTpa na gestação. O irmão de 8 anos tosse há 3 semanas.",
+        "Afebril, ausculta pulmonar normal entre as crises. Na sala de emergência, apresenta um episódio de apneia.",
+        "Hemograma: 32.000 leucócitos/mm³ com 70% de linfócitos. PCR de swab de nasofaringe positivo para Bordetella pertussis."
+      ],
+      "comentario": "Tosse paroxística com guincho e apneia em lactente não vacinado, com leucocitose e linfocitose. Internar menores de 6 meses, azitromicina (droga de escolha, inclusive no recém-nascido), quimioprofilaxia dos contatos e notificação; a dTpa na gestação protege o bebê.",
+      "revisado": false
+    },
+    {
+      "id": "inter-acidente-crotalico",
+      "data": "2026-11-21",
+      "nivel": "inter",
+      "diagnostico": "Acidente crotálico",
+      "sinonimos": [
+        "acidente crotalico",
+        "picada de cascavel",
+        "cascavel",
+        "envenenamento crotalico",
+        "ofidismo crotalico",
+        "acidente por cascavel",
+        "crotalus"
+      ],
+      "dicas": [
+        "Homem, 40 anos, lavrador, trazido 3 horas após ser picado no pé por uma cobra.",
+        "Quase não doeu e o pé praticamente não inchou. Agora está com visão turva e dupla e dores musculares no corpo todo.",
+        "Estava num pasto no interior de São Paulo e não conseguiu ver bem o animal.",
+        "Ptose palpebral bilateral, oftalmoplegia e fácies 'miastênica'. No pé, duas marcas puntiformes com mínimo edema e sem equimose.",
+        "CK 18.000 U/L, urina escura com mioglobinúria, tempo de coagulação incoagulável e creatinina subindo."
+      ],
+      "comentario": "Veneno de cascavel: neurotóxico (fácies miastênica), miotóxico (rabdomiólise) e coagulante, com pouca reação local. Soro anticrotálico (ou antibotrópico-crotálico) conforme a gravidade e hidratação vigorosa para prevenir lesão renal aguda.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-vasculite-por-iga",
+      "data": "2026-11-21",
+      "nivel": "dificil",
+      "diagnostico": "Vasculite por IgA",
+      "sinonimos": [
+        "vasculite por iga",
+        "vasculite iga",
+        "purpura de henoch schonlein",
+        "henoch schonlein",
+        "phs",
+        "purpura anafilactoide",
+        "purpura de henoch"
+      ],
+      "dicas": [
+        "Menino, 7 anos, trazido por manchas nas pernas.",
+        "Há 5 dias surgiram lesões avermelhadas e elevadas nas nádegas e nas pernas, com dor em joelhos e tornozelos e dor abdominal em cólica.",
+        "Teve resfriado há 2 semanas. Sem uso de medicamentos novos.",
+        "Lesões purpúricas palpáveis e simétricas em membros inferiores e nádegas, edema e dor em tornozelos e abdome difusamente doloroso, sem sinais de peritonite.",
+        "Plaquetas 320.000/mm³ e coagulograma normal. Urina com hematúria e proteinúria leve. Biópsia de pele: vasculite leucocitoclástica com depósitos de IgA."
+      ],
+      "comentario": "Vasculite mais comum da infância: púrpura palpável com plaquetas normais, artrite, dor abdominal e nefrite. Tratamento de suporte (corticoide se dor abdominal intensa), atenção à invaginação intestinal e acompanhamento de urina e PA por 6 a 12 meses.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-sindrome-de-sheehan",
+      "data": "2026-11-21",
+      "nivel": "mdificil",
+      "diagnostico": "Síndrome de Sheehan",
+      "sinonimos": [
+        "sheehan",
+        "sindrome de sheehan",
+        "necrose hipofisaria pos parto",
+        "necrose hipofisaria pos-parto"
+      ],
+      "dicas": [
+        "Mulher, 31 anos, com cansaço extremo e tontura ao levantar.",
+        "Desde o parto, há 6 meses, não conseguiu amamentar e não menstruou mais.",
+        "O parto teve hemorragia maciça, com choque e transfusão de 6 concentrados de hemácias.",
+        "PA 88x56 mmHg, pele pálida e fina, rarefação de pelos axilares e pubianos. Glicemia capilar 52 mg/dL.",
+        "Cortisol às 8 h de 1,8 mcg/dL com ACTH baixo, T4 livre baixo com TSH inapropriadamente normal, prolactina, FSH e LH baixos. RM: sela vazia."
+      ],
+      "comentario": "Hipopituitarismo por necrose isquêmica da hipófise após hemorragia obstétrica; agalactia é o sinal mais precoce. Repor glicocorticoide antes da levotiroxina para não precipitar crise adrenal.",
+      "revisado": false
+    },
+    {
+      "id": "facil-flutter-atrial",
+      "data": "2026-11-22",
+      "nivel": "facil",
+      "diagnostico": "Flutter atrial",
+      "sinonimos": [
+        "flutter",
+        "flutter atrial",
+        "flutter atrial tipico",
+        "flutter atrial 2 1",
+        "flutter atrial com conducao 2 1"
+      ],
+      "dicas": [
+        "Homem, 68 anos, chega à UPA com palpitações há 6 horas.",
+        "Sente o coração acelerado e cansaço leve. Nega dor torácica, síncope ou falta de ar em repouso.",
+        "Hipertenso e com DPOC. Fez cirurgia de revascularização miocárdica há 5 anos.",
+        "FC 150 bpm, regular e fixa, PA 128x78 mmHg, sem estertores e sem edema. A manobra vagal reduz a FC só por alguns segundos.",
+        "ECG: ondas atriais em 'dente de serra' em DII, DIII e aVF, negativas nas inferiores, a cerca de 300 bpm, com condução AV 2:1."
+      ],
+      "comentario": "Taquicardia regular com FC fixa em torno de 150 bpm deve lembrar flutter com condução 2:1. Risco tromboembólico semelhante ao da FA (usar CHA₂DS₂-VASc); responde muito bem à cardioversão elétrica, e a ablação do istmo cavotricuspídeo é curativa no flutter típico.",
+      "revisado": false
+    },
+    {
+      "id": "inter-oclusao-da-arteria-central-da-retina",
+      "data": "2026-11-22",
+      "nivel": "inter",
+      "diagnostico": "Oclusão da artéria central da retina",
+      "sinonimos": [
+        "oacr",
+        "oclusao da arteria central da retina",
+        "oclusao de arteria central da retina",
+        "oclusao da arteria retiniana central",
+        "oclusao arterial retiniana"
+      ],
+      "dicas": [
+        "Homem, 70 anos, chega ao pronto-socorro com perda súbita da visão do olho direito há 2 horas.",
+        "Estava lendo o jornal quando a visão do olho direito 'apagou' por completo. Sem dor ocular e sem cefaleia.",
+        "Hipertenso, tabagista e com fibrilação atrial sem anticoagulação. Há 1 mês teve um episódio de perda visual transitória no mesmo olho.",
+        "Acuidade visual de percepção luminosa no olho direito, defeito pupilar aferente relativo, olho calmo e pressão intraocular normal.",
+        "Fundoscopia: retina pálida e edemaciada com mancha vermelho-cereja na fóvea e arteríolas afiladas com fluxo segmentado."
+      ],
+      "comentario": "Perda visual monocular súbita e indolor com mancha vermelho-cereja: é um AVC da retina. Encaminhar já ao centro de AVC (trombólise pode ser considerada em até 4,5 h em protocolo), investigar fonte embólica e pedir VHS/PCR para excluir arterite de células gigantes.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-coarctacao-da-aorta",
+      "data": "2026-11-22",
+      "nivel": "dificil",
+      "diagnostico": "Coarctação da aorta",
+      "sinonimos": [
+        "coarctacao da aorta",
+        "coarctacao de aorta",
+        "coarctacao aortica",
+        "coartacao da aorta",
+        "coartacao de aorta",
+        "coarctacao",
+        "coarctacao da aorta toracica"
+      ],
+      "dicas": [
+        "Homem, 19 anos, encaminhado por pressão alta descoberta no exame admissional.",
+        "Tem cefaleia frequente e câimbras nas pernas quando corre. A pressão não baixou com losartana.",
+        "Magro, sem uso de drogas ou anabolizantes. Na infância um médico comentou que ele tinha um 'sopro'.",
+        "PA no braço direito 172x96 mmHg e nas pernas 110x70 mmHg. Pulsos femorais fracos e atrasados em relação ao radial; sopro sistólico interescapular.",
+        "RX de tórax: erosões na borda inferior das costelas e sinal do '3' no contorno aórtico. Angio-TC: estreitamento da aorta logo após a artéria subclávia esquerda."
+      ],
+      "comentario": "Hipertensão no jovem com PA nos braços maior que nas pernas e atraso radiofemoral. Associa-se a valva aórtica bicúspide e síndrome de Turner; tratamento com angioplastia com stent ou correção cirúrgica.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-macroglobulinemia-de-waldenstrom",
+      "data": "2026-11-22",
+      "nivel": "mdificil",
+      "diagnostico": "Macroglobulinemia de Waldenström",
+      "sinonimos": [
+        "waldenstrom",
+        "macroglobulinemia de waldenstrom",
+        "macroglobulinemia",
+        "doenca de waldenstrom",
+        "linfoma linfoplasmocitico"
+      ],
+      "dicas": [
+        "Homem, 68 anos, chega à emergência com cefaleia e visão borrada.",
+        "Há semanas tem sangramentos nasais e gengivais recorrentes, fadiga e tontura.",
+        "Perdeu 7 kg em 6 meses, tem sudorese noturna e formigamento nos pés há 1 ano.",
+        "Linfonodomegalias cervicais e esplenomegalia. Fundo de olho com veias retinianas dilatadas e tortuosas, 'em salsicha', e hemorragias em chama de vela.",
+        "Imunofixação: pico monoclonal IgM de 5,2 g/dL e viscosidade sérica elevada. Medula óssea com infiltração linfoplasmocitária e mutação MYD88 L265P."
+      ],
+      "comentario": "Síndrome de hiperviscosidade por paraproteína IgM: plasmaférese urgente e evitar transfusão antes dela. Tratamento de base com rituximabe associado a quimioterapia (como bendamustina) ou inibidor de BTK.",
+      "revisado": false
+    },
+    {
+      "id": "facil-febre-chikungunya",
+      "data": "2026-11-23",
+      "nivel": "facil",
+      "diagnostico": "Febre chikungunya",
+      "sinonimos": [
+        "chikungunya",
+        "febre chikungunya",
+        "chicungunha",
+        "chikungunya aguda",
+        "chik",
+        "chikv"
+      ],
+      "dicas": [
+        "Mulher, 45 anos, chega à UPA com febre alta de início súbito há 2 dias.",
+        "Dor articular intensa e incapacitante nas mãos, punhos e tornozelos, dos dois lados. Mal consegue andar ou segurar um copo.",
+        "Mora em bairro com muitos casos de arbovirose neste verão e há muitos mosquitos em casa.",
+        "Edema periarticular simétrico em punhos, interfalangianas e tornozelos, exantema maculopapular em tronco e prova do laço negativa.",
+        "RT-PCR em sangue colhido no 2º dia de sintomas detectável para o vírus chikungunya."
+      ],
+      "comentario": "Febre súbita com poliartralgia intensa, simétrica e incapacitante. Analgesia com paracetamol ou dipirona e hidratação; evitar AINE e AAS na fase aguda enquanto dengue não for afastada e não usar corticoide na fase aguda; notificar.",
+      "revisado": false
+    },
+    {
+      "id": "inter-sindrome-de-lise-tumoral",
+      "data": "2026-11-23",
+      "nivel": "inter",
+      "diagnostico": "Síndrome de lise tumoral",
+      "sinonimos": [
+        "sindrome de lise tumoral",
+        "lise tumoral",
+        "slt",
+        "sindrome da lise tumoral"
+      ],
+      "dicas": [
+        "Homem, 22 anos, com mal-estar e pouca urina há 1 dia.",
+        "Câimbras, formigamento ao redor da boca e náuseas. Começou a quimioterapia há 2 dias.",
+        "Diagnóstico recente de linfoma de Burkitt com grande massa abdominal; está no primeiro ciclo.",
+        "FC 48 bpm irregular, sinais de Chvostek e Trousseau positivos. Diurese de 200 mL nas últimas 12 horas.",
+        "K 7,2 mEq/L, fósforo 9,8 mg/dL, cálcio 6,4 mg/dL, ácido úrico 15 mg/dL e creatinina 3,1 mg/dL. ECG com ondas T apiculadas."
+      ],
+      "comentario": "Hipercalemia, hiperfosfatemia, hipocalcemia e hiperuricemia com lesão renal após quimioterapia de tumor muito proliferativo (critérios de Cairo-Bishop). Prevenção com hidratação e alopurinol ou rasburicase no alto risco; tratar a hipercalemia e indicar diálise se refratária.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-nefropatia-membranosa",
+      "data": "2026-11-23",
+      "nivel": "dificil",
+      "diagnostico": "Nefropatia membranosa",
+      "sinonimos": [
+        "nefropatia membranosa",
+        "glomerulopatia membranosa",
+        "glomerulonefrite membranosa",
+        "gn membranosa",
+        "glomerulopatia membranosa primaria"
+      ],
+      "dicas": [
+        "Homem, 55 anos, com inchaço nas pernas há 2 meses.",
+        "Urina espumosa, ganho de 8 kg e olhos inchados ao acordar.",
+        "Não é diabético nem hipertenso. Sorologias para hepatites B e C, HIV e sífilis negativas; rastreio de câncer em dia.",
+        "PA 128x80 mmHg, edema depressível 4+/4+ até as coxas e xantelasmas palpebrais.",
+        "Proteinúria de 9 g/24 h, albumina 1,9 g/dL, colesterol total 380 mg/dL, sedimento sem dismorfismo eritrocitário e anticorpo anti-PLA2R reagente em título alto."
+      ],
+      "comentario": "Síndrome nefrótica primária mais comum no adulto não diabético; anti-PLA2R positivo com quadro típico pode dispensar biópsia (KDIGO). Excluir causas secundárias, IECA/BRA, estatina, avaliar anticoagulação profilática e imunossupressão (rituximabe) conforme o risco.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-doenca-de-kawasaki",
+      "data": "2026-11-23",
+      "nivel": "mdificil",
+      "diagnostico": "Doença de Kawasaki",
+      "sinonimos": [
+        "kawasaki",
+        "doenca de kawasaki",
+        "sindrome de kawasaki",
+        "sindrome do linfonodo mucocutaneo",
+        "sindrome linfonodo mucocutanea"
+      ],
+      "dicas": [
+        "Menino, 2 anos, trazido por febre há 6 dias.",
+        "Febre alta que não cede com antitérmicos nem com a amoxicilina iniciada há 3 dias. Está muito irritado.",
+        "Teste rápido para estreptococo negativo. Hoje as mãos e os pés ficaram inchados e avermelhados.",
+        "Hiperemia conjuntival bilateral sem secreção poupando o limbo, lábios vermelhos e fissurados, língua em framboesa, exantema polimorfo no tronco e linfonodo cervical de 2 cm.",
+        "VHS 90 mm/h, PCR 15 mg/dL, plaquetas 650.000/mm³. Ecocardiograma: dilatação das artérias coronárias."
+      ],
+      "comentario": "Febre ≥ 5 dias com conjuntivite, alterações de mucosa, exantema, alterações de extremidades e linfonodo cervical. Imunoglobulina IV 2 g/kg em dose única + AAS, de preferência até o 10º dia, para reduzir aneurismas coronarianos.",
+      "revisado": false
+    },
+    {
+      "id": "facil-caxumba",
+      "data": "2026-11-24",
+      "nivel": "facil",
+      "diagnostico": "Caxumba",
+      "sinonimos": [
+        "caxumba",
+        "parotidite epidemica",
+        "parotidite viral",
+        "papeira",
+        "infeccao pelo virus da caxumba"
+      ],
+      "dicas": [
+        "Homem, 19 anos, procura a UPA com febre e dor ao mastigar há 2 dias.",
+        "Inchaço doloroso na frente da orelha direita e, desde ontem, também na esquerda. A dor piora com alimentos ácidos.",
+        "Colegas da república tiveram quadro parecido. Não sabe se tomou as vacinas da infância. Hoje começou dor no testículo direito.",
+        "Aumento de volume bilateral das parótidas apagando o ângulo da mandíbula, óstio do ducto de Stensen hiperemiado e testículo direito aumentado e doloroso.",
+        "Amilase sérica elevada e RT-PCR de swab bucal (saliva) detectável para o vírus da caxumba."
+      ],
+      "comentario": "Parotidite bilateral em adulto jovem não vacinado, com orquite como complicação pós-puberal. Tratamento de suporte (analgesia, suspensório escrotal), afastamento por 5 dias após o início do edema e tríplice viral para contatos suscetíveis.",
+      "revisado": false
+    },
+    {
+      "id": "inter-hipertermia-maligna",
+      "data": "2026-11-24",
+      "nivel": "inter",
+      "diagnostico": "Hipertermia maligna",
+      "sinonimos": [
+        "hipertermia maligna",
+        "hm",
+        "sindrome de hipertermia maligna",
+        "crise de hipertermia maligna"
+      ],
+      "dicas": [
+        "Homem, 19 anos, sob anestesia geral para apendicectomia, apresenta taquicardia súbita.",
+        "O CO₂ expirado sobe rapidamente para 75 mmHg apesar do aumento da ventilação. Houve rigidez de masseter logo após a indução.",
+        "A indução foi com succinilcolina e a manutenção com sevoflurano. Um tio morreu durante uma cirurgia.",
+        "Rigidez muscular generalizada, temperatura subindo de 37 °C para 40,5 °C em 20 minutos e extrassístoles ventriculares frequentes.",
+        "Gasometria com acidose mista (pH 7,08, PaCO₂ 85 mmHg), K 6,8 mEq/L e CK 25.000 U/L. Depois, mutação no gene RYR1."
+      ],
+      "comentario": "Hipermetabolismo após halogenado e succinilcolina; aumento do CO₂ expirado é o sinal mais precoce. Suspender os agentes desencadeantes, hiperventilar com O₂ a 100%, dantroleno 2,5 mg/kg IV repetido até controle, resfriar e tratar a hipercalemia.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-hipertensao-intracraniana-idiopatica",
+      "data": "2026-11-24",
+      "nivel": "dificil",
+      "diagnostico": "Hipertensão intracraniana idiopática",
+      "sinonimos": [
+        "hii",
+        "hipertensao intracraniana idiopatica",
+        "pseudotumor cerebral",
+        "pseudotumor",
+        "hipertensao intracraniana benigna",
+        "hic idiopatica"
+      ],
+      "dicas": [
+        "Mulher, 28 anos, com cefaleia diária há 2 meses.",
+        "A dor piora ao deitar e ao tossir. Escuta um zumbido pulsátil e a visão escurece por segundos quando se levanta.",
+        "IMC de 38, ganhou 12 kg no último ano e usou minociclina para acne nos últimos meses.",
+        "Papiledema bilateral e paresia do VI nervo à esquerda; restante do exame neurológico normal.",
+        "RM: sela vazia, achatamento posterior dos globos oculares e nenhuma lesão expansiva. Punção lombar com pressão de abertura de 38 cmH₂O e líquor normal."
+      ],
+      "comentario": "Mulher jovem com obesidade, cefaleia, papiledema e pressão liquórica elevada com imagem e líquor normais (critérios de Friedman). O risco é perda visual: perda de peso, suspender a droga suspeita, acetazolamida e cirurgia se a visão piorar.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-penfigo-vulgar",
+      "data": "2026-11-24",
+      "nivel": "mdificil",
+      "diagnostico": "Pênfigo vulgar",
+      "sinonimos": [
+        "penfigo vulgar",
+        "penfigo vulgaris"
+      ],
+      "dicas": [
+        "Mulher, 45 anos, com feridas na boca há 2 meses.",
+        "As lesões orais são muito dolorosas e dificultam comer. Há 3 semanas surgiram bolhas no tronco que se rompem com facilidade.",
+        "Já tratou com antifúngico e aciclovir, sem melhora. Perdeu 5 kg.",
+        "Erosões extensas na mucosa oral, bolhas flácidas e erosões em tronco e couro cabeludo; a pele se descola à fricção lateral (Nikolsky positivo).",
+        "Biópsia: acantólise suprabasal em 'fileira de lápides'. Imunofluorescência direta com IgG intercelular em 'rede de pesca' e anti-desmogleína 3 elevado."
+      ],
+      "comentario": "Bolhas flácidas com Nikolsky positivo e envolvimento oral precoce. Corticoide sistêmico associado a rituximabe como primeira linha; o pênfigo foliáceo (fogo selvagem) poupa mucosas e o penfigoide bolhoso tem bolhas tensas.",
+      "revisado": false
     },
     {
       "id": "facil-convulsao-febril-simples",
