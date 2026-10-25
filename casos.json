@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado": "2026-10-09",
+  "atualizado": "2026-10-25",
   "distratores": [
     "Angina instável",
     "IAM sem supra de ST",
@@ -2963,6 +2963,641 @@
       ],
       "comentario": "Doença de Behçet: vasculite de vasos de qualquer calibre, com úlceras orais e genitais, uveíte e trombose. Trombose é inflamatória: o tratamento-base é imunossupressão; colchicina para lesões mucocutâneas.",
       "revisado": true
+    },
+    {
+      "id": "facil-fratura-de-clavicula",
+      "data": "2026-11-25",
+      "nivel": "facil",
+      "diagnostico": "Fratura de clavícula",
+      "sinonimos": [
+        "fratura de clavicula",
+        "fratura da clavicula",
+        "fratura clavicular",
+        "fratura do terco medio da clavicula",
+        "fx de clavicula"
+      ],
+      "dicas": [
+        "Menino, 9 anos, levado ao PS com dor no ombro direito após uma queda.",
+        "Caiu de bicicleta batendo o ombro no chão. Segura o braço direito junto ao corpo com a outra mão e não quer mexê-lo.",
+        "Sem doenças prévias, vacinação em dia. Não bateu a cabeça nem perdeu a consciência.",
+        "Edema, equimose e degrau palpável com crepitação no terço médio do osso entre o esterno e o acrômio. Pele íntegra, pulso radial e sensibilidade do membro preservados.",
+        "Radiografia: traço de fratura no terço médio da clavícula direita, com pequeno desvio e sem cominuição."
+      ],
+      "comentario": "Fratura do terço médio da clavícula, a mais comum. Na maioria é conservador (tipoia e analgesia); cirurgia se exposta, pele ameaçada, lesão neurovascular ou grande encurtamento.",
+      "revisado": false
+    },
+    {
+      "id": "inter-sindrome-de-wellens",
+      "data": "2026-11-25",
+      "nivel": "inter",
+      "diagnostico": "Síndrome de Wellens",
+      "sinonimos": [
+        "sindrome de wellens",
+        "wellens",
+        "padrao de wellens",
+        "sinal de wellens",
+        "ondas t de wellens"
+      ],
+      "dicas": [
+        "Homem, 52 anos, procura o PS após um episódio de dor no peito que já passou.",
+        "A dor foi em aperto, começou ao subir escada há 6 horas, durou 20 minutos e melhorou em repouso. Agora está sem dor.",
+        "Tabagista, hipertenso e dislipidêmico. O pai teve infarto aos 55 anos.",
+        "PA 138x86 mmHg, FC 76 bpm, ausculta cardíaca e pulmonar normais, sem sinais de congestão.",
+        "ECG sem dor: ondas T profundamente invertidas e simétricas em V2–V3, sem ondas Q e sem supra de ST. Troponina discretamente elevada."
+      ],
+      "comentario": "Padrão de Wellens: sugere estenose crítica da descendente anterior proximal. Não fazer teste de esforço; cateterismo precoce.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-febre-reumatica-aguda",
+      "data": "2026-11-25",
+      "nivel": "dificil",
+      "diagnostico": "Febre reumática aguda",
+      "sinonimos": [
+        "febre reumatica",
+        "febre reumatica aguda",
+        "fra",
+        "doenca reumatica aguda",
+        "cardite reumatica"
+      ],
+      "dicas": [
+        "Menina, 11 anos, levada ao PS com dor e inchaço no joelho esquerdo há 2 dias.",
+        "Na semana passada a dor era no tornozelo direito e melhorou sozinha; agora passou para o joelho. Tem febre de 38,5 °C.",
+        "Teve dor de garganta há 3 semanas, tratada só com anti-inflamatório. Mora com mais 6 pessoas em uma casa pequena.",
+        "Artrite de joelho esquerdo muito dolorosa; sopro holossistólico em foco mitral irradiando para a axila; nódulos subcutâneos indolores sobre os cotovelos.",
+        "ASLO 800 UI/mL, VHS 90 mm/h e PR de 0,24 s no ECG; ecocardiograma com insuficiência mitral e espessamento valvar."
+      ],
+      "comentario": "Febre reumática aguda pelos critérios de Jones (artrite migratória e cardite com evidência de infecção estreptocócica). Penicilina benzatina para erradicação e profilaxia secundária, anti-inflamatório para a artrite e corticoide se cardite grave.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-sindrome-de-liddle",
+      "data": "2026-11-25",
+      "nivel": "mdificil",
+      "diagnostico": "Síndrome de Liddle",
+      "sinonimos": [
+        "sindrome de liddle",
+        "liddle",
+        "doenca de liddle",
+        "pseudo hiperaldosteronismo de liddle"
+      ],
+      "dicas": [
+        "Homem, 19 anos, encaminhado ao PS com fraqueza muscular e PA de 180x110 mmHg.",
+        "Tem hipertensão desde os 15 anos, nunca controlada com losartana e anlodipino. Câimbras frequentes.",
+        "Pai e avô paterno hipertensos desde jovens; o pai teve AVC aos 40 anos. Não usa alcaçuz nem corticoide.",
+        "Sem estrias, sem sopro abdominal, pulsos simétricos nos 4 membros.",
+        "K 2,8 mEq/L, alcalose metabólica, renina e aldosterona suprimidas; a PA não responde à espironolactona e normaliza com amilorida. Mutação em SCNN1B (canal ENaC)."
+      ],
+      "comentario": "Síndrome de Liddle: ganho de função do ENaC, herança autossômica dominante, com hipertensão, hipocalemia e renina e aldosterona baixas. Tratamento com amilorida ou triantereno.",
+      "revisado": false
+    },
+    {
+      "id": "facil-doenca-mao-pe-boca",
+      "data": "2026-11-26",
+      "nivel": "facil",
+      "diagnostico": "Doença mão-pé-boca",
+      "sinonimos": [
+        "doenca mao pe boca",
+        "mao pe boca",
+        "doenca mao pe e boca",
+        "sindrome mao pe boca",
+        "infeccao por coxsackie"
+      ],
+      "dicas": [
+        "Menina, 2 anos, trazida à UPA com febre e recusa alimentar há 2 dias.",
+        "A mãe conta que ela chora ao comer e está babando mais que o normal. Na creche, outras crianças tiveram quadro parecido.",
+        "Vacinação em dia, sem doenças prévias. Febre de até 38,5 °C. Aceita bem líquidos frios.",
+        "Úlceras pequenas e dolorosas na mucosa oral e na língua; vesículas ovais de base eritematosa nas palmas, nas plantas e na região glútea. Bom estado geral e hidratada.",
+        "Quadro clínico típico; PCR de swab de orofaringe detectou Coxsackievírus A16."
+      ],
+      "comentario": "Doença mão-pé-boca: úlceras orais com vesículas em palmas e plantas. Diagnóstico clínico, autolimitado; hidratação e analgesia, atenção a sinais neurológicos.",
+      "revisado": false
+    },
+    {
+      "id": "inter-acidente-escorpionico",
+      "data": "2026-11-26",
+      "nivel": "inter",
+      "diagnostico": "Acidente escorpiônico",
+      "sinonimos": [
+        "acidente escorpionico",
+        "escorpionismo",
+        "picada de escorpiao",
+        "acidente por escorpiao",
+        "envenenamento escorpionico",
+        "escorpiao",
+        "tityus"
+      ],
+      "dicas": [
+        "Menino, 6 anos, trazido à UPA com dor intensa no pé há 40 minutos.",
+        "Gritou de dor ao calçar um tênis guardado na área de serviço. A dor no local é forte, com formigamento que sobe pela perna.",
+        "Mora em área urbana com entulho no quintal e muitas baratas. Há 20 minutos começou a vomitar várias vezes e ficou suado e agitado.",
+        "No pé, só um ponto avermelhado, sem edema nem necrose. FC 140 bpm, PA 130x85 mmHg, sudorese profusa, sialorreia e extremidades frias.",
+        "O pai trouxe o animal: corpo amarelado, com serrilha no dorso da cauda e ferrão (Tityus serrulatus). Glicemia 210 mg/dL e troponina elevada."
+      ],
+      "comentario": "Acidente escorpiônico moderado a grave (vômitos repetidos em criança). Soro antiescorpiônico (2–3 ampolas se moderado, 4–6 se grave), lidocaína local para dor e monitorização para choque e edema pulmonar.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-hepatite-autoimune",
+      "data": "2026-11-26",
+      "nivel": "dificil",
+      "diagnostico": "Hepatite autoimune",
+      "sinonimos": [
+        "hepatite autoimune",
+        "hai",
+        "hepatite auto imune",
+        "hepatite autoimune tipo 1",
+        "hepatite lupoide"
+      ],
+      "dicas": [
+        "Mulher, 24 anos, procura a UPA com olhos amarelos e cansaço há 3 semanas.",
+        "Tem urina escura, dor no hipocôndrio direito e dores nas articulações.",
+        "Tem vitiligo e hipotireoidismo autoimune. Não bebe, nega chás, suplementos ou remédios novos. Sorologias para hepatites A, B e C negativas.",
+        "Ictérica, fígado palpável e levemente doloroso, sem ascite e sem flapping.",
+        "TGO 980 U/L, TGP 1.150 U/L, IgG 2.900 mg/dL, FAN 1:640 e anticorpo antimúsculo liso 1:160; biópsia com hepatite de interface e infiltrado linfoplasmocitário."
+      ],
+      "comentario": "Hepatite autoimune tipo 1: hipergamaglobulinemia IgG, FAN e antimúsculo liso, com hepatite de interface. Tratamento com prednisona (ou budesonida) e azatioprina.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-mucormicose-rinocerebral",
+      "data": "2026-11-26",
+      "nivel": "mdificil",
+      "diagnostico": "Mucormicose rinocerebral",
+      "sinonimos": [
+        "mucormicose",
+        "mucormicose rinocerebral",
+        "mucormicose rino orbito cerebral",
+        "zigomicose",
+        "mucor",
+        "fungo negro"
+      ],
+      "dicas": [
+        "Homem, 50 anos, levado ao PS com dor na face e inchaço no olho esquerdo há 3 dias.",
+        "Começou com nariz entupido e secreção escura; hoje não consegue abrir o olho e enxerga mal.",
+        "Diabético sem tratamento, chegou há 4 dias com glicemia de 560 mg/dL e acidose metabólica grave.",
+        "Proptose, ptose e oftalmoplegia à esquerda, com edema periorbitário; lesão necrótica negra no palato e na concha nasal média.",
+        "Biópsia da mucosa nasal: hifas largas, sem septos, ramificadas em ângulo reto, com invasão vascular e necrose."
+      ],
+      "comentario": "Mucormicose rinocerebral em diabético com acidose. Anfotericina B lipossomal em dose alta, desbridamento cirúrgico agressivo e correção da glicemia e da acidose.",
+      "revisado": false
+    },
+    {
+      "id": "facil-retencao-urinaria-aguda",
+      "data": "2026-11-27",
+      "nivel": "facil",
+      "diagnostico": "Retenção urinária aguda",
+      "sinonimos": [
+        "retencao urinaria",
+        "retencao urinaria aguda",
+        "rua",
+        "bexigoma",
+        "globo vesical",
+        "retencao urinaria por hpb"
+      ],
+      "dicas": [
+        "Homem, 74 anos, chega à UPA com dor forte no baixo ventre e agitação.",
+        "Não consegue urinar há 12 horas, apesar de muita vontade. Antes já tinha jato fraco, gotejamento e acordava 3 vezes à noite para urinar.",
+        "Tem hiperplasia prostática sem tratamento. Há 2 dias começou um antigripal com descongestionante e anti-histamínico.",
+        "Massa suprapúbica dolorosa, com macicez à percussão até perto da cicatriz umbilical. Toque retal: próstata aumentada, lisa e fibroelástica.",
+        "USG de bexiga à beira-leito com volume de 1.100 mL; o cateterismo vesical drena 1.050 mL de urina clara, com alívio imediato."
+      ],
+      "comentario": "Retenção urinária aguda por HPB precipitada por anticolinérgico e descongestionante. Cateterismo vesical, suspender o desencadeante e iniciar alfabloqueador (tansulosina) antes de tentar retirar a sonda.",
+      "revisado": false
+    },
+    {
+      "id": "inter-cetoacidose-diabetica-euglicemica",
+      "data": "2026-11-27",
+      "nivel": "inter",
+      "diagnostico": "Cetoacidose diabética euglicêmica",
+      "sinonimos": [
+        "cetoacidose diabetica euglicemica",
+        "cetoacidose euglicemica",
+        "cad euglicemica",
+        "cetoacidose por isglt2",
+        "cetoacidose euglicemica por isglt2"
+      ],
+      "dicas": [
+        "Mulher, 54 anos, chega à UPA com náuseas, vômitos e dor abdominal há 1 dia.",
+        "Está muito cansada e com falta de ar. Comeu quase nada nos últimos 3 dias por causa de uma gastroenterite.",
+        "Diabética tipo 2, usa metformina e dapagliflozina, introduzida há 2 meses.",
+        "FR 28 irpm com respiração profunda, FC 112 bpm, mucosas secas e hálito cetônico. Abdome doloroso difusamente, sem peritonite.",
+        "Glicemia 180 mg/dL; gasometria com pH 7,12, HCO3 9 mEq/L e ânion gap 24; beta-hidroxibutirato 5,8 mmol/L."
+      ],
+      "comentario": "Cetoacidose euglicêmica por iSGLT2 (glicemia < 250 mg/dL). Suspender o iSGLT2 e tratar como CAD: hidratação, insulina com soro glicosado desde o início e reposição de potássio.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-policitemia-vera",
+      "data": "2026-11-27",
+      "nivel": "dificil",
+      "diagnostico": "Policitemia vera",
+      "sinonimos": [
+        "policitemia vera",
+        "policitemia rubra vera",
+        "pv",
+        "doenca de vaquez",
+        "vaquez"
+      ],
+      "dicas": [
+        "Homem, 62 anos, vem à UPA com dor de cabeça e tontura há 1 semana.",
+        "Sente coceira intensa no corpo depois do banho quente e queimação com vermelhidão nas pontas dos dedos dos pés.",
+        "Hipertenso. Não fuma, não tem apneia do sono e não usa testosterona. Há 1 ano teve trombose venosa profunda sem causa aparente.",
+        "Pletora facial, baço palpável a 4 cm do rebordo costal esquerdo, PA 160x95 mmHg.",
+        "Hb 19,8 g/dL, Ht 60%, leucócitos 14.000/mm³, plaquetas 620.000/mm³; eritropoetina baixa e mutação JAK2 V617F positiva."
+      ],
+      "comentario": "Policitemia vera: eritrocitose com eritropoetina baixa e JAK2 V617F. Flebotomia para Ht < 45%, AAS em dose baixa e hidroxiureia por ser de alto risco (idade e trombose prévia).",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-intoxicacao-por-chumbo",
+      "data": "2026-11-27",
+      "nivel": "mdificil",
+      "diagnostico": "Intoxicação por chumbo",
+      "sinonimos": [
+        "intoxicacao por chumbo",
+        "saturnismo",
+        "plumbismo",
+        "intoxicacao pelo chumbo",
+        "envenenamento por chumbo"
+      ],
+      "dicas": [
+        "Homem, 44 anos, procura o PS com dor abdominal em cólica muito forte há 2 dias.",
+        "Dores parecidas vão e voltam há meses, com constipação, cansaço, irritabilidade e esquecimento.",
+        "Há 10 anos recupera baterias de carro numa oficina no fundo de casa, sem equipamento de proteção.",
+        "Abdome flácido e sem peritonite apesar da dor intensa; linha azul-acinzentada na margem da gengiva; queda do punho direito.",
+        "Hb 9,8 g/dL com pontilhado basofílico nas hemácias, protoporfirina-zinco elevada e chumbo no sangue de 90 µg/dL."
+      ],
+      "comentario": "Intoxicação por chumbo (saturnismo) ocupacional: cólica, anemia com pontilhado basofílico, linha de Burton e neuropatia motora. Afastar da exposição e fazer quelação (EDTA cálcico ou succímero; dimercaprol se encefalopatia).",
+      "revisado": false
+    },
+    {
+      "id": "facil-hemorroida-externa-trombosada",
+      "data": "2026-11-28",
+      "nivel": "facil",
+      "diagnostico": "Hemorroida externa trombosada",
+      "sinonimos": [
+        "hemorroida trombosada",
+        "hemorroida externa trombosada",
+        "trombose hemorroidaria",
+        "trombose hemorroidaria externa",
+        "hemorroidas trombosadas",
+        "hemorroida externa"
+      ],
+      "dicas": [
+        "Homem, 38 anos, procura o PS com dor anal intensa há 2 dias.",
+        "A dor começou depois de um esforço para evacuar, é contínua e piora ao sentar. Percebeu um 'caroço' na borda do ânus.",
+        "Constipação crônica, dieta pobre em fibras e trabalha sentado muitas horas por dia. Sem febre.",
+        "Nódulo arroxeado, tenso, de 1,5 cm na borda anal, muito doloroso, recoberto por pele, sem flutuação nem secreção.",
+        "Inspeção e anuscopia: coágulo escuro sob a pele do plexo hemorroidário externo, sem fissura, fístula ou abscesso."
+      ],
+      "comentario": "Hemorroida externa trombosada. Nas primeiras 72 h, a excisão do trombo sob anestesia local alivia mais rápido; depois, banho de assento, analgesia e fibras.",
+      "revisado": false
+    },
+    {
+      "id": "inter-hemorragia-pos-parto-por-atonia-uterina",
+      "data": "2026-11-28",
+      "nivel": "inter",
+      "diagnostico": "Hemorragia pós-parto por atonia uterina",
+      "sinonimos": [
+        "hemorragia pos parto por atonia uterina",
+        "atonia uterina",
+        "hpp",
+        "hemorragia pos parto",
+        "hemorragia puerperal",
+        "hpp por atonia",
+        "hemorragia pos parto por atonia"
+      ],
+      "dicas": [
+        "Puérpera, 29 anos, sangrando muito 20 minutos após um parto vaginal.",
+        "O trabalho de parto durou 18 horas, com ocitocina para indução. A placenta saiu completa.",
+        "Terceira gestação, recém-nascido com 4.300 g e polidrâmnio no pré-natal.",
+        "Útero amolecido, acima da cicatriz umbilical, que endurece um pouco com massagem e volta a amolecer. FC 118 bpm, PA 90x60 mmHg. Canal de parto revisado, sem lacerações.",
+        "Índice de choque 1,3; perda estimada de 1.200 mL; USG à beira-leito com cavidade uterina vazia, sem restos placentários."
+      ],
+      "comentario": "Hemorragia pós-parto por atonia, a causa mais comum (4 Ts). Massagem bimanual, ocitocina, ácido tranexâmico em até 3 h, metilergometrina ou misoprostol e balão de tamponamento se refratária.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-colangite-esclerosante-primaria",
+      "data": "2026-11-28",
+      "nivel": "dificil",
+      "diagnostico": "Colangite esclerosante primária",
+      "sinonimos": [
+        "colangite esclerosante primaria",
+        "cep",
+        "colangite esclerosante",
+        "psc"
+      ],
+      "dicas": [
+        "Homem, 34 anos, chega à UPA com coceira no corpo e febre com calafrios há 2 dias.",
+        "Há meses tem coceira e cansaço; agora a urina ficou escura e os olhos, amarelos.",
+        "Tem retocolite ulcerativa há 8 anos, em uso de mesalazina.",
+        "Ictérico, com escoriações na pele, fígado palpável e dor leve no hipocôndrio direito. T 38,4 °C.",
+        "FA 640 U/L, GGT 820 U/L, bilirrubina 4,2 mg/dL e antimitocôndria negativo; colangiorressonância com estenoses multifocais curtas e dilatações das vias biliares intra e extra-hepáticas, em 'contas de rosário'."
+      ],
+      "comentario": "Colangite esclerosante primária associada à doença inflamatória intestinal. Sem tratamento clínico que mude a evolução; tratar colangite, investigar estenose dominante por colangiocarcinoma e fazer colonoscopia anual. Transplante na doença avançada.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-doenca-de-tangier",
+      "data": "2026-11-28",
+      "nivel": "mdificil",
+      "diagnostico": "Doença de Tangier",
+      "sinonimos": [
+        "doenca de tangier",
+        "tangier",
+        "deficiencia de abca1",
+        "deficiencia familiar de alfa lipoproteina",
+        "deficiencia familiar de hdl"
+      ],
+      "dicas": [
+        "Homem, 28 anos, vai à UPA por formigamento e fraqueza nas mãos há meses.",
+        "Perdeu a sensibilidade para dor e temperatura nos braços e se queimou no fogão sem perceber.",
+        "Pais primos de primeiro grau. Um exame antigo mostrou baço aumentado sem causa definida.",
+        "Amígdalas grandes, de cor amarelo-alaranjada; esplenomegalia; atrofia da musculatura intrínseca das mãos; opacidades corneanas discretas.",
+        "HDL-colesterol de 2 mg/dL, apolipoproteína A-I quase indetectável e LDL baixo; mutação bialélica no gene ABCA1."
+      ],
+      "comentario": "Doença de Tangier: deficiência do transportador ABCA1, com HDL quase zero e acúmulo de colesterol em macrófagos (amígdalas alaranjadas). Sem tratamento específico; controlar risco cardiovascular e acompanhar a neuropatia.",
+      "revisado": false
+    },
+    {
+      "id": "facil-rinossinusite-bacteriana-aguda",
+      "data": "2026-11-29",
+      "nivel": "facil",
+      "diagnostico": "Rinossinusite bacteriana aguda",
+      "sinonimos": [
+        "rinossinusite bacteriana aguda",
+        "rinossinusite bacteriana",
+        "sinusite bacteriana",
+        "sinusite bacteriana aguda",
+        "sinusite",
+        "sinusite aguda",
+        "rsba"
+      ],
+      "dicas": [
+        "Mulher, 32 anos, procura a UPA com dor na face e nariz entupido.",
+        "Começou como um resfriado há 12 dias, melhorou um pouco e, há 3 dias, piorou com febre de 38,6 °C e secreção nasal amarelo-esverdeada.",
+        "Sem comorbidades e sem alergias. Nega alteração visual, inchaço nos olhos, cefaleia intensa ou rigidez de nuca.",
+        "Dor à palpação da região maxilar direita, que piora ao inclinar a cabeça para frente. Gotejamento purulento na orofaringe posterior. Sem edema periorbitário.",
+        "Nasofibroscopia: secreção purulenta drenando do meato médio direito. Imagem não é necessária no quadro não complicado."
+      ],
+      "comentario": "Rinossinusite bacteriana aguda pela 'dupla piora' após melhora inicial. Amoxicilina (ou amoxicilina-clavulanato) e lavagem nasal com soro; TC só se complicação ou falha.",
+      "revisado": false
+    },
+    {
+      "id": "inter-angina-de-ludwig",
+      "data": "2026-11-29",
+      "nivel": "inter",
+      "diagnostico": "Angina de Ludwig",
+      "sinonimos": [
+        "angina de ludwig",
+        "ludwig",
+        "angina de ludovici",
+        "celulite submandibular",
+        "celulite do assoalho da boca",
+        "flegmao do assoalho da boca"
+      ],
+      "dicas": [
+        "Homem, 41 anos, chega ao PS com dor e inchaço no pescoço há 2 dias.",
+        "Começou com dor de dente; agora engole com dificuldade, a voz está abafada e baba.",
+        "Diabético mal controlado. Tem um molar inferior cariado e dolorido há meses.",
+        "Edema endurecido e lenhoso bilateral nas regiões submandibular e submentoniana, assoalho da boca elevado empurrando a língua para cima e para trás, trismo e estridor leve. T 39 °C.",
+        "TC de pescoço: celulite com gás nos espaços submandibular, sublingual e submentoniano bilaterais, sem abscesso bem delimitado."
+      ],
+      "comentario": "Angina de Ludwig: celulite bilateral do assoalho da boca de origem dentária. Prioridade é a via aérea (intubação acordada por fibroscopia ou via cirúrgica), antibiótico IV e drenagem se houver coleção.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-meningite-criptococica",
+      "data": "2026-11-29",
+      "nivel": "dificil",
+      "diagnostico": "Meningite criptocócica",
+      "sinonimos": [
+        "meningite criptococica",
+        "criptococose",
+        "neurocriptococose",
+        "criptococose meningea",
+        "meningoencefalite criptococica",
+        "cryptococcus"
+      ],
+      "dicas": [
+        "Homem, 33 anos, vem à UPA com dor de cabeça progressiva há 3 semanas.",
+        "A dor piora a cada dia, com vômitos e visão turva. Tem febre baixa à noite.",
+        "Perdeu 10 kg em 4 meses, tem candidíase oral recorrente e nunca fez teste para HIV.",
+        "Rigidez de nuca discreta, papiledema bilateral, sem déficit focal. Pápulas umbilicadas na face.",
+        "Líquor com pressão de abertura de 38 cmH2O, leveduras encapsuladas na tinta da China e antígeno criptocócico positivo. CD4 de 35 células/mm³."
+      ],
+      "comentario": "Meningite criptocócica em HIV avançado. Anfotericina B lipossomal com flucitosina na indução, punções de alívio para a hipertensão intracraniana e início da TARV só após 4 a 6 semanas.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-doenca-de-erdheim-chester",
+      "data": "2026-11-29",
+      "nivel": "mdificil",
+      "diagnostico": "Doença de Erdheim-Chester",
+      "sinonimos": [
+        "doenca de erdheim chester",
+        "erdheim chester",
+        "histiocitose de erdheim chester",
+        "ecd"
+      ],
+      "dicas": [
+        "Homem, 55 anos, procura a UPA por muita sede e urina em grande volume há meses.",
+        "Também tem dor profunda e contínua nas pernas, nos joelhos e nos tornozelos.",
+        "Tem placas amareladas nas pálpebras com colesterol normal. Uma TC antiga mostrou 'algo em volta dos rins'.",
+        "Exoftalmia bilateral indolor, xantelasmas e dor à palpação das diáfises de fêmures e tíbias.",
+        "Osteosclerose simétrica das diáfises dos ossos longos; TC com infiltrado perirrenal em 'rim peludo' e aorta revestida; biópsia com histiócitos espumosos CD68+, CD1a− e mutação BRAF V600E."
+      ],
+      "comentario": "Doença de Erdheim-Chester, histiocitose não Langerhans. Osteosclerose diafisária e 'rim peludo' são típicos; inibidor de BRAF (vemurafenibe) quando há a mutação.",
+      "revisado": false
+    },
+    {
+      "id": "facil-exantema-subito",
+      "data": "2026-11-30",
+      "nivel": "facil",
+      "diagnostico": "Exantema súbito",
+      "sinonimos": [
+        "exantema subito",
+        "roseola",
+        "roseola infantil",
+        "sexta doenca",
+        "hhv 6",
+        "hhv6",
+        "infeccao por hhv 6",
+        "herpesvirus humano 6"
+      ],
+      "dicas": [
+        "Menino, 11 meses, trazido à UPA porque apareceram manchas vermelhas pelo corpo hoje.",
+        "Teve febre alta, até 39,8 °C, por 3 dias, sem outros sintomas. A febre sumiu ontem e hoje surgiram as manchas.",
+        "Vacinação em dia. Durante a febre ficou irritado, mas sempre mamou bem. Sem contato com doentes conhecidos.",
+        "Exantema maculopapular rosado e fino, que começou no tronco e se espalha para pescoço e face, sem prurido; pápulas avermelhadas no palato mole e linfonodos occipitais palpáveis. Afebril e ativo.",
+        "PCR no sangue positiva para herpes-vírus humano 6 (HHV-6)."
+      ],
+      "comentario": "Exantema súbito: febre alta por 3 a 5 dias e exantema que surge quando a febre cede. Benigno, só sintomáticos; pode causar convulsão febril.",
+      "revisado": false
+    },
+    {
+      "id": "inter-intoxicacao-digitalica",
+      "data": "2026-11-30",
+      "nivel": "inter",
+      "diagnostico": "Intoxicação digitálica",
+      "sinonimos": [
+        "intoxicacao digitalica",
+        "intoxicacao por digoxina",
+        "intoxicacao por digital",
+        "intoxicacao por digitalico",
+        "toxicidade digitalica",
+        "digitalismo"
+      ],
+      "dicas": [
+        "Mulher, 81 anos, trazida pela filha por náuseas, vômitos e confusão há 3 dias.",
+        "Perdeu o apetite, está mais sonolenta e diz que as cores das coisas estão 'diferentes', meio amareladas.",
+        "Tem insuficiência cardíaca e fibrilação atrial; usa digoxina 0,25 mg/dia e furosemida, e há 1 semana começou amiodarona. Creatinina basal de 1,6 mg/dL.",
+        "FC 42 bpm regular, PA 110x70 mmHg, desorientada, sem déficit focal.",
+        "ECG: ritmo de escape juncional regular com infradesnivelamento de ST 'em colher'. Digoxinemia 3,8 ng/mL e potássio 5,6 mEq/L."
+      ],
+      "comentario": "Intoxicação digitálica precipitada por amiodarona e função renal ruim. Suspender a digoxina, corrigir eletrólitos e usar anticorpo antidigoxina (Fab) se houver arritmia grave ou hipercalemia.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-doenca-de-lesoes-minimas",
+      "data": "2026-11-30",
+      "nivel": "dificil",
+      "diagnostico": "Doença de lesões mínimas",
+      "sinonimos": [
+        "doenca de lesoes minimas",
+        "doenca de lesao minima",
+        "lesao minima",
+        "lesoes minimas",
+        "nefropatia de lesoes minimas",
+        "sindrome nefrotica por lesao minima",
+        "nefrose lipoide"
+      ],
+      "dicas": [
+        "Menino, 4 anos, trazido à UPA com inchaço no rosto há 5 dias.",
+        "O inchaço começou nas pálpebras pela manhã e agora está nas pernas e na bolsa escrotal. A urina está espumosa.",
+        "Teve resfriado há 2 semanas. Sem urina escura e sem hipertensão conhecida. Ganhou 2 kg na semana.",
+        "PA 95x60 mmHg, edema mole e frio generalizado com cacifo, ascite leve.",
+        "Relação proteína/creatinina urinária de 6,5 mg/mg, albumina 1,6 g/dL e colesterol 380 mg/dL; sem hematúria e com complemento normal. Remissão completa após 4 semanas de prednisolona."
+      ],
+      "comentario": "Doença de lesões mínimas, a causa mais comum de síndrome nefrótica na criança. Corticoide sem biópsia; biópsia só em quadros atípicos ou corticorresistentes.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-sindrome-poems",
+      "data": "2026-11-30",
+      "nivel": "mdificil",
+      "diagnostico": "Síndrome POEMS",
+      "sinonimos": [
+        "sindrome poems",
+        "poems",
+        "sindrome de crow fukase",
+        "crow fukase",
+        "sindrome de takatsuki",
+        "mieloma osteosclerotico"
+      ],
+      "dicas": [
+        "Homem, 51 anos, vem à UPA com fraqueza nas pernas que piora há 6 meses.",
+        "Começou com formigamento nos pés que subiu até os joelhos; agora tropeça e não consegue subir escada. As pernas incharam.",
+        "Notou escurecimento da pele, aumento das mamas e perda de libido. Foi tratado para polineuropatia inflamatória crônica, sem resposta à imunoglobulina.",
+        "Pele hiperpigmentada, pequenos hemangiomas no tronco, baqueteamento digital, hepatoesplenomegalia, edema, arreflexia e fraqueza distal simétrica.",
+        "Eletroforese de proteínas com pico monoclonal IgA lambda, lesões ósseas escleróticas na radiografia e VEGF sérico muito elevado."
+      ],
+      "comentario": "Síndrome POEMS: polineuropatia, organomegalia, endocrinopatia, proteína monoclonal lambda e alterações de pele; VEGF alto e lesões escleróticas ajudam. Radioterapia se lesão única; quimioterapia e transplante autólogo se disseminada.",
+      "revisado": false
+    },
+    {
+      "id": "facil-covid-19",
+      "data": "2026-12-01",
+      "nivel": "facil",
+      "diagnostico": "COVID-19",
+      "sinonimos": [
+        "covid",
+        "covid 19",
+        "covid19",
+        "sars cov 2",
+        "infeccao por sars cov 2",
+        "coronavirus",
+        "infeccao por coronavirus"
+      ],
+      "dicas": [
+        "Homem, 45 anos, procura a UPA com febre, tosse seca e dor no corpo há 4 dias.",
+        "Há 2 dias perdeu o olfato e o paladar. A esposa teve um quadro parecido na semana passada.",
+        "Hipertenso controlado, vacinação com reforços em dia. Nega falta de ar.",
+        "T 37,9 °C, FR 18 irpm, SpO2 97% em ar ambiente, FC 92 bpm, ausculta pulmonar limpa.",
+        "Teste rápido de antígeno em swab nasal positivo para SARS-CoV-2."
+      ],
+      "comentario": "COVID-19 leve: sintomáticos, isolamento e orientação sobre sinais de alarme (dispneia, SpO2 < 94%). Antiviral (nirmatrelvir/ritonavir) nos primeiros 5 dias só para alto risco.",
+      "revisado": false
+    },
+    {
+      "id": "inter-abscesso-epidural-espinhal",
+      "data": "2026-12-01",
+      "nivel": "inter",
+      "diagnostico": "Abscesso epidural espinhal",
+      "sinonimos": [
+        "abscesso epidural",
+        "abscesso epidural espinhal",
+        "abscesso epidural medular",
+        "abscesso epidural raquiano",
+        "abscesso epidural vertebral"
+      ],
+      "dicas": [
+        "Homem, 58 anos, procura o PS com dor nas costas há 5 dias.",
+        "A dor é na coluna torácica baixa, constante, piora à noite e não melhora com analgésico. Desde ontem tem febre e hoje as pernas estão fracas.",
+        "Diabético, faz hemodiálise por cateter e teve bacteremia por estafilococo há 3 semanas.",
+        "Dor à percussão de T10–T11, força grau 3 nos membros inferiores, nível sensitivo em T12 e globo vesical. T 38,7 °C.",
+        "RM de coluna com gadolínio: coleção epidural posterior de T9 a T11 com realce periférico, comprimindo a medula. VHS 110 mm/h e hemocultura com S. aureus."
+      ],
+      "comentario": "Abscesso epidural espinhal: dor na coluna, febre e déficit neurológico. RM urgente; descompressão cirúrgica e antibiótico IV (vancomicina e cobertura para gram-negativos) sem demora.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-hipoparatireoidismo-pos-cirurgico",
+      "data": "2026-12-01",
+      "nivel": "dificil",
+      "diagnostico": "Hipoparatireoidismo pós-cirúrgico",
+      "sinonimos": [
+        "hipoparatireoidismo",
+        "hipoparatireoidismo pos cirurgico",
+        "hipoparatireoidismo pos operatorio",
+        "hipoparatireoidismo pos tireoidectomia",
+        "hipocalcemia pos tireoidectomia"
+      ],
+      "dicas": [
+        "Mulher, 46 anos, vem ao PS com formigamento ao redor da boca e nas mãos.",
+        "Hoje as mãos 'travaram' em garra por alguns minutos. Também tem câimbras nas pernas.",
+        "Fez tireoidectomia total por bócio multinodular há 2 dias e teve alta ontem.",
+        "Sinais de Trousseau e de Chvostek positivos. Ferida cervical sem hematoma, sem estridor.",
+        "Cálcio total 6,4 mg/dL (iônico 0,78 mmol/L), fósforo 6,0 mg/dL e PTH 4 pg/mL; albumina e magnésio normais. ECG com QT longo."
+      ],
+      "comentario": "Hipoparatireoidismo após tireoidectomia total: hipocalcemia com PTH baixo e fósforo alto. Gluconato de cálcio IV se sintomática, depois cálcio oral e calcitriol; costuma ser transitório.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-sindrome-de-desmielinizacao-osmotica",
+      "data": "2026-12-01",
+      "nivel": "mdificil",
+      "diagnostico": "Síndrome de desmielinização osmótica",
+      "sinonimos": [
+        "sindrome de desmielinizacao osmotica",
+        "desmielinizacao osmotica",
+        "sdo",
+        "mielinolise pontina central",
+        "mielinolise pontina",
+        "mielinolise central pontina",
+        "mielinolise extrapontina"
+      ],
+      "dicas": [
+        "Mulher, 48 anos, internada no PS há 4 dias, passa a ter fala arrastada e engasgos.",
+        "Nos últimos 2 dias ficou mais sonolenta e com fraqueza nos quatro membros, que vem piorando.",
+        "Alcoolista e desnutrida; chegou com sódio de 108 mEq/L e recebeu salina hipertônica. Em 24 h o sódio subiu para 124 mEq/L.",
+        "Disartria, disfagia, tetraparesia espástica com Babinski bilateral e alteração da motricidade ocular; consciente e entende ordens.",
+        "RM de crânio: hipersinal em T2/FLAIR no centro da ponte com aspecto de 'tridente', poupando a periferia."
+      ],
+      "comentario": "Síndrome de desmielinização osmótica (mielinólise pontina) por correção rápida de hiponatremia crônica. Prevenir: no alto risco (alcoolismo, desnutrição, hipocalemia), não subir mais de 8 mEq/L em 24 h; se passar, baixar de novo com água livre e desmopressina.",
+      "revisado": false
     },
     {
       "id": "facil-convulsao-febril-simples",
