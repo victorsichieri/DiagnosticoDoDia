@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado": "2026-10-09",
+  "atualizado": "2026-11-01",
   "distratores": [
     "Angina instável",
     "IAM sem supra de ST",
@@ -2963,6 +2963,677 @@
       ],
       "comentario": "Doença de Behçet: vasculite de vasos de qualquer calibre, com úlceras orais e genitais, uveíte e trombose. Trombose é inflamatória: o tratamento-base é imunossupressão; colchicina para lesões mucocutâneas.",
       "revisado": true
+    },
+    {
+      "id": "facil-colica-biliar",
+      "data": "2026-12-02",
+      "nivel": "facil",
+      "diagnostico": "Cólica biliar",
+      "sinonimos": [
+        "colica biliar",
+        "colelitiase sintomatica",
+        "colelitiase",
+        "calculo na vesicula",
+        "pedra na vesicula",
+        "litiase biliar",
+        "colecistolitiase",
+        "colecistolitiase sintomatica"
+      ],
+      "dicas": [
+        "Mulher, 42 anos, chega à UPA com dor abdominal alta há 3 horas.",
+        "A dor é em hipocôndrio direito e epigástrio, em aperto, irradia para a escápula direita e começou 1 hora depois de uma feijoada. Vomitou uma vez.",
+        "Teve episódios parecidos nos últimos meses, que passaram sozinhos em poucas horas. É obesa e teve três gestações.",
+        "Afebril, FC 88 bpm, abdome flácido, dor leve à palpação de hipocôndrio direito, sinal de Murphy negativo. Sem icterícia.",
+        "Leucócitos, bilirrubinas, enzimas hepáticas e lipase normais. USG: vários cálculos móveis na vesícula, com sombra acústica, parede fina (2 mm), sem líquido perivesicular; colédoco de 4 mm."
+      ],
+      "comentario": "Cólica biliar: obstrução transitória do ducto cístico, com dor que cede em menos de 6 h, sem febre, leucocitose ou sinais inflamatórios na USG. Analgesia (AINE ou opioide) e colecistectomia videolaparoscópica eletiva.",
+      "revisado": false
+    },
+    {
+      "id": "inter-estado-de-mal-epileptico",
+      "data": "2026-12-02",
+      "nivel": "inter",
+      "diagnostico": "Estado de mal epiléptico",
+      "sinonimos": [
+        "estado de mal epileptico",
+        "estado de mal",
+        "status epilepticus",
+        "status epileptico",
+        "eme",
+        "estado de mal convulsivo",
+        "estado de mal epileptico convulsivo",
+        "mal epileptico"
+      ],
+      "dicas": [
+        "Homem, 34 anos, trazido pelo SAMU com movimentos involuntários dos quatro membros.",
+        "A esposa conta que os abalos começaram há 25 minutos em casa e se repetiram várias vezes. Entre um episódio e outro ele não acordou em nenhum momento.",
+        "Tem epilepsia desde a adolescência e parou a carbamazepina há 1 semana por conta própria. Não bebe e não usa drogas.",
+        "Abalos tônico-clônicos generalizados, desvio do olhar, mordedura de língua e liberação esfincteriana. Glicemia capilar 112 mg/dL, SpO2 90% em ar ambiente.",
+        "Os abalos continuam após duas doses de diazepam 10 mg IV, somando mais de 30 minutos de atividade convulsiva sem recuperação da consciência."
+      ],
+      "comentario": "Estado de mal epiléptico: crise com mais de 5 minutos ou crises repetidas sem recuperação da consciência entre elas. Benzodiazepínico (até 2 doses), depois fenitoína/fosfenitoína, valproato ou levetiracetam; se refratário, IOT e infusão contínua de midazolam ou propofol.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-doenca-de-paget-ossea",
+      "data": "2026-12-02",
+      "nivel": "dificil",
+      "diagnostico": "Doença de Paget óssea",
+      "sinonimos": [
+        "paget",
+        "doenca de paget",
+        "doenca de paget ossea",
+        "paget osseo",
+        "osteite deformante",
+        "osteite deformans"
+      ],
+      "dicas": [
+        "Homem, 72 anos, procura o ambulatório por dor na perna direita há meses.",
+        "A dor é profunda, contínua, piora à noite e não melhora com o repouso. A esposa notou que a perna 'entortou'.",
+        "Percebeu que os chapéus não servem mais e passou a ouvir pior do lado direito. Exames de rotina sem anemia e com cálcio sérico normal.",
+        "Tíbia direita arqueada para a frente, com pele quente sobre o osso. Crânio aumentado na região frontal. Hipoacusia à direita.",
+        "Fosfatase alcalina 680 U/L com GGT normal. Radiografia: espessamento cortical, trabeculado grosseiro e área lítica bem delimitada no crânio (osteoporose circunscrita). Cintilografia óssea com captação intensa na tíbia e no crânio."
+      ],
+      "comentario": "Doença de Paget óssea: remodelação desorganizada com fosfatase alcalina elevada e cálcio normal. Tratar com bisfosfonato (ácido zoledrônico 5 mg IV dose única) quando há dor, doença ativa ou risco de complicação.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-telangiectasia-hemorragica-hereditaria",
+      "data": "2026-12-02",
+      "nivel": "mdificil",
+      "diagnostico": "Telangiectasia hemorrágica hereditária",
+      "sinonimos": [
+        "telangiectasia hemorragica hereditaria",
+        "thh",
+        "tth",
+        "hht",
+        "rendu osler weber",
+        "osler weber rendu",
+        "rendu osler",
+        "sindrome de rendu osler weber",
+        "doenca de rendu osler weber",
+        "sindrome de osler weber rendu",
+        "doenca de osler weber rendu"
+      ],
+      "dicas": [
+        "Homem, 45 anos, encaminhado por anemia que não melhora.",
+        "Toma sulfato ferroso há 1 ano e já recebeu duas transfusões. Sangra pelo nariz quase todos os dias desde a infância, às vezes por 30 minutos.",
+        "O pai e uma tia tinham o mesmo sangramento nasal. O pai teve um abscesso cerebral aos 50 anos.",
+        "Pequenas lesões vermelho-violáceas, puntiformes, que desaparecem à digitopressão, nos lábios, na língua e nas pontas dos dedos. SpO2 92% em ar ambiente, com baqueteamento digital.",
+        "Ecocardiograma com microbolhas: shunt intrapulmonar tardio. AngioTC de tórax: malformação arteriovenosa no lobo inferior esquerdo. EDA com múltiplas ectasias vasculares gástricas."
+      ],
+      "comentario": "Telangiectasia hemorrágica hereditária (Rendu-Osler-Weber): epistaxe recorrente, telangiectasias mucocutâneas, história familiar e malformações arteriovenosas viscerais (critérios de Curaçao). Rastrear MAV pulmonar e cerebral; a MAV pulmonar é embolizada para evitar AVC e abscesso cerebral.",
+      "revisado": false
+    },
+    {
+      "id": "facil-eritema-infeccioso",
+      "data": "2026-12-03",
+      "nivel": "facil",
+      "diagnostico": "Eritema infeccioso",
+      "sinonimos": [
+        "eritema infeccioso",
+        "quinta doenca",
+        "parvovirose",
+        "parvovirus",
+        "parvovirus b19",
+        "infeccao por parvovirus b19",
+        "sindrome da face esbofeteada"
+      ],
+      "dicas": [
+        "Menina, 6 anos, levada à UPA por manchas vermelhas na pele.",
+        "Há 1 semana teve febre baixa, coriza e dor de cabeça, que melhoraram. Ontem as bochechas ficaram muito vermelhas e hoje apareceram manchas nos braços.",
+        "Vacinação em dia. Brinca bem e come normalmente. Na escola há outras crianças com o mesmo quadro.",
+        "Bom estado geral, afebril. Eritema intenso nas duas bochechas, como se tivesse levado um tapa, poupando nariz e região ao redor da boca. Nos braços e coxas, exantema rendilhado que fica mais evidente após banho quente.",
+        "Sem linfonodomegalias, sem descamação nem lesões em mucosas. IgM anti-parvovírus B19 reagente."
+      ],
+      "comentario": "Eritema infeccioso (quinta doença), pelo parvovírus B19. Quando surge o exantema a criança já não transmite; tratamento sintomático. Atenção para gestantes (hidropsia fetal) e pacientes com anemia hemolítica crônica (crise aplásica).",
+      "revisado": false
+    },
+    {
+      "id": "inter-peritonite-bacteriana-espontanea",
+      "data": "2026-12-03",
+      "nivel": "inter",
+      "diagnostico": "Peritonite bacteriana espontânea",
+      "sinonimos": [
+        "pbe",
+        "peritonite bacteriana espontanea",
+        "peritonite espontanea",
+        "peritonite bacteriana primaria",
+        "peritonite primaria",
+        "infeccao do liquido ascitico",
+        "infeccao de ascite"
+      ],
+      "dicas": [
+        "Homem, 58 anos, trazido pela filha por confusão mental há 2 dias.",
+        "Está sonolento e trocando o dia pela noite. Tem febre de 38 °C e dor difusa leve na barriga, que vem aumentando de volume.",
+        "Etilista de longa data, com cirrose Child-Pugh C. Já teve sangramento digestivo. Não usa nenhum antibiótico profilático.",
+        "Ictérico, com asterixe, ascite volumosa com macicez móvel e dor difusa leve à palpação, sem defesa nem rigidez. PA 98x60 mmHg.",
+        "Paracentese diagnóstica: líquido turvo com 620 polimorfonucleares/mm³, GASA 1,8 g/dL e proteína total 0,8 g/dL. Cultura em frasco de hemocultura: Escherichia coli."
+      ],
+      "comentario": "PBE: 250 ou mais polimorfonucleares/mm³ no líquido ascítico, sem foco cirúrgico. Ceftriaxona e albumina (1,5 g/kg no D1 e 1 g/kg no D3, sobretudo se creatinina > 1 mg/dL ou bilirrubina > 4 mg/dL) para prevenir síndrome hepatorrenal; depois profilaxia secundária com norfloxacino.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-nefropatia-por-iga",
+      "data": "2026-12-03",
+      "nivel": "dificil",
+      "diagnostico": "Nefropatia por IgA",
+      "sinonimos": [
+        "nefropatia por iga",
+        "nefropatia iga",
+        "doenca de berger",
+        "berger",
+        "nefropatia de berger",
+        "glomerulonefrite por iga",
+        "gn por iga",
+        "glomerulopatia por iga"
+      ],
+      "dicas": [
+        "Homem, 24 anos, chega à UPA assustado porque a urina ficou 'cor de Coca-Cola'.",
+        "Começou hoje, junto com dor de garganta e febre que apareceram há 2 dias. Sem dor ao urinar.",
+        "Já teve dois episódios iguais nos últimos 3 anos, sempre durante resfriados, que melhoraram sozinhos. Entre as crises, o exame de urina mostrava hemácias.",
+        "PA 138x86 mmHg, sem edema, sem lesões de pele, sem dor articular ou abdominal. Faringe hiperemiada.",
+        "C3 e C4 normais, ASLO normal, creatinina 1,0 mg/dL, proteinúria de 0,8 g/24 h e hemácias dismórficas. Biópsia renal: depósitos mesangiais predominantes de IgA na imunofluorescência."
+      ],
+      "comentario": "Nefropatia por IgA (doença de Berger): hematúria macroscópica simultânea à infecção respiratória, com complemento normal. Na GN pós-estreptocócica a hematúria surge 1 a 3 semanas depois e o C3 cai. IECA/BRA e controle pressórico; imunossupressão nos casos de alto risco.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-doenca-de-mcardle",
+      "data": "2026-12-03",
+      "nivel": "mdificil",
+      "diagnostico": "Doença de McArdle",
+      "sinonimos": [
+        "mcardle",
+        "doenca de mcardle",
+        "glicogenose tipo v",
+        "glicogenose tipo 5",
+        "glicogenose v",
+        "deficiencia de miofosforilase",
+        "deficiencia de fosforilase muscular"
+      ],
+      "dicas": [
+        "Homem, 22 anos, levado à UPA por dor muscular intensa e urina escura após o treino.",
+        "Desde criança sente cãibras e fraqueza nos primeiros minutos de qualquer esforço. Percebeu que, se descansa um pouco e recomeça, consegue continuar o exercício sem dor.",
+        "Já teve outro episódio de urina escura depois de jogar futebol. Os pais são primos de primeiro grau. Não usa drogas nem estatina.",
+        "Dor e edema em quadríceps, força preservada. CK 48.000 U/L, creatinina 1,4 mg/dL, fita urinária positiva para sangue sem hemácias no sedimento.",
+        "Teste de exercício de antebraço: a amônia sobe, mas o lactato não sobe. Biópsia muscular com acúmulo de glicogênio subsarcolemal e ausência de miofosforilase; variantes patogênicas bialélicas no gene PYGM."
+      ],
+      "comentario": "Doença de McArdle (glicogenose tipo V): deficiência de miofosforilase com intolerância ao exercício, fenômeno do 'segundo fôlego' e rabdomiólise recorrente. Hidratação vigorosa na crise; evitar esforço isométrico intenso e ingerir sacarose antes do exercício.",
+      "revisado": false
+    },
+    {
+      "id": "facil-pronacao-dolorosa",
+      "data": "2026-12-04",
+      "nivel": "facil",
+      "diagnostico": "Pronação dolorosa",
+      "sinonimos": [
+        "pronacao dolorosa",
+        "pronacao dolorosa do cotovelo",
+        "subluxacao da cabeca do radio",
+        "subluxacao da cabeca radial",
+        "subluxacao do radio",
+        "cotovelo de baba",
+        "cotovelo puxado"
+      ],
+      "dicas": [
+        "Menina, 2 anos, levada à UPA porque parou de mexer o braço esquerdo.",
+        "A mãe conta que a puxou pela mão para ela não cair ao descer da calçada. A criança chorou na hora e desde então deixa o braço parado.",
+        "Não caiu nem bateu o braço. Sem febre. Nunca aconteceu antes.",
+        "Braço junto ao corpo, cotovelo levemente fletido e antebraço virado com a palma para baixo. Sem edema, deformidade ou hematoma; dor leve na face lateral do cotovelo e recusa em virar a palma para cima.",
+        "Manobra de hiperpronação (ou supinação com flexão do cotovelo) produz um estalido na cabeça do rádio e, em 10 minutos, ela volta a usar o braço normalmente. Radiografia não é necessária."
+      ],
+      "comentario": "Pronação dolorosa (subluxação da cabeça do rádio), típica entre 1 e 4 anos após tração do braço estendido. Redução por hiperpronação ou supinação-flexão; radiografia só se houver trauma direto, edema ou falha da redução.",
+      "revisado": false
+    },
+    {
+      "id": "inter-celulite-orbitaria",
+      "data": "2026-12-04",
+      "nivel": "inter",
+      "diagnostico": "Celulite orbitária",
+      "sinonimos": [
+        "celulite orbitaria",
+        "celulite orbital",
+        "celulite pos septal",
+        "celulite retrosseptal",
+        "infeccao orbitaria"
+      ],
+      "dicas": [
+        "Menino, 8 anos, levado ao PS por inchaço ao redor do olho direito há 2 dias.",
+        "Há 1 semana estava com coriza e secreção nasal amarelada. O inchaço começou na pálpebra e piorou rápido, com febre de 39 °C.",
+        "Hoje reclama que dói ao mexer o olho e está vendo duplo. Vacinação completa.",
+        "Edema e eritema palpebral à direita, proptose, dor e limitação da movimentação ocular, quemose. Acuidade visual preservada e pupilas isocóricas, sem defeito pupilar aferente.",
+        "TC de órbitas e seios da face com contraste: sinusite etmoidal à direita, densificação da gordura atrás do septo orbital e pequena coleção subperiosteal medial."
+      ],
+      "comentario": "Celulite orbitária (pós-septal), geralmente complicação de sinusite etmoidal. Dor à movimentação ocular, oftalmoplegia e proptose a diferenciam da pré-septal. Internar, antibiótico IV (ceftriaxona com clindamicina ou vancomicina) e avaliação de oftalmologia e otorrino; drenar se abscesso grande ou piora visual.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-artrite-psoriasica",
+      "data": "2026-12-04",
+      "nivel": "dificil",
+      "diagnostico": "Artrite psoriásica",
+      "sinonimos": [
+        "artrite psoriasica",
+        "artrite psoriatica",
+        "artropatia psoriasica",
+        "espondiloartrite psoriasica"
+      ],
+      "dicas": [
+        "Homem, 41 anos, com dor e inchaço em dedos das mãos e de um pé há 4 meses.",
+        "Um dedo do pé inteiro ficou inchado 'como uma salsicha'. As dores são piores pela manhã, com rigidez de 40 minutos.",
+        "Há 10 anos tem placas descamativas nos cotovelos e no couro cabeludo, que trata com pomada. O pai tinha o mesmo problema de pele.",
+        "Dactilite no 2º pododáctilo esquerdo, artrite das interfalangeanas distais das mãos, unhas com depressões puntiformes e onicólise. Placas eritematosas com escamas prateadas nos cotovelos.",
+        "Fator reumatoide e anti-CCP negativos, PCR 18 mg/L. Radiografia de mãos: erosões nas interfalangeanas distais com proliferação óssea adjacente e deformidade em 'lápis na xícara'."
+      ],
+      "comentario": "Artrite psoriásica: dactilite, acometimento de interfalangeanas distais, alterações ungueais e sorologias negativas (critérios CASPAR). Metotrexato para artrite periférica; anti-TNF ou anti-IL-17 se refratária ou com dactilite e entesite importantes.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-calcifilaxia",
+      "data": "2026-12-04",
+      "nivel": "mdificil",
+      "diagnostico": "Calcifilaxia",
+      "sinonimos": [
+        "calcifilaxia",
+        "calcifilaxia uremica",
+        "arteriolopatia uremica calcificante",
+        "arteriolopatia calcificante uremica",
+        "arteriolopatia calcificante"
+      ],
+      "dicas": [
+        "Mulher, 56 anos, com feridas muito dolorosas nas coxas há 3 semanas.",
+        "Começaram como placas arroxeadas, endurecidas e com dor desproporcional, que viraram úlceras escuras. Não melhoraram com cefalexina.",
+        "Faz hemodiálise há 6 anos por nefropatia diabética. Usa varfarina por fibrilação atrial e carbonato de cálcio como quelante. É obesa.",
+        "Placas violáceas em padrão reticulado nas coxas e no abdome, com úlceras de fundo necrótico e escara preta, muito dolorosas ao toque. Pulsos distais presentes.",
+        "Cálcio 10,4 mg/dL, fósforo 7,8 mg/dL, PTH 1.100 pg/mL. Biópsia de pele: calcificação da camada média de arteríolas da derme e do subcutâneo, com trombose e necrose."
+      ],
+      "comentario": "Calcifilaxia (arteriolopatia urêmica calcificante): necrose cutânea dolorosa em paciente dialítico, favorecida por varfarina, quelante com cálcio e hiperparatireoidismo. Tiossulfato de sódio, suspender varfarina e cálcio, otimizar diálise, fósforo e PTH, cuidar das feridas e da dor; mortalidade alta.",
+      "revisado": false
+    },
+    {
+      "id": "facil-anemia-ferropriva",
+      "data": "2026-12-05",
+      "nivel": "facil",
+      "diagnostico": "Anemia ferropriva",
+      "sinonimos": [
+        "anemia ferropriva",
+        "anemia ferropenica",
+        "anemia por deficiencia de ferro",
+        "anemia por falta de ferro",
+        "deficiencia de ferro",
+        "carencia de ferro",
+        "ferropenia"
+      ],
+      "dicas": [
+        "Mulher, 32 anos, procura a UPA por cansaço e falta de ar ao subir escadas há 2 meses.",
+        "Tem vontade de mastigar gelo o dia todo e as unhas estão quebrando fácil. Às vezes sente tontura ao levantar.",
+        "Menstruação muito abundante desde que colocou DIU de cobre há 1 ano; troca o absorvente a cada 2 horas nos primeiros dias. É vegetariana.",
+        "Palidez cutaneomucosa 3+/4+, FC 104 bpm, sopro sistólico suave, unhas finas e côncavas em forma de colher, queilite angular.",
+        "Hb 7,8 g/dL, VCM 68 fL, HCM 20 pg, RDW 19%, plaquetas 480.000/mm³. Ferritina 4 ng/mL e saturação de transferrina 5%."
+      ],
+      "comentario": "Anemia ferropriva por sangramento menstrual aumentado; ferritina baixa é o exame mais específico. Ferro oral (40 a 60 mg de ferro elementar ao dia ou em dias alternados), tratar a causa; ferro IV se intolerância, má absorção ou necessidade de reposição rápida.",
+      "revisado": false
+    },
+    {
+      "id": "inter-hemorragia-digestiva-alta-varicosa",
+      "data": "2026-12-05",
+      "nivel": "inter",
+      "diagnostico": "Hemorragia digestiva alta varicosa",
+      "sinonimos": [
+        "hda varicosa",
+        "hemorragia digestiva alta varicosa",
+        "hemorragia varicosa",
+        "sangramento varicoso",
+        "sangramento de varizes esofagicas",
+        "varizes esofagicas sangrantes",
+        "varizes de esofago sangrantes",
+        "ruptura de varizes esofagicas",
+        "rotura de varizes esofagicas"
+      ],
+      "dicas": [
+        "Homem, 52 anos, chega à UPA vomitando sangue.",
+        "Foram três episódios de vômito com grande quantidade de sangue vivo e coágulos na última hora, e evacuou fezes pretas. Nega dor abdominal.",
+        "Bebe meio litro de cachaça por dia há 25 anos. Há 6 meses disseram que ele tinha 'o fígado duro' e ele não voltou ao médico.",
+        "PA 84x50 mmHg, FC 128 bpm, sudorese fria. Ictérico, com aranhas vasculares no tórax, eritema palmar, ginecomastia, circulação colateral abdominal, ascite moderada e baço palpável.",
+        "Hb 6,9 g/dL, plaquetas 62.000/mm³, INR 1,8. EDA após estabilização: cordões venosos calibrosos no terço distal do esôfago, um deles com sangramento em jato, tratado com ligadura elástica."
+      ],
+      "comentario": "HDA varicosa por hipertensão portal. Transfusão restritiva (alvo de Hb 7 a 8 g/dL), terlipressina ou octreotide antes da EDA, ceftriaxona profilática e ligadura elástica em até 12 h; considerar TIPS precoce em Child C ou Child B com sangramento ativo.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-anemia-hemolitica-autoimune",
+      "data": "2026-12-05",
+      "nivel": "dificil",
+      "diagnostico": "Anemia hemolítica autoimune",
+      "sinonimos": [
+        "anemia hemolitica autoimune",
+        "aha",
+        "ahai",
+        "anemia hemolitica autoimune a quente",
+        "anemia hemolitica autoimune por anticorpos quentes",
+        "anemia hemolitica imune",
+        "hemolise autoimune"
+      ],
+      "dicas": [
+        "Mulher, 38 anos, com cansaço intenso e olhos amarelados há 10 dias.",
+        "A urina ficou escura como chá. Sente palpitação e falta de ar aos pequenos esforços. Sem dor abdominal e sem febre.",
+        "Tem lúpus diagnosticado há 3 anos, em uso irregular de hidroxicloroquina. Não começou nenhum medicamento novo.",
+        "Palidez e icterícia leve, FC 112 bpm, baço palpável a 2 cm do rebordo costal. Sem linfonodomegalias nem petéquias.",
+        "Hb 6,2 g/dL, reticulócitos 14%, LDH 980 U/L, bilirrubina indireta 4,2 mg/dL, haptoglobina indetectável e esferócitos no esfregaço. Coombs direto positivo para IgG."
+      ],
+      "comentario": "Anemia hemolítica autoimune por anticorpos quentes (IgG), aqui secundária ao lúpus; Coombs direto positivo e esferócitos confirmam. Prednisona 1 mg/kg/dia; rituximabe na recaída ou refratariedade; transfundir se instável, mesmo com prova cruzada difícil.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-tromboangeite-obliterante",
+      "data": "2026-12-05",
+      "nivel": "mdificil",
+      "diagnostico": "Tromboangeíte obliterante",
+      "sinonimos": [
+        "tromboangeite obliterante",
+        "tromboangeite",
+        "doenca de buerger",
+        "buerger",
+        "tao"
+      ],
+      "dicas": [
+        "Homem, 34 anos, com dor e feridas nas pontas dos dedos do pé direito há 1 mês.",
+        "Há meses sente dor na planta do pé ao caminhar, que melhora ao parar. Agora dói também em repouso e à noite. Os dedos das mãos ficam brancos e roxos no frio.",
+        "Fuma dois maços de cigarro de palha por dia desde os 15 anos e usa maconha. Não tem diabetes, hipertensão nem colesterol alto.",
+        "Úlceras necróticas nas pontas do 2º e 3º pododáctilos direitos. Pulsos pediosos e tibiais posteriores ausentes; femorais e poplíteos normais. Cordão eritematoso e doloroso em veia superficial da perna esquerda. Teste de Allen alterado nas duas mãos.",
+        "Marcadores de vasculite e trombofilia negativos, ecocardiograma sem fonte embólica. Arteriografia: oclusões segmentares das artérias distais de pernas e mãos, sem aterosclerose proximal, com colaterais em 'saca-rolhas'."
+      ],
+      "comentario": "Tromboangeíte obliterante (doença de Buerger): vasculite oclusiva de vasos distais em jovem tabagista, com tromboflebite migratória e acometimento das mãos. Parar totalmente o tabaco (inclusive maconha) é o único tratamento que evita amputações.",
+      "revisado": false
+    },
+    {
+      "id": "facil-enxaqueca-sem-aura",
+      "data": "2026-12-06",
+      "nivel": "facil",
+      "diagnostico": "Enxaqueca sem aura",
+      "sinonimos": [
+        "enxaqueca",
+        "enxaqueca sem aura",
+        "crise de enxaqueca",
+        "migranea",
+        "migranea sem aura",
+        "crise de migranea",
+        "migrania",
+        "migraine"
+      ],
+      "dicas": [
+        "Mulher, 26 anos, chega à UPA com dor de cabeça forte há 8 horas.",
+        "A dor é de um lado só, latejante, piora ao subir escadas e veio com náusea e vômitos. Precisou ficar no quarto escuro porque a luz e o barulho incomodam.",
+        "Tem crises parecidas 2 a 3 vezes por mês desde os 15 anos, muitas vezes perto da menstruação. A mãe tem o mesmo problema. Não teve alteração visual nem formigamento antes da dor.",
+        "Afebril, PA 122x78 mmHg, sem rigidez de nuca, exame neurológico normal, fundo de olho sem papiledema.",
+        "Sem sinais de alarme (início não súbito, padrão igual ao habitual, exame normal): diagnóstico clínico pelos critérios da ICHD-3, sem necessidade de neuroimagem. Melhora após dipirona IV, metoclopramida e hidratação."
+      ],
+      "comentario": "Enxaqueca sem aura: cefaleia unilateral, pulsátil, que piora com atividade, com náusea, fotofobia e fonofobia, em crises recorrentes. Na crise, dipirona ou AINE, antiemético e triptano; com 4 ou mais dias de crise por mês, considerar profilaxia.",
+      "revisado": false
+    },
+    {
+      "id": "inter-torsades-de-pointes",
+      "data": "2026-12-06",
+      "nivel": "inter",
+      "diagnostico": "Torsades de pointes",
+      "sinonimos": [
+        "torsades de pointes",
+        "torsade de pointes",
+        "torsades",
+        "torsade",
+        "tdp",
+        "torcida de pontas",
+        "tv polimorfica com qt longo",
+        "taquicardia ventricular polimorfica com qt longo"
+      ],
+      "dicas": [
+        "Mulher, 67 anos, trazida após dois desmaios rápidos em casa hoje.",
+        "Antes de cada desmaio sentiu o coração disparar. Acordou sozinha em menos de 1 minuto, sem confusão depois.",
+        "Toma azitromicina há 3 dias por bronquite e ondansetrona para enjoo. Usa hidroclorotiazida e citalopram. Tem diarreia há 2 dias.",
+        "No monitor, ritmo sinusal com FC 58 bpm. Durante a avaliação tem nova perda de consciência, sem pulso palpável, que reverte sozinha após 20 segundos.",
+        "ECG basal com QTc de 610 ms. O monitor registrou taquicardia ventricular polimórfica com QRS que mudam de amplitude e giram em torno da linha de base, iniciada após sequência ciclo longo-ciclo curto. Potássio 2,9 mEq/L e magnésio 1,2 mg/dL."
+      ],
+      "comentario": "Torsades de pointes por QT longo adquirido (drogas, hipocalemia e hipomagnesemia). Sulfato de magnésio 2 g IV, repor potássio (alvo acima de 4 mEq/L) e suspender drogas que alargam o QT; se recorrente, aumentar a FC (isoproterenol ou marca-passo). Desfibrilar se sustentada sem pulso.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-encefalopatia-de-wernicke",
+      "data": "2026-12-06",
+      "nivel": "dificil",
+      "diagnostico": "Encefalopatia de Wernicke",
+      "sinonimos": [
+        "encefalopatia de wernicke",
+        "wernicke",
+        "sindrome de wernicke",
+        "wernicke korsakoff",
+        "sindrome de wernicke korsakoff",
+        "encefalopatia de wernicke korsakoff",
+        "deficiencia de tiamina"
+      ],
+      "dicas": [
+        "Mulher, 29 anos, levada ao PS pela mãe por confusão mental há 3 dias.",
+        "Está desorientada, apática, anda cambaleando e diz que vê 'tudo dobrado'.",
+        "Fez bypass gástrico há 4 meses e desde então vomita quase todos os dias. Parou os polivitamínicos. Não bebe álcool.",
+        "Nistagmo horizontal, paresia bilateral do reto lateral, marcha atáxica de base alargada, desorientação no tempo e no espaço. Glicemia capilar 86 mg/dL.",
+        "RM de encéfalo: hipersinal em T2/FLAIR simétrico nos tálamos mediais, na região periaquedutal e nos corpos mamilares. A oftalmoplegia melhora em horas após tiamina IV em dose alta."
+      ],
+      "comentario": "Encefalopatia de Wernicke por deficiência de tiamina (vômitos após cirurgia bariátrica): confusão, oftalmoplegia e ataxia; a tríade completa aparece só em uma minoria. Tiamina IV em dose alta (por exemplo, 500 mg 3 vezes ao dia), antes de glicose, sem esperar exame.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-deficiencia-de-alfa-1-antitripsina",
+      "data": "2026-12-06",
+      "nivel": "mdificil",
+      "diagnostico": "Deficiência de alfa-1 antitripsina",
+      "sinonimos": [
+        "deficiencia de alfa 1 antitripsina",
+        "deficiencia de alfa1 antitripsina",
+        "deficiencia de alfa-1-antitripsina",
+        "deficiencia de alfa 1",
+        "deficiencia de a1at",
+        "deficiencia de aat",
+        "daat",
+        "alfa 1 antitripsina"
+      ],
+      "dicas": [
+        "Homem, 38 anos, com falta de ar progressiva há 2 anos.",
+        "Hoje cansa ao andar um quarteirão. Tem tosse com pouco catarro e chiado no peito. Usa bombinha de salbutamol sem muita melhora.",
+        "Fumou 10 maços-ano dos 18 aos 30 anos. Um tio morreu de enfisema aos 45 anos. Teve icterícia prolongada quando recém-nascido.",
+        "Tórax em tonel, murmúrio diminuído nas bases, expiração prolongada. SpO2 91% em ar ambiente. Fígado palpável a 3 cm do rebordo costal.",
+        "Espirometria: VEF1/CVF 0,52 pós-broncodilatador. TC de tórax: enfisema panlobular predominante nas bases. Alfa-1 antitripsina sérica 25 mg/dL (muito baixa); genótipo PiZZ."
+      ],
+      "comentario": "Deficiência de alfa-1 antitripsina: enfisema panlobular basal precoce, com pouca carga tabágica, e hepatopatia. Dosar alfa-1 antitripsina em todo paciente com DPOC. Cessar tabagismo, tratamento usual da DPOC e reposição IV da enzima em casos selecionados.",
+      "revisado": false
+    },
+    {
+      "id": "facil-corpo-estranho-de-cornea",
+      "data": "2026-12-07",
+      "nivel": "facil",
+      "diagnostico": "Corpo estranho de córnea",
+      "sinonimos": [
+        "corpo estranho de cornea",
+        "corpo estranho na cornea",
+        "corpo estranho corneano",
+        "corpo estranho corneal",
+        "corpo estranho ocular",
+        "corpo estranho no olho",
+        "ce de cornea"
+      ],
+      "dicas": [
+        "Homem, 36 anos, serralheiro, chega à UPA com dor no olho direito desde ontem.",
+        "Estava usando a esmerilhadeira sem óculos de proteção e sentiu 'algo bater no olho'. Desde então sente areia ao piscar, lacrimeja e não tolera a luz.",
+        "Não usa lente de contato. Tentou lavar com água da torneira, sem melhora. A visão está um pouco embaçada.",
+        "Olho direito com hiperemia ao redor da íris, lacrimejamento e blefaroespasmo. Ponto escuro pequeno na superfície do olho às 4 horas, fora do eixo visual. Acuidade 20/30.",
+        "Lâmpada de fenda após colírio anestésico: partícula metálica incrustada no epitélio corneano com anel de ferrugem ao redor; fluoresceína cora só a área da lesão, câmara anterior sem reação, teste de Seidel negativo."
+      ],
+      "comentario": "Corpo estranho de córnea após esmerilhamento. Remover sob anestesia tópica (agulha ou broca), antibiótico tópico e reavaliação em 24 h; oftalmologia se anel de ferrugem residual, lesão no eixo visual ou suspeita de perfuração (Seidel positivo ou trauma de alta velocidade, com TC de órbitas).",
+      "revisado": false
+    },
+    {
+      "id": "inter-mola-hidatiforme-completa",
+      "data": "2026-12-07",
+      "nivel": "inter",
+      "diagnostico": "Mola hidatiforme completa",
+      "sinonimos": [
+        "mola hidatiforme completa",
+        "mola hidatiforme",
+        "mola completa",
+        "mola hidatiforme total",
+        "mola",
+        "gravidez molar",
+        "gestacao molar"
+      ],
+      "dicas": [
+        "Mulher, 24 anos, com atraso menstrual de 11 semanas, chega com sangramento vaginal.",
+        "O sangramento é escuro, intermitente, há 2 semanas. Tem vômitos tão intensos que não consegue se alimentar.",
+        "Primeira gestação, sem pré-natal. Hoje está com palpitações, tremores e dor de cabeça.",
+        "PA 158x102 mmHg, FC 112 bpm. Útero amolecido e aumentado, compatível com 16 semanas. BCF não audível ao sonar. Proteinúria 2+ na fita.",
+        "Beta-hCG 480.000 mUI/mL e TSH suprimido. USG transvaginal: útero preenchido por material heterogêneo com múltiplas imagens anecoicas em 'flocos de neve', sem embrião, e cistos tecaluteínicos bilaterais nos ovários."
+      ],
+      "comentario": "Mola hidatiforme completa: sangramento, útero maior que a idade gestacional, hiperêmese, pré-eclâmpsia antes de 20 semanas e hipertireoidismo por hCG muito alto. Esvaziamento por vácuo-aspiração e beta-hCG seriado até negativar, com contracepção eficaz no seguimento.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-doenca-por-deposito-de-pirofosfato-de-calcio",
+      "data": "2026-12-07",
+      "nivel": "dificil",
+      "diagnostico": "Doença por depósito de pirofosfato de cálcio",
+      "sinonimos": [
+        "pseudogota",
+        "pseudogota aguda",
+        "doenca por deposito de pirofosfato de calcio",
+        "doenca por deposicao de pirofosfato de calcio",
+        "ddpc",
+        "cppd",
+        "artrite por pirofosfato de calcio",
+        "artrite aguda por pirofosfato de calcio",
+        "artrite por cristais de pirofosfato",
+        "condrocalcinose"
+      ],
+      "dicas": [
+        "Mulher, 78 anos, com dor e inchaço no joelho direito há 2 dias.",
+        "Começou de repente, o joelho ficou quente e ela não consegue apoiar a perna. Teve febre de 37,8 °C. Está internada há 4 dias por pneumonia.",
+        "Tem hiperparatireoidismo sem tratamento e artrose nos joelhos. Teve um episódio parecido no punho há 1 ano. Não usa diurético.",
+        "Joelho direito com derrame volumoso, calor e dor à mobilização. Demais articulações sem sinais inflamatórios. Sem tofos.",
+        "Radiografia: calcificação linear dos meniscos e da cartilagem articular. Artrocentese: líquido inflamatório (18.000 leucócitos/mm³), Gram e cultura negativos, cristais romboides com birrefringência positiva fraca à luz polarizada."
+      ],
+      "comentario": "Pseudogota (doença por depósito de pirofosfato de cálcio): monoartrite aguda de joelho ou punho em idoso, desencadeada por doença aguda ou cirurgia, com condrocalcinose. Sempre puncionar para excluir artrite séptica. Corticoide intra-articular, AINE ou colchicina; investigar hiperparatireoidismo, hemocromatose e hipomagnesemia.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-sindrome-de-peutz-jeghers",
+      "data": "2026-12-07",
+      "nivel": "mdificil",
+      "diagnostico": "Síndrome de Peutz-Jeghers",
+      "sinonimos": [
+        "peutz jeghers",
+        "sindrome de peutz jeghers",
+        "spj",
+        "polipose de peutz jeghers",
+        "polipose hamartomatosa de peutz jeghers"
+      ],
+      "dicas": [
+        "Mulher, 19 anos, levada ao PS com dor abdominal em cólica e vômitos há 12 horas.",
+        "A dor vem em ondas, ao redor do umbigo. Já teve crises parecidas que passaram sozinhas. Há meses sente cansaço e às vezes as fezes ficam escuras.",
+        "O pai morreu aos 45 anos de câncer de pâncreas e tinha 'pintas' na boca desde criança.",
+        "Máculas acastanhadas a enegrecidas de 2 a 4 mm nos lábios, na mucosa jugal e nas pontas dos dedos. Abdome distendido, com ruídos aumentados. Hb 8,9 g/dL, VCM 70 fL.",
+        "TC: imagem em alvo de intussuscepção jejunal com pólipo na cabeça da invaginação. Enteroscopia com vários pólipos no delgado; histologia de pólipos hamartomatosos com arborização da muscular da mucosa. Variante patogênica em STK11."
+      ],
+      "comentario": "Síndrome de Peutz-Jeghers: pólipos hamartomatosos no trato digestivo (intussuscepção e sangramento) e máculas melanóticas mucocutâneas, autossômica dominante (STK11), com alto risco de câncer (mama, pâncreas, cólon, estômago, ovário). Polipectomia e rastreamento oncológico ao longo da vida.",
+      "revisado": false
+    },
+    {
+      "id": "facil-candidiase-vulvovaginal",
+      "data": "2026-12-08",
+      "nivel": "facil",
+      "diagnostico": "Candidíase vulvovaginal",
+      "sinonimos": [
+        "candidiase vulvovaginal",
+        "candidiase vulvovaginal aguda",
+        "candidiase vaginal",
+        "candidiase",
+        "moniliase",
+        "moniliase vaginal",
+        "vulvovaginite por candida",
+        "vulvovaginite fungica",
+        "candida"
+      ],
+      "dicas": [
+        "Mulher, 28 anos, procura a UPA por coceira intensa na região genital há 4 dias.",
+        "Tem ardência ao urinar e dor na relação sexual. Notou um corrimento esbranquiçado, sem cheiro ruim.",
+        "Terminou amoxicilina por sinusite há 1 semana. Usa anticoncepcional oral e tem parceiro fixo. Glicemia recente normal.",
+        "Vulva hiperemiada e edemaciada, com fissuras. Ao especular, corrimento branco, grumoso, aderido às paredes vaginais, como leite coalhado. Colo sem alterações.",
+        "pH vaginal 4,2 e teste das aminas negativo. Exame a fresco com KOH 10%: hifas, pseudo-hifas e leveduras em brotamento."
+      ],
+      "comentario": "Candidíase vulvovaginal, favorecida pelo antibiótico. pH normal (até 4,5) a diferencia da vaginose bacteriana e da tricomoníase. Fluconazol 150 mg VO dose única ou miconazol creme vaginal por 7 dias; não é preciso tratar parceiro assintomático.",
+      "revisado": false
+    },
+    {
+      "id": "inter-delirium-tremens",
+      "data": "2026-12-08",
+      "nivel": "inter",
+      "diagnostico": "Delirium tremens",
+      "sinonimos": [
+        "delirium tremens",
+        "abstinencia alcoolica grave",
+        "sindrome de abstinencia alcoolica grave",
+        "delirium por abstinencia alcoolica",
+        "delirium de abstinencia alcoolica",
+        "abstinencia alcoolica com delirium"
+      ],
+      "dicas": [
+        "Homem, 50 anos, internado na enfermaria de ortopedia, fica agitado e confuso na madrugada.",
+        "Está vendo 'bichos andando na parede', puxou o acesso venoso e não reconhece a esposa. Muito suado e trêmulo.",
+        "Foi operado de fratura de fêmur há 3 dias. A esposa conta que ele bebe 1 litro de cachaça por dia há anos e não bebeu nada desde a internação.",
+        "Temperatura 38,4 °C, FC 132 bpm, PA 172x100 mmHg, sudorese profusa, tremor grosseiro de extremidades, desorientado e com alucinações visuais. Sem rigidez de nuca e sem déficit focal. Glicemia 104 mg/dL.",
+        "CIWA-Ar de 32. Sódio, cálcio e magnésio sem alterações graves, TC de crânio normal e sem foco infeccioso na urina, no tórax ou na ferida operatória."
+      ],
+      "comentario": "Delirium tremens: forma mais grave da abstinência alcoólica, 48 a 96 h após a última dose, com delirium e hiperatividade autonômica. Benzodiazepínico IV titulado pelos sintomas (diazepam), tiamina antes de glicose, hidratação, correção de eletrólitos e monitorização em UTI.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-fibrose-pulmonar-idiopatica",
+      "data": "2026-12-08",
+      "nivel": "dificil",
+      "diagnostico": "Fibrose pulmonar idiopática",
+      "sinonimos": [
+        "fibrose pulmonar idiopatica",
+        "fpi",
+        "fibrose pulmonar",
+        "alveolite fibrosante criptogenica"
+      ],
+      "dicas": [
+        "Homem, 68 anos, com falta de ar aos esforços que piora há 1 ano e meio.",
+        "Tem tosse seca persistente, sem febre e sem chiado. Antes subia o morro de casa sem parar; hoje para três vezes.",
+        "Ex-tabagista de 30 maços-ano, contador aposentado. Não tem aves nem mofo em casa e não usa amiodarona, nitrofurantoína ou metotrexato. Sem queixas articulares, de pele ou musculares.",
+        "Estertores finos em velcro nas bases e baqueteamento digital. SpO2 94% em repouso, caindo para 86% após caminhar.",
+        "FAN, fator reumatoide, anti-CCP e painel de miosite negativos. Distúrbio restritivo com DLCO de 42%. TCAR: reticulado subpleural e basal com faveolamento e bronquiectasias de tração, sem vidro fosco predominante (padrão PIU típico)."
+      ],
+      "comentario": "Fibrose pulmonar idiopática: padrão PIU típico na TCAR em idoso ex-tabagista, após excluir exposições, drogas e doenças do colágeno; nesse cenário a biópsia é dispensável. Antifibrótico (nintedanibe ou pirfenidona), oxigênio, reabilitação e avaliação para transplante; não usar corticoide.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-aspergilose-broncopulmonar-alergica",
+      "data": "2026-12-08",
+      "nivel": "mdificil",
+      "diagnostico": "Aspergilose broncopulmonar alérgica",
+      "sinonimos": [
+        "aspergilose broncopulmonar alergica",
+        "abpa",
+        "apba",
+        "aspergilose broncopulmonar",
+        "aspergilose alergica"
+      ],
+      "dicas": [
+        "Mulher, 32 anos, com piora da falta de ar e do chiado há 3 meses.",
+        "Tosse com 'rolhas' de catarro amarronzado, às vezes com raias de sangue. Teve febre baixa em alguns dias.",
+        "Tem asma desde a infância, antes bem controlada; agora precisou de três cursos de prednisona em 6 meses.",
+        "Sibilos difusos e estertores nos ápices. SpO2 94% em ar ambiente. Sem baqueteamento.",
+        "Eosinófilos 1.400/mm³, IgE total 2.800 UI/mL e IgE específica para Aspergillus fumigatus elevada. TC: bronquiectasias centrais nos lobos superiores com impactação mucoide de alta atenuação em 'dedo de luva'."
+      ],
+      "comentario": "Aspergilose broncopulmonar alérgica: asma de difícil controle, IgE total acima de 1.000 UI/mL, sensibilização ao Aspergillus e bronquiectasias centrais. Prednisona oral com redução gradual (ou itraconazol), guiada pela IgE total, e tratamento da asma de base.",
+      "revisado": false
     },
     {
       "id": "facil-convulsao-febril-simples",
