@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado": "2026-10-09",
+  "atualizado": "2026-11-08",
   "distratores": [
     "Angina instável",
     "IAM sem supra de ST",
@@ -2963,6 +2963,623 @@
       ],
       "comentario": "Doença de Behçet: vasculite de vasos de qualquer calibre, com úlceras orais e genitais, uveíte e trombose. Trombose é inflamatória: o tratamento-base é imunossupressão; colchicina para lesões mucocutâneas.",
       "revisado": true
+    },
+    {
+      "id": "facil-ataque-isquemico-transitorio",
+      "data": "2026-12-09",
+      "nivel": "facil",
+      "diagnostico": "Ataque isquêmico transitório",
+      "sinonimos": [
+        "ait",
+        "ataque isquemico transitorio",
+        "acidente isquemico transitorio",
+        "isquemia cerebral transitoria",
+        "ait carotideo"
+      ],
+      "dicas": [
+        "Homem, 67 anos, trazido pela esposa à UPA após episódio súbito de fraqueza no braço direito durante o café da manhã.",
+        "Junto com a fraqueza, a fala ficou enrolada. Tudo durou cerca de 20 minutos e passou sozinho antes de ele chegar.",
+        "Hipertenso, diabético e tabagista. Há um mês teve perda visual passageira no olho esquerdo, 'como uma cortina descendo'.",
+        "Na chegada: PA 162x94 mmHg, glicemia 138 mg/dL, exame neurológico completamente normal (NIHSS 0). Sopro cervical à esquerda.",
+        "RM de crânio com difusão sem lesão isquêmica aguda. Doppler de carótidas: estenose de 80% na carótida interna esquerda."
+      ],
+      "comentario": "AIT: déficit focal transitório sem infarto na difusão. Com estenose carotídea sintomática ≥70%: antiagregação, estatina e endarterectomia, de preferência em até 2 semanas.",
+      "revisado": false
+    },
+    {
+      "id": "inter-intoxicacao-por-salicilatos",
+      "data": "2026-12-09",
+      "nivel": "inter",
+      "diagnostico": "Intoxicação por salicilatos",
+      "sinonimos": [
+        "intoxicacao por salicilatos",
+        "intoxicacao por salicilato",
+        "intoxicacao por aas",
+        "salicilismo",
+        "intoxicacao por aspirina",
+        "intoxicacao por acido acetilsalicilico"
+      ],
+      "dicas": [
+        "Mulher, 34 anos, trazida ao PS pelo marido por estar agitada, confusa e respirando rápido.",
+        "Ela vem reclamando de zumbido nos ouvidos e vomitou várias vezes. O marido achou várias cartelas vazias de um analgésico comum no lixo do banheiro.",
+        "Tem dor crônica na coluna e transtorno depressivo em tratamento irregular. Ontem à noite discutiu com o marido.",
+        "Febril (38,3 °C), sudoreica, FR 32 irpm com respiração profunda, FC 120 bpm. Pupilas normais, sem sinais focais.",
+        "Gasometria: pH 7,44, pCO2 18 mmHg, HCO3 12 mEq/L, ânion gap 26 (alcalose respiratória + acidose metabólica com ânion gap alto). Salicilemia: 75 mg/dL."
+      ],
+      "comentario": "Intoxicação por salicilatos: zumbido, vômitos, hiperpneia e distúrbio misto (alcalose respiratória + acidose com ânion gap alto). Carvão ativado, alcalinização urinária com bicarbonato, reposição de potássio e hemodiálise se alteração neurológica, nível muito alto ou insuficiência renal.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-cefaleia-em-salvas",
+      "data": "2026-12-09",
+      "nivel": "dificil",
+      "diagnostico": "Cefaleia em salvas",
+      "sinonimos": [
+        "cefaleia em salvas",
+        "cluster",
+        "cluster headache",
+        "cefaleia de horton",
+        "cefaleia em cacho",
+        "cefaleia em cachos"
+      ],
+      "dicas": [
+        "Homem, 35 anos, procura o PS de madrugada com dor de cabeça intensíssima ao redor do olho direito.",
+        "As crises duram cerca de 1 hora, vêm 1 a 2 vezes por dia, quase sempre de madrugada, há 3 semanas. Durante a dor ele anda de um lado para o outro e não consegue ficar deitado.",
+        "Teve um período igual há 2 anos, na mesma época do ano, que sumiu sozinho em 2 meses. Fuma 1 maço por dia.",
+        "Durante a crise: olho direito lacrimejando e hiperemiado, ptose e miose à direita, rinorreia e congestão nasal do mesmo lado.",
+        "RM de crânio e angiorressonância normais. A crise cede em 15 minutos com oxigênio a 100% em máscara não reinalante a 12 L/min."
+      ],
+      "comentario": "Cefaleia em salvas: dor orbitária unilateral curta, com sinais autonômicos ipsilaterais e agitação, em salvas com ritmo circadiano. Crise: O2 100% 12–15 L/min ou sumatriptano SC; prevenção com verapamil.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-leucoencefalopatia-multifocal-progressiva",
+      "data": "2026-12-09",
+      "nivel": "mdificil",
+      "diagnostico": "Leucoencefalopatia multifocal progressiva",
+      "sinonimos": [
+        "lemp",
+        "lmp",
+        "pml",
+        "leucoencefalopatia multifocal progressiva",
+        "virus jc",
+        "infeccao pelo virus jc"
+      ],
+      "dicas": [
+        "Homem, 39 anos, trazido pela esposa porque há 6 semanas está esbarrando nas coisas e trocando palavras.",
+        "Os sintomas pioram semana a semana; agora tem fraqueza na mão direita. Sem febre, sem dor de cabeça e sem convulsões.",
+        "Perdeu 10 kg no último ano e tem candidíase oral de repetição. Teste rápido para HIV hoje positivo; CD4 45 células/mm³.",
+        "Hemianopsia homônima direita, afasia de expressão e hemiparesia direita leve. Sem rigidez de nuca, sem papiledema.",
+        "RM: lesões assimétricas na substância branca subcortical parieto-occipital esquerda, hiperintensas em T2, sem efeito de massa e sem realce. PCR no líquor positiva para vírus JC."
+      ],
+      "comentario": "LEMP: déficits focais subagudos em imunossuprimido grave, com lesões de substância branca sem efeito de massa nem realce, por reativação do vírus JC. Não há antiviral eficaz; o tratamento é reconstituir a imunidade (iniciar TARV).",
+      "revisado": false
+    },
+    {
+      "id": "facil-otite-externa-aguda",
+      "data": "2026-12-10",
+      "nivel": "facil",
+      "diagnostico": "Otite externa aguda",
+      "sinonimos": [
+        "otite externa",
+        "otite externa aguda",
+        "otite externa difusa",
+        "ouvido de nadador",
+        "oea"
+      ],
+      "dicas": [
+        "Mulher, 24 anos, procura a UPA com dor no ouvido direito há 2 dias, que piorou muito na última noite.",
+        "Faz natação 4 vezes por semana e costuma limpar o ouvido com hastes de algodão. Sente o ouvido tampado e coceira.",
+        "Sem febre e sem quadro gripal recente. Não tem diabetes nem imunossupressão.",
+        "A dor piora muito ao puxar o pavilhão auricular e ao pressionar o trago.",
+        "Otoscopia: conduto auditivo edemaciado e hiperemiado, com secreção esbranquiçada; membrana timpânica íntegra e sem abaulamento."
+      ],
+      "comentario": "Otite externa aguda: dor à tração do pavilhão e conduto edemaciado com membrana timpânica íntegra. Gotas otológicas de antibiótico (quinolona) com ou sem corticoide; em diabético ou idoso com dor intensa, pensar em otite externa maligna.",
+      "revisado": false
+    },
+    {
+      "id": "inter-sindrome-da-embolia-gordurosa",
+      "data": "2026-12-10",
+      "nivel": "inter",
+      "diagnostico": "Síndrome da embolia gordurosa",
+      "sinonimos": [
+        "embolia gordurosa",
+        "sindrome da embolia gordurosa",
+        "sindrome de embolia gordurosa",
+        "embolia gordurosa pulmonar",
+        "seg"
+      ],
+      "dicas": [
+        "Homem, 21 anos, internado na ortopedia, fica subitamente confuso e com falta de ar.",
+        "Deu entrada há 36 horas após acidente de moto, com fratura fechada da diáfise do fêmur, ainda aguardando fixação definitiva.",
+        "Estava lúcido e sem queixas respiratórias até hoje. Não teve trauma craniano; TC de crânio da admissão normal.",
+        "SpO2 84% em ar ambiente, FR 30 irpm, FC 124 bpm, temperatura 38,4 °C. Petéquias nas axilas, na base do pescoço e nas conjuntivas.",
+        "AngioTC de tórax sem falha de enchimento, com opacidades em vidro fosco bilaterais. RM de crânio: múltiplos pontos de restrição à difusão na substância branca (padrão em 'céu estrelado')."
+      ],
+      "comentario": "Síndrome da embolia gordurosa: hipoxemia, alteração neurológica e petéquias 24–72 h após fratura de osso longo (critérios de Gurd). Tratamento de suporte; a fixação precoce da fratura reduz o risco.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-meningite-tuberculosa",
+      "data": "2026-12-10",
+      "nivel": "dificil",
+      "diagnostico": "Meningite tuberculosa",
+      "sinonimos": [
+        "meningite tuberculosa",
+        "meningoencefalite tuberculosa",
+        "tuberculose meningea",
+        "meningite por tuberculose",
+        "tb meningea",
+        "neurotuberculose"
+      ],
+      "dicas": [
+        "Homem, 42 anos, trazido ao PS pela irmã por dor de cabeça e confusão mental.",
+        "A cefaleia começou há 3 semanas e foi piorando aos poucos, com febre baixa no fim da tarde, sudorese noturna e vômitos.",
+        "Etilista, perdeu 8 kg em 2 meses. HIV negativo há 1 ano. Divide o quarto com um primo que tosse há meses.",
+        "Sonolento, Glasgow 13, rigidez de nuca e paralisia do VI nervo craniano à esquerda. Sódio 126 mEq/L.",
+        "Líquor: 280 células/mm³ (80% linfócitos), proteína 210 mg/dL, glicose 28 mg/dL (glicemia 110 mg/dL), ADA 15 U/L e teste rápido molecular positivo para Mycobacterium tuberculosis. TC: hidrocefalia e realce meníngeo basal."
+      ],
+      "comentario": "Meningite tuberculosa: quadro subagudo com pares cranianos, hiponatremia e líquor linfocítico com proteína alta e glicose baixa. Esquema RIPE por 2 meses e RI por mais 10 meses, associado a corticoide.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-cromoblastomicose",
+      "data": "2026-12-10",
+      "nivel": "mdificil",
+      "diagnostico": "Cromoblastomicose",
+      "sinonimos": [
+        "cromoblastomicose",
+        "cromomicose",
+        "doenca de pedroso lane",
+        "fonsecaea",
+        "fonsecaea pedrosoi",
+        "dermatite verrucosa cromoparasitaria"
+      ],
+      "dicas": [
+        "Homem, 58 anos, lavrador no interior do Maranhão, procura atendimento por feridas na perna esquerda.",
+        "As lesões começaram há 8 anos como um 'carocinho' no pé, depois de se ferir com um espinho na roça, e foram crescendo devagar.",
+        "Quase não doem, só coçam. Sem febre, tosse ou perda de peso. Já usou várias pomadas sem melhora.",
+        "Placas verrucosas e vegetantes, em 'couve-flor', no pé e no terço inferior da perna, com pontos enegrecidos na superfície e linfedema discreto.",
+        "Exame micológico direto do raspado dos pontos negros: corpos muriformes acastanhados, de parede espessa. Cultura com Fonsecaea pedrosoi."
+      ],
+      "comentario": "Cromoblastomicose: micose subcutânea de trabalhador rural com placas verrucosas de progressão lenta; os corpos muriformes no exame direto são patognomônicos. Itraconazol prolongado, associado a crioterapia ou exérese nas lesões menores.",
+      "revisado": false
+    },
+    {
+      "id": "facil-epididimite-aguda",
+      "data": "2026-12-11",
+      "nivel": "facil",
+      "diagnostico": "Epididimite aguda",
+      "sinonimos": [
+        "epididimite",
+        "epididimite aguda",
+        "orquiepididimite",
+        "orquiepididimite aguda",
+        "epididimite por clamidia"
+      ],
+      "dicas": [
+        "Homem, 32 anos, chega à UPA com dor no testículo esquerdo há 3 dias.",
+        "A dor começou aos poucos e foi piorando, junto com ardência para urinar. Febre de 38,2 °C.",
+        "Teve relação sexual desprotegida com nova parceria há 3 semanas. Notou secreção uretral discreta.",
+        "Bolsa escrotal esquerda edemaciada, epidídimo endurecido e muito doloroso. Reflexo cremastérico presente; a dor melhora ao elevar o testículo.",
+        "USG com Doppler: epidídimo aumentado e com hiperfluxo, testículo com fluxo preservado. PCR na urina positiva para Chlamydia trachomatis."
+      ],
+      "comentario": "Epididimite aguda: início gradual, reflexo cremastérico presente e Doppler com hiperfluxo afastam torção. Com risco de IST: ceftriaxona 500 mg IM dose única + doxiciclina 100 mg 12/12h por 10 dias.",
+      "revisado": false
+    },
+    {
+      "id": "inter-acidente-loxoscelico",
+      "data": "2026-12-11",
+      "nivel": "inter",
+      "diagnostico": "Acidente loxoscélico",
+      "sinonimos": [
+        "acidente loxoscelico",
+        "loxoscelismo",
+        "loxoscelismo cutaneo visceral",
+        "aranha marrom",
+        "picada de aranha marrom",
+        "acidente por aranha marrom",
+        "loxosceles"
+      ],
+      "dicas": [
+        "Mulher, 45 anos, procura o PS com dor e uma lesão na coxa direita há 2 dias.",
+        "Sentiu uma picada discreta ao vestir uma calça que estava guardada no armário. A dor só começou horas depois e foi piorando.",
+        "Mora em Curitiba, numa casa antiga com móveis encostados nas paredes. Nas últimas 24 horas teve febre, mal-estar e urina escura.",
+        "Placa endurecida com áreas pálidas entremeadas por áreas violáceas (aspecto marmóreo), bolha hemorrágica central e halo eritematoso. Ictérica +/4+.",
+        "Hb 8,2 g/dL, LDH 2.100 U/L, bilirrubina indireta elevada e haptoglobina indetectável. A paciente trouxe o animal: pequena aranha marrom de pernas longas (Loxosceles)."
+      ],
+      "comentario": "Acidente loxoscélico na forma cutâneo-visceral: placa marmórea com hemólise intravascular. Soro antiloxoscélico (ou antiaracnídico) está indicado, além de corticoide, cuidados locais e vigilância da função renal.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-estenose-aortica",
+      "data": "2026-12-11",
+      "nivel": "dificil",
+      "diagnostico": "Estenose aórtica",
+      "sinonimos": [
+        "estenose aortica",
+        "estenose aortica grave",
+        "estenose valvar aortica",
+        "estenose aortica calcifica",
+        "eao"
+      ],
+      "dicas": [
+        "Homem, 74 anos, trazido ao PS após desmaiar enquanto subia uma ladeira.",
+        "Recuperou a consciência em menos de 1 minuto, sem confusão depois. Há 6 meses sente aperto no peito e cansaço aos esforços moderados.",
+        "Hipertenso e dislipidêmico. Um médico falou de 'um sopro' há alguns anos, mas ele nunca investigou.",
+        "Sopro sistólico ejetivo rude, em crescendo-decrescendo, no foco aórtico, irradiado para as carótidas; B2 hipofonética. Pulso carotídeo de amplitude baixa e ascensão lenta.",
+        "Ecocardiograma: valva aórtica calcificada, área valvar 0,7 cm², gradiente médio 52 mmHg, velocidade máxima 4,6 m/s; FEVE 60%."
+      ],
+      "comentario": "Estenose aórtica grave sintomática (angina, síncope, dispneia): sopro ejetivo com pulso parvus et tardus e área <1,0 cm² ou gradiente médio ≥40 mmHg. Indicação de troca valvar (cirúrgica ou TAVI).",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-esporotricose",
+      "data": "2026-12-11",
+      "nivel": "mdificil",
+      "diagnostico": "Esporotricose",
+      "sinonimos": [
+        "esporotricose",
+        "esporotricose linfocutanea",
+        "sporothrix",
+        "esporotricose felina",
+        "doenca do jardineiro",
+        "doenca da roseira"
+      ],
+      "dicas": [
+        "Mulher, 52 anos, procura atendimento por feridas que vão subindo pelo braço direito há 1 mês.",
+        "Começou com uma ferida no dorso da mão que não cicatrizava. Depois surgiram caroços em fila, do punho até perto do cotovelo.",
+        "Mora no Rio de Janeiro e cuida de gatos de rua. Um deles, com feridas no focinho, arranhou a mão dela há 6 semanas.",
+        "Úlcera de bordas elevadas no dorso da mão e nódulos subcutâneos enfileirados no trajeto linfático do antebraço, alguns ulcerados. Afebril, bom estado geral.",
+        "Cultura do material da lesão em ágar Sabouraud: crescimento de fungo dimórfico identificado como Sporothrix brasiliensis."
+      ],
+      "comentario": "Esporotricose linfocutânea: lesão no ponto de inoculação com nódulos ascendentes pelos linfáticos, hoje transmitida principalmente por gatos no Brasil. Itraconazol até 2–4 semanas após a cura clínica.",
+      "revisado": false
+    },
+    {
+      "id": "facil-rubeola",
+      "data": "2026-12-12",
+      "nivel": "facil",
+      "diagnostico": "Rubéola",
+      "sinonimos": [
+        "rubeola",
+        "rubeola adquirida",
+        "sarampo alemao"
+      ],
+      "dicas": [
+        "Mulher, 19 anos, procura a UPA com manchas vermelhas pelo corpo há 1 dia.",
+        "As manchas começaram no rosto e desceram para o tronco e os membros em 24 horas. Febre baixa e dor nas articulações das mãos.",
+        "Não sabe informar a situação vacinal. Uma colega de trabalho teve quadro parecido há 2 semanas. Beta-hCG negativo.",
+        "Exantema maculopapular róseo e discreto, sem descamação. Linfonodos retroauriculares e occipitais aumentados e dolorosos. Petéquias no palato mole.",
+        "Sorologia: IgM positiva para o vírus da rubéola."
+      ],
+      "comentario": "Rubéola: exantema craniocaudal leve com linfonodomegalia retroauricular e occipital. Notificação compulsória imediata; o grande risco é a síndrome da rubéola congênita, por isso afastar contato com gestantes e vacinar (tríplice viral).",
+      "revisado": false
+    },
+    {
+      "id": "inter-cetoacidose-alcoolica",
+      "data": "2026-12-12",
+      "nivel": "inter",
+      "diagnostico": "Cetoacidose alcoólica",
+      "sinonimos": [
+        "cetoacidose alcoolica",
+        "cetoacidose etilica",
+        "cetoacidose do etilista",
+        "caa"
+      ],
+      "dicas": [
+        "Homem, 48 anos, chega ao PS com dor abdominal difusa e vômitos há 2 dias.",
+        "Bebia cerca de 1 litro de cachaça por dia e parou há 3 dias, quando começaram os vômitos e ele não conseguiu mais comer.",
+        "Não é diabético. Nega ter ingerido outras substâncias, combustível ou produtos de limpeza.",
+        "Desidratado, FR 26 irpm, FC 116 bpm, PA 100x64 mmHg, hálito cetônico. Abdome doloroso difusamente, sem peritonite. Sem tremores ou alucinações.",
+        "Glicemia 92 mg/dL. Gasometria: pH 7,21, HCO3 9 mEq/L, ânion gap 28; beta-hidroxibutirato muito elevado, lactato 2,1 mmol/L, lipase normal e gap osmolar normal."
+      ],
+      "comentario": "Cetoacidose alcoólica: acidose com ânion gap alto e cetose em etilista em jejum, com glicemia normal ou baixa. Soro fisiológico e glicosado, tiamina antes da glicose e reposição de potássio, magnésio e fósforo; insulina não é necessária.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-doenca-de-von-willebrand",
+      "data": "2026-12-12",
+      "nivel": "dificil",
+      "diagnostico": "Doença de von Willebrand",
+      "sinonimos": [
+        "von willebrand",
+        "doenca de von willebrand",
+        "doenca de von willebrand tipo 1",
+        "deficiencia do fator de von willebrand",
+        "dvw",
+        "vwd"
+      ],
+      "dicas": [
+        "Mulher, 23 anos, chega à UPA com sangramento que não para após extração de um dente siso há 8 horas.",
+        "Desde a adolescência tem menstruação muito volumosa, que dura 8 dias, e sangramentos nasais frequentes. Fica roxa com facilidade.",
+        "A mãe e o irmão também sangram muito em procedimentos. Não usa anticoagulante, antiagregante nem anti-inflamatório.",
+        "Sangramento em porejamento no alvéolo dentário e equimoses nos membros. Sem petéquias, sem hepatoesplenomegalia, sem hemartroses.",
+        "Plaquetas 240.000/mm³, TP normal, TTPa levemente prolongado (relação 1,4). Antígeno do fator de von Willebrand 25%, atividade (cofator de ristocetina) 22% e fator VIII 30%."
+      ],
+      "comentario": "Doença de von Willebrand tipo 1: sangramento mucocutâneo com plaquetas normais e redução proporcional de antígeno e atividade do FvW. É o distúrbio hemorrágico hereditário mais comum; desmopressina e ácido tranexâmico.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-porfiria-cutanea-tarda",
+      "data": "2026-12-12",
+      "nivel": "mdificil",
+      "diagnostico": "Porfiria cutânea tarda",
+      "sinonimos": [
+        "porfiria cutanea tarda",
+        "porfiria cutanea tardia",
+        "porfiria cutanea",
+        "pct"
+      ],
+      "dicas": [
+        "Homem, 50 anos, procura atendimento por bolhas nas mãos que aparecem há 4 meses.",
+        "As bolhas surgem no dorso das mãos após pequenos traumas ou sol, rompem e deixam cicatrizes. A pele ali ficou muito frágil.",
+        "Etilista de longa data, com hepatite C crônica nunca tratada. Notou aumento de pelos no rosto e que a urina às vezes fica escura.",
+        "Bolhas tensas, erosões crostosas, milia e cicatrizes atróficas no dorso das mãos; hipertricose malar e hiperpigmentação facial.",
+        "Urina com fluorescência rosa-avermelhada à luz de Wood. Uroporfirinas urinárias muito elevadas; ferritina 1.200 ng/mL."
+      ],
+      "comentario": "Porfiria cutânea tarda: bolhas em áreas fotoexpostas, fragilidade cutânea, milia e hipertricose, associada a álcool, hepatite C, HIV, estrogênio e sobrecarga de ferro. Flebotomias ou hidroxicloroquina em baixa dose, suspender o álcool e tratar a hepatite C.",
+      "revisado": false
+    },
+    {
+      "id": "facil-fecaloma",
+      "data": "2026-12-13",
+      "nivel": "facil",
+      "diagnostico": "Fecaloma",
+      "sinonimos": [
+        "fecaloma",
+        "impactacao fecal",
+        "coprostase",
+        "obstrucao por fecaloma"
+      ],
+      "dicas": [
+        "Mulher, 82 anos, acamada, trazida da casa de repouso por dor abdominal e distensão há 3 dias.",
+        "Está sem evacuar há 9 dias. Nas últimas 24 horas teve perda de fezes líquidas na fralda e um episódio de vômito.",
+        "Usa morfina para dor da artrose, amitriptilina e sulfato ferroso. Bebe pouca água. Ficou mais confusa nos últimos dias.",
+        "Abdome distendido e timpânico, ruídos hidroaéreos presentes, massa endurecida palpável no hipogástrio e na fossa ilíaca esquerda. Sem sinais de peritonite.",
+        "Toque retal: ampola retal cheia de fezes endurecidas. Radiografia de abdome: grande massa fecal em reto e sigmoide, sem pneumoperitônio."
+      ],
+      "comentario": "Fecaloma: constipação grave em idosa acamada usando opioide e anticolinérgico, com diarreia paradoxal por transbordamento. Desimpactação manual e enemas, depois laxativos e revisão das medicações.",
+      "revisado": false
+    },
+    {
+      "id": "inter-necrolise-epidermica-toxica",
+      "data": "2026-12-13",
+      "nivel": "inter",
+      "diagnostico": "Necrólise epidérmica tóxica",
+      "sinonimos": [
+        "necrolise epidermica toxica",
+        "net",
+        "sindrome de lyell",
+        "doenca de lyell",
+        "lyell"
+      ],
+      "dicas": [
+        "Mulher, 38 anos, chega ao PS com febre, dor na pele e bolhas que se espalham rapidamente.",
+        "Há 4 dias teve febre, ardência nos olhos e dor de garganta. Depois surgiram manchas avermelhadas no tronco que viraram bolhas.",
+        "Há 3 semanas começou lamotrigina para epilepsia.",
+        "Máculas purpúricas confluentes com descolamento da epiderme em cerca de 40% da superfície corporal, sinal de Nikolsky positivo. Erosões em lábios, boca e genitais e conjuntivite intensa.",
+        "Biópsia de pele: necrose de toda a espessura da epiderme com clivagem subepidérmica e infiltrado inflamatório escasso. Imunofluorescência direta negativa."
+      ],
+      "comentario": "Necrólise epidérmica tóxica: reação grave a medicamento com descolamento >30% da superfície corporal e mucosas acometidas, 1–4 semanas após iniciar a droga (lamotrigina, alopurinol, carbamazepina, sulfas). Suspender a droga, calcular o SCORTEN e transferir para unidade de queimados.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-artrite-reativa",
+      "data": "2026-12-13",
+      "nivel": "dificil",
+      "diagnostico": "Artrite reativa",
+      "sinonimos": [
+        "artrite reativa",
+        "artrite reacional",
+        "sindrome de reiter",
+        "doenca de reiter",
+        "reiter"
+      ],
+      "dicas": [
+        "Homem, 27 anos, procura o PS com dor e inchaço no joelho direito há 5 dias.",
+        "Há 3 semanas teve diarreia com sangue e febre depois de comer num restaurante, que passou em uma semana. Agora dói também o tornozelo esquerdo e o calcanhar.",
+        "Nos últimos dias, ardência para urinar e olhos vermelhos. Nega relação sexual desprotegida.",
+        "Derrame articular no joelho direito, tornozelo esquerdo edemaciado, dor na inserção do tendão calcâneo, dactilite no 2º pododáctilo e conjuntivite bilateral.",
+        "Artrocentese: líquido inflamatório (15.000 leucócitos/mm³), Gram e cultura negativos, sem cristais. HLA-B27 positivo; coprocultura da época positiva para Shigella."
+      ],
+      "comentario": "Artrite reativa: oligoartrite assimétrica de membros inferiores com entesite, 1–4 semanas após infecção intestinal ou genital, às vezes com uretrite e conjuntivite. Afastar artrite séptica; AINE e, se necessário, corticoide intra-articular.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-neurofibromatose-tipo-1",
+      "data": "2026-12-13",
+      "nivel": "mdificil",
+      "diagnostico": "Neurofibromatose tipo 1",
+      "sinonimos": [
+        "neurofibromatose tipo 1",
+        "nf1",
+        "nf 1",
+        "von recklinghausen",
+        "doenca de von recklinghausen"
+      ],
+      "dicas": [
+        "Homem, 24 anos, procura atendimento por dezenas de caroços moles na pele, que vêm aumentando em número desde a adolescência.",
+        "Os nódulos não doem. Ele também tem manchas marrom-claras pelo corpo desde bebê, que nunca chamaram atenção.",
+        "O pai tem um quadro parecido. Teve dificuldade de aprendizado na escola.",
+        "Mais de 6 manchas café com leite maiores que 1,5 cm, múltiplos nódulos cutâneos moles e efélides nas axilas e virilhas.",
+        "Exame com lâmpada de fenda: múltiplos nódulos de Lisch bilaterais (hamartomas da íris). Biópsia de um nódulo cutâneo: neurofibroma."
+      ],
+      "comentario": "Neurofibromatose tipo 1: manchas café com leite, efélides axilares, neurofibromas e nódulos de Lisch, herança autossômica dominante (gene NF1). Seguir o risco de glioma óptico, tumor maligno de bainha de nervo periférico, feocromocitoma e estenose de artéria renal.",
+      "revisado": false
+    },
+    {
+      "id": "facil-pitiriase-versicolor",
+      "data": "2026-12-14",
+      "nivel": "facil",
+      "diagnostico": "Pitiríase versicolor",
+      "sinonimos": [
+        "pitiriase versicolor",
+        "tinea versicolor",
+        "tinha versicolor",
+        "micose de praia",
+        "malasseziose"
+      ],
+      "dicas": [
+        "Homem, 22 anos, procura atendimento por manchas no tronco que apareceram há 2 meses.",
+        "As manchas são claras, ficam mais evidentes depois que ele pega sol na praia e às vezes coçam um pouco.",
+        "Trabalha ao ar livre, sua muito e mora numa cidade litorânea quente e úmida. Teve um quadro igual no verão passado.",
+        "Máculas hipocrômicas arredondadas, algumas confluentes, no dorso e nos ombros, com descamação fina ao estirar a pele (sinal de Zileri).",
+        "Luz de Wood: fluorescência amarelo-esverdeada. Exame micológico direto: hifas curtas e esporos agrupados ('espaguete com almôndegas'), compatíveis com Malassezia."
+      ],
+      "comentario": "Pitiríase versicolor: máculas hipocrômicas descamativas no tronco por Malassezia, com sinal de Zileri. Tratamento tópico (cetoconazol, sulfeto de selênio); oral (fluconazol ou itraconazol) se extensa ou recorrente.",
+      "revisado": false
+    },
+    {
+      "id": "inter-tetano",
+      "data": "2026-12-14",
+      "nivel": "inter",
+      "diagnostico": "Tétano",
+      "sinonimos": [
+        "tetano",
+        "tetano generalizado",
+        "tetano acidental",
+        "clostridium tetani"
+      ],
+      "dicas": [
+        "Homem, 63 anos, trabalhador rural, chega ao PS com dificuldade para abrir a boca e dor no pescoço há 2 dias.",
+        "A rigidez se espalhou para as costas e o abdome. Tem crises de contrações dolorosas quando há barulho ou quando alguém encosta nele.",
+        "Há 10 dias pisou num prego enferrujado no curral e não procurou atendimento. Não lembra quando tomou a última vacina.",
+        "Lúcido e afebril. Trismo, riso sardônico, rigidez de nuca e abdome em tábua; espasmos generalizados com opistótono ao estímulo.",
+        "Teste da espátula positivo: ao tocar a orofaringe, ele morde a espátula em vez de ter reflexo de vômito. Exames laboratoriais e líquor normais."
+      ],
+      "comentario": "Tétano generalizado: trismo, riso sardônico e espasmos desencadeados por estímulos com consciência preservada, após ferimento contaminado em não vacinado. Diagnóstico clínico; UTI com imunoglobulina antitetânica, metronidazol, desbridamento do foco, benzodiazepínico e vacinação.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-doenca-de-meniere",
+      "data": "2026-12-14",
+      "nivel": "dificil",
+      "diagnostico": "Doença de Ménière",
+      "sinonimos": [
+        "meniere",
+        "doenca de meniere",
+        "sindrome de meniere",
+        "hidropisia endolinfatica",
+        "hidrops endolinfatico"
+      ],
+      "dicas": [
+        "Mulher, 46 anos, chega ao PS com tontura rotatória intensa e vômitos há 3 horas.",
+        "É o 4º episódio em 6 meses, cada um durando de 2 a 6 horas. Antes da tontura sente o ouvido esquerdo tampado e um zumbido grave.",
+        "Percebe que ouve pior do lado esquerdo, principalmente depois das crises. A tontura não é desencadeada por mudar a cabeça de posição. Sem trauma ou quadro viral recente.",
+        "Nistagmo horizontal unidirecional, sem outros sinais neurológicos, teste do impulso cefálico alterado. Weber lateraliza para a direita e Rinne positivo bilateral.",
+        "Audiometria: perda auditiva neurossensorial à esquerda em frequências graves, que flutua entre as crises. RM de orelhas internas e ângulo pontocerebelar normal."
+      ],
+      "comentario": "Doença de Ménière: crises de vertigem de 20 min a 12 h com hipoacusia neurossensorial flutuante em graves, zumbido e plenitude aural. Na crise, antiemético e supressor vestibular por curto prazo; na manutenção, restrição de sal e betaistina.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-doenca-de-von-hippel-lindau",
+      "data": "2026-12-14",
+      "nivel": "mdificil",
+      "diagnostico": "Doença de von Hippel-Lindau",
+      "sinonimos": [
+        "von hippel lindau",
+        "doenca de von hippel lindau",
+        "sindrome de von hippel lindau",
+        "vhl"
+      ],
+      "dicas": [
+        "Homem, 32 anos, chega ao PS com dor de cabeça na nuca, vômitos e desequilíbrio para andar há 2 semanas.",
+        "Cambaleia para a direita e tem dificuldade para pegar objetos com a mão direita. Sem febre.",
+        "Há 2 anos fez laser numa lesão da retina. O pai morreu aos 45 anos de câncer de rim e uma tia operou um tumor de adrenal.",
+        "Ataxia de marcha, dismetria e disdiadococinesia à direita, nistagmo. Fundo de olho com lesão vascular avermelhada nutrida por vasos dilatados na periferia da retina. Hb 18,5 g/dL.",
+        "RM: lesão cística no hemisfério cerebelar direito com nódulo mural que realça intensamente (hemangioblastoma). TC de abdome: cistos renais e massa sólida de 3 cm no rim esquerdo. Variante patogênica no gene VHL."
+      ],
+      "comentario": "Doença de von Hippel-Lindau: hemangioblastomas de cerebelo e retina, carcinoma renal de células claras, feocromocitoma e cistos pancreáticos, herança autossômica dominante. Dosar metanefrinas antes de qualquer cirurgia e rastrear os familiares.",
+      "revisado": false
+    },
+    {
+      "id": "facil-hiperemese-gravidica",
+      "data": "2026-12-15",
+      "nivel": "facil",
+      "diagnostico": "Hiperêmese gravídica",
+      "sinonimos": [
+        "hiperemese gravidica",
+        "hiperemese",
+        "hiperemese da gestacao",
+        "hiperemesis gravidarum"
+      ],
+      "dicas": [
+        "Mulher, 26 anos, chega à UPA com vômitos há 5 dias; não consegue manter nem água.",
+        "Está com 9 semanas de gestação, a primeira. Perdeu 4 kg desde o início dos sintomas (pesava 58 kg).",
+        "Sem dor abdominal, febre, diarreia ou sangramento vaginal. Tinha náuseas matinais desde a 6ª semana, que pioraram muito.",
+        "Desidratada 3+/4+, mucosas secas, FC 112 bpm, PA 96x60 mmHg. Abdome flácido e indolor.",
+        "Cetonúria 3+, potássio 2,9 mEq/L e alcalose metabólica hipoclorêmica. USG: gestação tópica única, BCF presente, compatível com 9 semanas, sem sinais de mola."
+      ],
+      "comentario": "Hiperêmese gravídica: vômitos persistentes no 1º trimestre com perda de peso >5%, desidratação, cetose e distúrbio hidroeletrolítico. Hidratação venosa, reposição de potássio, tiamina antes do soro glicosado e antiemético.",
+      "revisado": false
+    },
+    {
+      "id": "inter-sindrome-de-mallory-weiss",
+      "data": "2026-12-15",
+      "nivel": "inter",
+      "diagnostico": "Síndrome de Mallory-Weiss",
+      "sinonimos": [
+        "mallory weiss",
+        "sindrome de mallory weiss",
+        "laceracao de mallory weiss",
+        "lesao de mallory weiss"
+      ],
+      "dicas": [
+        "Homem, 29 anos, chega ao PS de madrugada vomitando sangue vivo.",
+        "Saiu de uma festa onde bebeu muito. Vomitou várias vezes só alimento e bebida; o sangue apareceu depois, em raias e em pequena quantidade.",
+        "Nega anti-inflamatório, doença do fígado ou episódios anteriores. Sem dor torácica forte e sem falta de ar.",
+        "PA 124x78 mmHg, FC 92 bpm. Sem estigmas de hepatopatia, sem enfisema subcutâneo, abdome indolor. Hb 13,8 g/dL.",
+        "Endoscopia digestiva alta: laceração longitudinal única da mucosa na transição esofagogástrica, sem sangramento ativo; sem varizes."
+      ],
+      "comentario": "Síndrome de Mallory-Weiss: laceração da mucosa da junção esofagogástrica após vômitos repetidos, típica após libação alcoólica. Costuma parar sozinha; IBP, e tratamento endoscópico só se houver sangramento ativo.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-purpura-trombocitopenica-imune",
+      "data": "2026-12-15",
+      "nivel": "dificil",
+      "diagnostico": "Púrpura trombocitopênica imune",
+      "sinonimos": [
+        "pti",
+        "purpura trombocitopenica imune",
+        "purpura trombocitopenica idiopatica",
+        "purpura trombocitopenica autoimune",
+        "trombocitopenia imune",
+        "plaquetopenia imune"
+      ],
+      "dicas": [
+        "Mulher, 31 anos, procura a UPA por manchas roxas no corpo e sangramento na gengiva há 3 dias.",
+        "Teve um resfriado há 2 semanas. Notou pontinhos vermelhos nas pernas e a gengiva sangra ao escovar os dentes.",
+        "Sem febre ou perda de peso. Beta-hCG negativo. Não usa medicamentos novos nem heparina.",
+        "Bom estado geral, afebril. Petéquias em membros inferiores, equimoses e bolhas hemorrágicas na mucosa oral. Sem hepatoesplenomegalia e sem linfonodomegalias.",
+        "Plaquetas 6.000/mm³ com Hb e leucócitos normais. Esfregaço com plaquetas grandes, sem esquizócitos e sem blastos; TP, TTPa, LDH e função renal normais."
+      ],
+      "comentario": "Púrpura trombocitopênica imune: plaquetopenia isolada, esfregaço sem esquizócitos nem blastos, paciente em bom estado e sem esplenomegalia (diagnóstico de exclusão). Com plaquetas <30.000/mm³ ou sangramento: corticoide; imunoglobulina se sangramento importante.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-sindrome-de-kartagener",
+      "data": "2026-12-15",
+      "nivel": "mdificil",
+      "diagnostico": "Síndrome de Kartagener",
+      "sinonimos": [
+        "kartagener",
+        "sindrome de kartagener",
+        "discinesia ciliar primaria",
+        "dcp",
+        "sindrome dos cilios imoveis"
+      ],
+      "dicas": [
+        "Homem, 30 anos, procura o PS com tosse produtiva e febre há 4 dias.",
+        "Tosse com catarro quase todos os dias desde criança e sinusites de repetição. Já foi internado várias vezes por pneumonia.",
+        "Tenta ter filhos há 3 anos sem sucesso; espermograma com espermatozoides imóveis. Teste do suor normal.",
+        "Crepitações e roncos nas bases. Ictus palpável no 5º espaço intercostal direito e bulhas mais audíveis à direita do esterno.",
+        "TC de tórax: bronquiectasias em lobos inferiores, dextrocardia e situs inversus total. Óxido nítrico nasal muito baixo; microscopia eletrônica do cílio com ausência dos braços de dineína."
+      ],
+      "comentario": "Síndrome de Kartagener: discinesia ciliar primária com situs inversus, levando a bronquiectasias, sinusite crônica e infertilidade masculina. Fisioterapia respiratória, antibiótico nas exacerbações e vacinação.",
+      "revisado": false
     },
     {
       "id": "facil-convulsao-febril-simples",
