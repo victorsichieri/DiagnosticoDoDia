@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado": "2026-10-09",
+  "atualizado": "2026-11-15",
   "distratores": [
     "Angina instável",
     "IAM sem supra de ST",
@@ -2963,6 +2963,640 @@
       ],
       "comentario": "Doença de Behçet: vasculite de vasos de qualquer calibre, com úlceras orais e genitais, uveíte e trombose. Trombose é inflamatória: o tratamento-base é imunossupressão; colchicina para lesões mucocutâneas.",
       "revisado": true
+    },
+    {
+      "id": "facil-sincope-vasovagal",
+      "data": "2026-12-16",
+      "nivel": "facil",
+      "diagnostico": "Síncope vasovagal",
+      "sinonimos": [
+        "sincope vasovagal",
+        "sincope reflexa",
+        "sincope neurocardiogenica",
+        "sincope neuromediada",
+        "sincope vasodepressora",
+        "desmaio vasovagal",
+        "vasovagal"
+      ],
+      "dicas": [
+        "Rapaz, 19 anos, trazido ao PS após perder a consciência por alguns segundos.",
+        "Estava em pé na fila da coleta de sangue, em sala quente. Antes de cair, sentiu calor, náusea, suor frio e a visão 'escureceu'.",
+        "Recuperou-se em menos de 1 minuto, sem confusão depois, sem perder urina nem morder a língua. Já teve episódio parecido ao ver sangue. Sem cardiopatia nem morte súbita na família.",
+        "Corado, PA 118x74 mmHg deitado e 114x72 mmHg em pé, FC 72 bpm, ritmo regular, sem sopros. Exame neurológico normal.",
+        "ECG normal: ritmo sinusal, PR e QTc normais, sem pré-excitação nem padrão de Brugada. Glicemia capilar 96 mg/dL."
+      ],
+      "comentario": "Síncope reflexa (vasovagal): gatilho claro, pródromo autonômico, recuperação rápida e ECG normal. Baixo risco: orientar hidratação, evitar gatilhos e ensinar manobras de contrapressão; alta sem investigação extensa.",
+      "revisado": false
+    },
+    {
+      "id": "inter-priapismo-isquemico",
+      "data": "2026-12-16",
+      "nivel": "inter",
+      "diagnostico": "Priapismo isquêmico",
+      "sinonimos": [
+        "priapismo",
+        "priapismo isquemico",
+        "priapismo de baixo fluxo",
+        "priapismo veno oclusivo"
+      ],
+      "dicas": [
+        "Homem, 26 anos, chega ao PS constrangido, com dor no pênis há 6 horas.",
+        "Tem uma ereção dolorosa que começou de madrugada, sem estímulo sexual, e não cede.",
+        "Tem anemia falciforme e teve 2 crises de dor neste ano. Nega trauma perineal e uso de medicações para ereção.",
+        "Corpos cavernosos rígidos e muito dolorosos; glande e corpo esponjoso amolecidos.",
+        "Gasometria do sangue aspirado do corpo cavernoso: sangue escuro, pH 6,98, pO2 22 mmHg, pCO2 78 mmHg. Doppler peniano sem fluxo nas artérias cavernosas."
+      ],
+      "comentario": "Priapismo isquêmico (baixo fluxo), emergência urológica: com mais de 4 h, aspiração dos corpos cavernosos e fenilefrina intracavernosa. Na doença falciforme, tratar também a crise, sem atrasar a abordagem local.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-acalasia",
+      "data": "2026-12-16",
+      "nivel": "dificil",
+      "diagnostico": "Acalasia",
+      "sinonimos": [
+        "acalasia",
+        "acalasia idiopatica",
+        "acalasia do esofago",
+        "acalasia esofagica",
+        "megaesofago idiopatico",
+        "cardioespasmo"
+      ],
+      "dicas": [
+        "Mulher, 38 anos, com dificuldade para engolir há 1 ano.",
+        "A dificuldade é igual para sólidos e líquidos desde o início. À noite acorda tossindo, com comida não digerida na boca.",
+        "Perdeu 8 kg. Sempre morou em Curitiba; sorologia para Chagas negativa. Não fuma nem bebe.",
+        "IMC 18 kg/m², sem linfonodomegalias nem massas abdominais. Ao beber água no consultório, regurgita e tosse.",
+        "Esofagograma com esôfago dilatado e afilamento distal em 'bico de pássaro'. Manometria de alta resolução: IRP elevada e aperistalse com pressurização pan-esofágica (Chicago tipo II). EDA sem tumor."
+      ],
+      "comentario": "Acalasia: falha de relaxamento do esfíncter inferior com aperistalse. Excluir pseudoacalasia (EDA) e Chagas; tratamento com dilatação pneumática, miotomia de Heller com fundoplicatura ou POEM.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-pseudoxantoma-elastico",
+      "data": "2026-12-16",
+      "nivel": "mdificil",
+      "diagnostico": "Pseudoxantoma elástico",
+      "sinonimos": [
+        "pseudoxantoma elastico",
+        "pxe",
+        "sindrome de gronblad strandberg",
+        "gronblad strandberg"
+      ],
+      "dicas": [
+        "Mulher, 35 anos, encaminhada por perda da visão central no olho esquerdo.",
+        "A visão ficou distorcida em poucas semanas. Também sente dor nas panturrilhas ao caminhar 300 metros.",
+        "Desde a adolescência tem 'pele de galinha' amarelada no pescoço. Teve hemorragia digestiva sem causa encontrada aos 28 anos.",
+        "Pápulas amareladas coalescentes em placas no pescoço e nas axilas, aspecto de 'galinha depenada'. Pulsos pediosos diminuídos.",
+        "Fundo de olho com estrias angioides e neovascularização de coroide. Biópsia de pele com fibras elásticas fragmentadas e calcificadas na derme média (von Kossa positivo). Variantes patogênicas em ABCC6."
+      ],
+      "comentario": "Pseudoxantoma elástico (ABCC6): calcificação de fibras elásticas na pele, retina e artérias. Estrias angioides levam à neovascularização de coroide (anti-VEGF); vigiar doença arterial e sangramento digestivo.",
+      "revisado": false
+    },
+    {
+      "id": "facil-entorse-lateral-do-tornozelo",
+      "data": "2026-12-17",
+      "nivel": "facil",
+      "diagnostico": "Entorse lateral do tornozelo",
+      "sinonimos": [
+        "entorse de tornozelo",
+        "entorse do tornozelo",
+        "entorse lateral de tornozelo",
+        "entorse lateral do tornozelo",
+        "entorse em inversao",
+        "lesao do ligamento talofibular anterior",
+        "torcao de tornozelo",
+        "tornozelo torcido"
+      ],
+      "dicas": [
+        "Jovem, 24 anos, chega ao PS com dor e inchaço no pé direito após jogo de futebol.",
+        "Pisou na bola e o pé 'virou para dentro'. Ouviu um estalo e saiu carregado, mas agora consegue dar alguns passos mancando.",
+        "Sem doenças prévias. Teve episódio parecido do mesmo lado há 2 anos, tratado em casa com gelo.",
+        "Edema e equimose abaixo e à frente do maléolo lateral, dor à palpação do ligamento talofibular anterior. Sem dor na borda posterior dos maléolos, no navicular nem na base do 5º metatarso; deu 4 passos no PS.",
+        "Pelas regras de Ottawa a radiografia seria dispensável; feita mesmo assim, sem fratura. Gaveta anterior com leve frouxidão em relação ao outro lado."
+      ],
+      "comentario": "Entorse lateral do tornozelo (lesão do ligamento talofibular anterior). Regras de Ottawa negativas dispensam radiografia; tratamento funcional com gelo, compressão, órtese e mobilização precoce.",
+      "revisado": false
+    },
+    {
+      "id": "inter-ruptura-uterina",
+      "data": "2026-12-17",
+      "nivel": "inter",
+      "diagnostico": "Ruptura uterina",
+      "sinonimos": [
+        "ruptura uterina",
+        "rotura uterina",
+        "ruptura do utero",
+        "rotura do utero"
+      ],
+      "dicas": [
+        "Gestante, 32 anos, em trabalho de parto no centro obstétrico, com dor abdominal súbita e intensa.",
+        "Estava com contrações fortes e frequentes; de repente sentiu 'algo rasgar' por dentro e as contrações pararam.",
+        "Tem uma cesárea há 18 meses e está em prova de trabalho de parto com ocitocina.",
+        "PA 86x50 mmHg, FC 128 bpm. Partes fetais palpáveis logo abaixo da parede abdominal; a apresentação, que estava insinuada, subiu. Sangramento vaginal discreto.",
+        "Cardiotocografia com desacelerações variáveis seguidas de bradicardia fetal sustentada de 70 bpm. Na laparotomia, solução de continuidade no segmento uterino com feto na cavidade."
+      ],
+      "comentario": "Ruptura uterina: risco maior com cicatriz prévia, intervalo curto entre partos e ocitocina. A bradicardia fetal súbita é o sinal mais comum; laparotomia imediata para extração fetal e reparo ou histerectomia.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-esofagite-eosinofilica",
+      "data": "2026-12-17",
+      "nivel": "dificil",
+      "diagnostico": "Esofagite eosinofílica",
+      "sinonimos": [
+        "esofagite eosinofilica",
+        "eoe",
+        "esofagite alergica"
+      ],
+      "dicas": [
+        "Homem, 24 anos, chega ao PS com sensação de comida 'entalada' há 3 horas.",
+        "Estava comendo carne quando sentiu travar no peito. Agora não consegue engolir nem a saliva.",
+        "Tem episódios menores desde a adolescência: corta tudo em pedaços pequenos e come devagar. Tem asma e rinite alérgica.",
+        "Sialorreia, sem enfisema subcutâneo nem sinais de perfuração. Restante do exame normal.",
+        "EDA remove o bolo alimentar e mostra anéis concêntricos ('traqueização'), sulcos longitudinais e exsudato esbranquiçado. Biópsias com ≥ 15 eosinófilos por campo de grande aumento."
+      ],
+      "comentario": "Esofagite eosinofílica, causa mais comum de impactação alimentar em jovens atópicos. Sempre biopsiar; tratar com IBP, corticoide tópico deglutido (budesonida) ou dieta de eliminação.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-sindrome-hepatopulmonar",
+      "data": "2026-12-17",
+      "nivel": "mdificil",
+      "diagnostico": "Síndrome hepatopulmonar",
+      "sinonimos": [
+        "sindrome hepatopulmonar",
+        "shp",
+        "hepatopulmonar"
+      ],
+      "dicas": [
+        "Homem, 52 anos, com falta de ar progressiva há 6 meses.",
+        "A falta de ar piora quando senta ou fica em pé e melhora quando deita.",
+        "Bebeu muito por 20 anos, em abstinência há 1 ano. Já teve ascite e fez ligadura de varizes de esôfago.",
+        "Aranhas vasculares no tórax, eritema palmar, baqueteamento digital e cianose labial. SpO2 92% deitado e 85% sentado. Ausculta pulmonar normal.",
+        "Gasometria sentado em ar ambiente: pO2 58 mmHg, gradiente alvéolo-arterial 42 mmHg. Ecocardiograma com microbolhas: bolhas no átrio esquerdo após 3 ou mais ciclos cardíacos (shunt intrapulmonar)."
+      ],
+      "comentario": "Síndrome hepatopulmonar: hipoxemia por vasodilatação intrapulmonar na hepatopatia, com platipneia e ortodeoxia. O eco com microbolhas tardias confirma; oxigênio e transplante hepático, que reverte o quadro.",
+      "revisado": false
+    },
+    {
+      "id": "facil-epistaxe-anterior",
+      "data": "2026-12-18",
+      "nivel": "facil",
+      "diagnostico": "Epistaxe anterior",
+      "sinonimos": [
+        "epistaxe",
+        "epistaxe anterior",
+        "sangramento nasal",
+        "sangramento nasal anterior",
+        "hemorragia nasal",
+        "sangramento do plexo de kiesselbach"
+      ],
+      "dicas": [
+        "Homem, 58 anos, chega ao PS segurando um pano ensanguentado no rosto.",
+        "O sangue sai pela narina esquerda há 40 minutos. Começou depois de assoar o nariz com força e não para em casa.",
+        "Hipertenso com uso irregular de losartana, tempo muito seco, sem trauma. Não usa anticoagulante nem antiagregante e nunca teve sangramentos.",
+        "PA 168x96 mmHg, FC 92 bpm. Após compressão bidigital por 10 minutos, a rinoscopia anterior mostra um vaso sangrando na porção anteroinferior do septo esquerdo.",
+        "Hb 14,1 g/dL, plaquetas e coagulograma normais. O sangramento cessa com vasoconstritor tópico e cauterização com nitrato de prata no ponto do septo."
+      ],
+      "comentario": "Epistaxe anterior pelo plexo de Kiesselbach, a forma mais comum. Compressão bidigital contínua por 10–15 min com a cabeça inclinada para frente; se persistir, vasoconstritor tópico, cauterização ou tamponamento anterior.",
+      "revisado": false
+    },
+    {
+      "id": "inter-lesao-esplenica-traumatica",
+      "data": "2026-12-18",
+      "nivel": "inter",
+      "diagnostico": "Lesão esplênica traumática",
+      "sinonimos": [
+        "lesao esplenica",
+        "lesao esplenica traumatica",
+        "trauma esplenico",
+        "ruptura esplenica",
+        "ruptura de baco",
+        "rotura esplenica",
+        "laceracao esplenica",
+        "lesao do baco",
+        "trauma de baco"
+      ],
+      "dicas": [
+        "Motociclista, 22 anos, trazido pelo SAMU após colisão contra carro.",
+        "Bateu o lado esquerdo do tronco no guidão. Queixa dor no abdome superior que irradia para o ombro esquerdo.",
+        "Estava consciente na cena. Recebeu 1.000 mL de cristaloide no transporte, melhorou a PA e voltou a cair.",
+        "PA 88x56 mmHg, FC 126 bpm, pele fria e pegajosa. Crepitação nas 10ª e 11ª costelas esquerdas, dor e defesa no hipocôndrio esquerdo.",
+        "FAST com líquido livre no espaço esplenorrenal e na pelve. Sem pneumotórax ou hemotórax na radiografia de tórax."
+      ],
+      "comentario": "Lesão esplênica por trauma fechado com instabilidade hemodinâmica e FAST positivo: laparotomia imediata. No paciente estável, TC com contraste gradua a lesão e permite tratamento não operatório ou embolização.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-estenose-mitral",
+      "data": "2026-12-18",
+      "nivel": "dificil",
+      "diagnostico": "Estenose mitral",
+      "sinonimos": [
+        "estenose mitral",
+        "estenose mitral reumatica",
+        "estenose da valva mitral",
+        "estenose valvar mitral"
+      ],
+      "dicas": [
+        "Mulher, 34 anos, com falta de ar aos esforços que piorou nas últimas semanas.",
+        "Hoje acordou com palpitação forte e tossiu um pouco de sangue. A falta de ar já tinha piorado muito na gestação anterior.",
+        "Na infância teve febre com dor nas articulações e tomou injeções de penicilina por alguns anos, mas parou.",
+        "Ritmo irregular, FC 128 bpm. B1 hiperfonética, estalido de abertura e ruflar diastólico no foco mitral, melhor em decúbito lateral esquerdo.",
+        "ECG com fibrilação atrial. Ecocardiograma: valva mitral espessada, com fusão comissural e abertura em 'taco de hóquei', área valvar 1,1 cm² na planimetria e átrio esquerdo de 52 mm."
+      ],
+      "comentario": "Estenose mitral reumática grave (área ≤ 1,5 cm²) descompensada por fibrilação atrial. Controlar a FC, anticoagular com varfarina (DOAC não é indicado) e avaliar valvoplastia mitral percutânea por balão.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-tabes-dorsalis",
+      "data": "2026-12-18",
+      "nivel": "mdificil",
+      "diagnostico": "Tabes dorsalis",
+      "sinonimos": [
+        "tabes dorsalis",
+        "tabes",
+        "neurossifilis",
+        "neurossifilis tardia",
+        "neurolues",
+        "sifilis terciaria",
+        "ataxia locomotora progressiva"
+      ],
+      "dicas": [
+        "Homem, 61 anos, com dificuldade para andar há 1 ano, pior no escuro.",
+        "Tem dores súbitas 'em choque' ou 'em facada' nas pernas, que duram segundos. Às vezes perde urina sem perceber.",
+        "Na juventude teve uma 'ferida no pênis que sumiu sozinha', nunca tratada. Não é diabético e a B12 recente é normal.",
+        "Romberg positivo, marcha talonante, arreflexia patelar e aquileu, perda de propriocepção e vibração nos pés. Pupilas pequenas e irregulares que contraem na acomodação, mas não à luz.",
+        "Líquor com 12 células/mm³ (linfócitos), proteína 62 mg/dL e VDRL reagente. FTA-ABS sérico reagente."
+      ],
+      "comentario": "Tabes dorsalis, neurossífilis tardia com lesão dos cordões posteriores e pupila de Argyll Robertson. VDRL no líquor é muito específico; tratar com penicilina G cristalina IV por 14 dias.",
+      "revisado": false
+    },
+    {
+      "id": "facil-parafimose",
+      "data": "2026-12-19",
+      "nivel": "facil",
+      "diagnostico": "Parafimose",
+      "sinonimos": [
+        "parafimose",
+        "prepucio retraido encarcerado",
+        "encarceramento do prepucio"
+      ],
+      "dicas": [
+        "Homem, 72 anos, trazido da casa de repouso com dor e inchaço no pênis há 1 dia.",
+        "Usa sonda vesical de demora, que foi trocada ontem por um cuidador.",
+        "Ninguém sabe dizer se a pele do pênis foi recolocada no lugar depois da troca. Não é circuncidado.",
+        "Glande edemaciada e arroxeada; a pele do prepúcio está inchada e enrolada atrás da glande, formando um anel endurecido e constritivo.",
+        "Diagnóstico clínico, sem necessidade de exames: glande ainda com boa perfusão. Após compressão do edema e bloqueio peniano, a redução manual devolve o prepúcio sobre a glande."
+      ],
+      "comentario": "Parafimose: prepúcio retraído que não volta e estrangula a glande, comum após sondagem ou higiene. Emergência urológica: comprimir o edema e reduzir manualmente; se falhar, incisão dorsal.",
+      "revisado": false
+    },
+    {
+      "id": "inter-intoxicacao-por-opioide",
+      "data": "2026-12-19",
+      "nivel": "inter",
+      "diagnostico": "Intoxicação por opioide",
+      "sinonimos": [
+        "intoxicacao por opioide",
+        "intoxicacao por opioides",
+        "intoxicacao opioide",
+        "overdose de opioide",
+        "overdose de opioides",
+        "intoxicacao por morfina",
+        "toxindrome opioide",
+        "sindrome opioide"
+      ],
+      "dicas": [
+        "Mulher, 63 anos, trazida pela filha por estar muito sonolenta desde a manhã.",
+        "Teve alta há 2 dias de cirurgia de quadril com receita de morfina oral; a filha acha que ela tomou doses a mais por causa da dor.",
+        "Tem doença renal crônica estágio 4 e mora sozinha.",
+        "Glasgow 9, FR 6 irpm, SpO2 84% em ar ambiente, FC 58 bpm, PA 102x64 mmHg, pupilas puntiformes e simétricas, ruídos hidroaéreos diminuídos.",
+        "Gasometria: pH 7,22, pCO2 68 mmHg. Glicemia 118 mg/dL. Após naloxona 0,04 mg IV em doses repetidas, desperta e a FR sobe para 16 irpm."
+      ],
+      "comentario": "Toxíndrome opioide (rebaixamento, bradipneia e miose), aqui por acúmulo de metabólitos da morfina na DRC. Ventilar e dar naloxona titulada; manter observação ou infusão, porque a naloxona dura menos que muitos opioides.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-pericardite-constritiva",
+      "data": "2026-12-19",
+      "nivel": "dificil",
+      "diagnostico": "Pericardite constritiva",
+      "sinonimos": [
+        "pericardite constritiva",
+        "constricao pericardica",
+        "pericardio constritivo"
+      ],
+      "dicas": [
+        "Homem, 52 anos, com inchaço na barriga e nas pernas há 4 meses.",
+        "Cansa ao andar uma quadra. Diuréticos receitados no posto ajudaram pouco. Não tem dor no peito.",
+        "Fez cirurgia de revascularização miocárdica há 3 anos. Não bebe álcool e as provas hepáticas são quase normais.",
+        "Turgência jugular que aumenta na inspiração (sinal de Kussmaul), descenso y rápido, ruído protodiastólico precoce (knock), ascite e edema 3+/4+. Sem sopros.",
+        "Ecocardiograma com FE normal, septo 'saltitante', variação respiratória do fluxo mitral > 25% e e' medial preservada. TC com pericárdio espessado (6 mm) e calcificado."
+      ],
+      "comentario": "Pericardite constritiva: insuficiência cardíaca direita com FE preservada, Kussmaul e knock pericárdico. Diferenciar de cardiomiopatia restritiva; o tratamento definitivo é a pericardiectomia.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-beriberi-umido",
+      "data": "2026-12-19",
+      "nivel": "mdificil",
+      "diagnostico": "Beribéri úmido",
+      "sinonimos": [
+        "beriberi umido",
+        "beriberi",
+        "beriberi cardiaco",
+        "shoshin beriberi",
+        "beriberi shoshin",
+        "beriberi cardiovascular"
+      ],
+      "dicas": [
+        "Homem, 47 anos, com falta de ar e inchaço nas pernas há 3 semanas.",
+        "Piorou nos últimos dias: dorme sentado. Também tem formigamento e queimação nos pés.",
+        "Bebe cerca de 1 litro de cachaça por dia há anos e quase não come. Nunca teve problema no coração.",
+        "Extremidades quentes, pulsos amplos, FC 124 bpm, PA 128x48 mmHg, turgência jugular, B3, estertores em bases e edema 3+/4+. Hipoestesia em bota.",
+        "Ecocardiograma com FE 60%, câmaras direitas dilatadas e débito cardíaco elevado; lactato 5,8 mmol/L. Tiamina eritrocitária baixa e melhora drástica em 48 h com tiamina IV."
+      ],
+      "comentario": "Beribéri úmido: insuficiência cardíaca de alto débito por deficiência de tiamina em etilista desnutrido. Dar tiamina IV (antes de glicose); a resposta costuma ser rápida e confirma o diagnóstico.",
+      "revisado": false
+    },
+    {
+      "id": "facil-hemorragia-digestiva-baixa-diverticular",
+      "data": "2026-12-20",
+      "nivel": "facil",
+      "diagnostico": "Hemorragia digestiva baixa diverticular",
+      "sinonimos": [
+        "hemorragia digestiva baixa diverticular",
+        "hemorragia digestiva baixa por doenca diverticular",
+        "hdb diverticular",
+        "sangramento diverticular",
+        "hemorragia diverticular",
+        "doenca diverticular hemorragica",
+        "diverticulose com sangramento"
+      ],
+      "dicas": [
+        "Senhor, 78 anos, levado ao PS após evacuar grande quantidade de sangue.",
+        "Foram três episódios de sangue vermelho-vinhoso com coágulos desde a madrugada, sem dor abdominal e sem febre.",
+        "Hipertenso, usa AAS 100 mg/dia. Colonoscopia há 4 anos mostrou divertículos no sigmoide e no cólon ascendente.",
+        "PA 104x62 mmHg, FC 108 bpm, mucosas descoradas 2+/4+. Abdome flácido e indolor. Toque retal com sangue vivo e coágulos, sem massa.",
+        "Hb 8,9 g/dL, ureia normal. Angiotomografia de abdome mostra extravasamento de contraste para a luz de um divertículo do cólon ascendente."
+      ],
+      "comentario": "Sangramento diverticular, principal causa de hemorragia digestiva baixa volumosa e indolor no idoso. Estabilizar e transfundir se preciso; angiotomografia se sangramento ativo e colonoscopia em até 24 h. A maioria para sozinha.",
+      "revisado": false
+    },
+    {
+      "id": "inter-intoxicacao-por-litio",
+      "data": "2026-12-20",
+      "nivel": "inter",
+      "diagnostico": "Intoxicação por lítio",
+      "sinonimos": [
+        "intoxicacao por litio",
+        "intoxicacao litio",
+        "toxicidade por litio",
+        "overdose de litio",
+        "litemia toxica"
+      ],
+      "dicas": [
+        "Mulher, 54 anos, trazida pelo marido por confusão e tremor há 2 dias.",
+        "Há 4 dias teve diarreia e vômitos, comendo e bebendo pouco. Agora anda cambaleando e fala enrolado.",
+        "Tem transtorno bipolar estável há anos. Há 2 semanas o clínico iniciou hidroclorotiazida para a pressão e ibuprofeno para dor no joelho.",
+        "Desorientada, disartria, tremor grosseiro, mioclonias, hiper-reflexia e ataxia de marcha. Mucosas secas, PA 108x68 mmHg.",
+        "Litemia 3,4 mEq/L (alvo 0,6–1,2), creatinina 2,1 mg/dL (basal 0,9). ECG com ondas T achatadas e QTc 480 ms."
+      ],
+      "comentario": "Intoxicação crônica por lítio precipitada por desidratação, tiazídico e AINE. Suspender o lítio e hidratar com SF 0,9%; hemodiálise se litemia > 4,0 mEq/L com função renal alterada ou se houver rebaixamento, convulsão ou arritmia (EXTRIP).",
+      "revisado": false
+    },
+    {
+      "id": "dificil-talassemia-beta-menor",
+      "data": "2026-12-20",
+      "nivel": "dificil",
+      "diagnostico": "Talassemia beta menor",
+      "sinonimos": [
+        "talassemia beta menor",
+        "beta talassemia menor",
+        "talassemia menor",
+        "talassemia minor",
+        "traco talassemico",
+        "traco beta talassemico",
+        "traco talassemico beta",
+        "talassemia beta heterozigota"
+      ],
+      "dicas": [
+        "Mulher, 26 anos, encaminhada por anemia em exame de rotina.",
+        "Já tomou sulfato ferroso duas vezes, por 6 meses cada, sem melhora da hemoglobina. Só sente um leve cansaço.",
+        "Família de origem italiana (Calábria); o pai também 'tem anemia desde sempre'. Fluxo menstrual normal.",
+        "Discreta palidez, sem icterícia e sem esplenomegalia palpável.",
+        "Hb 10,8 g/dL, VCM 63 fL, hemácias 6,1 milhões/mm³, RDW normal, ferritina 120 ng/mL. Eletroforese de hemoglobina com HbA2 de 5,4%."
+      ],
+      "comentario": "Traço beta-talassêmico: microcitose acentuada com hemácias aumentadas (índice de Mentzer < 13) e ferritina normal; HbA2 > 3,5% confirma. Não precisa de tratamento: suspender o ferro e oferecer aconselhamento genético.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-leucemia-de-celulas-pilosas",
+      "data": "2026-12-20",
+      "nivel": "mdificil",
+      "diagnostico": "Leucemia de células pilosas",
+      "sinonimos": [
+        "leucemia de celulas pilosas",
+        "tricoleucemia",
+        "hairy cell leukemia",
+        "hairy cell",
+        "leucemia de celulas cabeludas",
+        "lcp"
+      ],
+      "dicas": [
+        "Homem, 56 anos, com cansaço e sensação de 'barriga cheia' há 4 meses.",
+        "Teve duas pneumonias neste ano e fica saciado com pouca comida. Sem febre nem suor noturno.",
+        "Hemograma de 1 ano atrás já mostrava plaquetas baixas, nunca investigadas.",
+        "Palidez e esplenomegalia maciça (baço a 12 cm do rebordo costal), sem linfonodomegalias periféricas.",
+        "Pancitopenia com monocitopenia acentuada. Linfócitos com projeções citoplasmáticas finas; aspirado de medula 'seco'. Citometria CD11c+, CD25+, CD103+, CD123+, TRAP positivo e BRAF V600E presente."
+      ],
+      "comentario": "Leucemia de células pilosas: pancitopenia com monocitopenia, esplenomegalia sem linfonodos e medula 'seca'. BRAF V600E em quase todos os casos; excelente resposta a cladribina.",
+      "revisado": false
+    },
+    {
+      "id": "facil-abscesso-da-glandula-de-bartholin",
+      "data": "2026-12-21",
+      "nivel": "facil",
+      "diagnostico": "Abscesso da glândula de Bartholin",
+      "sinonimos": [
+        "abscesso de bartholin",
+        "abscesso da glandula de bartholin",
+        "abscesso de bartolin",
+        "bartholinite",
+        "bartolinite",
+        "bartholin",
+        "cisto de bartholin infectado"
+      ],
+      "dicas": [
+        "Mulher, 27 anos, com dor na região genital há 3 dias.",
+        "A dor piorou muito: agora não consegue sentar nem andar direito. Percebeu um 'caroço' que só cresce.",
+        "Sexualmente ativa, sem corrimento importante. Teve calafrios ontem.",
+        "Massa de 4 cm flutuante, quente e muito dolorosa na porção posterolateral do introito vaginal, no terço inferior do grande lábio direito, com hiperemia ao redor.",
+        "Ultrassonografia perineal: coleção de 3,8 cm com debris no local da glândula vestibular maior. A drenagem dá saída a pus espesso."
+      ],
+      "comentario": "Abscesso da glândula de Bartholin. Tratamento: drenagem com cateter de Word ou marsupialização (incisão simples recidiva muito); antibiótico se houver celulite ao redor ou suspeita de IST.",
+      "revisado": false
+    },
+    {
+      "id": "inter-descolamento-de-retina",
+      "data": "2026-12-21",
+      "nivel": "inter",
+      "diagnostico": "Descolamento de retina",
+      "sinonimos": [
+        "descolamento de retina",
+        "descolamento da retina",
+        "descolamento de retina regmatogenico",
+        "descolamento retiniano",
+        "dr regmatogenico"
+      ],
+      "dicas": [
+        "Homem, 58 anos, chega ao PS com piora da visão do olho direito.",
+        "Há 3 dias começou a ver 'moscas volantes' e flashes de luz. Hoje percebeu uma 'cortina' escura descendo de cima.",
+        "Tem miopia alta (−8,0 graus) e operou catarata nesse olho há 1 ano.",
+        "Olho calmo e indolor, acuidade 20/25, defeito pupilar aferente relativo leve. Campo visual de confrontação com perda no campo superior.",
+        "Fundoscopia sob midríase: retina inferior elevada, acinzentada e ondulante, com rotura em ferradura na periferia temporal inferior e mácula ainda colada."
+      ],
+      "comentario": "Descolamento de retina regmatogênico: fotopsias, moscas volantes e 'cortina' em míope ou pós-catarata. Encaminhar ao oftalmologista no mesmo dia; com a mácula colada, a cirurgia é urgente para preservar a visão central.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-deficiencia-de-g6pd",
+      "data": "2026-12-21",
+      "nivel": "dificil",
+      "diagnostico": "Deficiência de G6PD",
+      "sinonimos": [
+        "deficiencia de g6pd",
+        "deficiencia de glicose 6 fosfato desidrogenase",
+        "deficit de g6pd",
+        "g6pd",
+        "favismo",
+        "hemolise por deficiencia de g6pd"
+      ],
+      "dicas": [
+        "Homem, 30 anos, com urina escura e cansaço há 2 dias.",
+        "Há 4 dias começou cloroquina e primaquina para malária por vivax diagnosticada em Manaus.",
+        "Nunca teve nada parecido. Um irmão teve 'icterícia forte' quando bebê.",
+        "Ictérico, mucosas descoradas 2+/4+, FC 110 bpm, sem esplenomegalia.",
+        "Hb 7,2 g/dL, reticulócitos 9%, LDH 980 U/L, haptoglobina indetectável, Coombs direto negativo. Esfregaço com corpos de Heinz e hemácias 'mordidas'. Dosagem enzimática repetida 3 meses depois: atividade reduzida."
+      ],
+      "comentario": "Deficiência de G6PD com hemólise aguda induzida por primaquina (também sulfas, dapsona, favas). Suspender o desencadeante e dar suporte; na crise a dosagem pode vir falsamente normal, por isso repetir após a recuperação.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-raiva-humana",
+      "data": "2026-12-21",
+      "nivel": "mdificil",
+      "diagnostico": "Raiva humana",
+      "sinonimos": [
+        "raiva",
+        "raiva humana",
+        "hidrofobia",
+        "encefalite rabica",
+        "lyssavirus"
+      ],
+      "dicas": [
+        "Homem, 34 anos, com febre, mal-estar e agitação há 3 dias.",
+        "Sente formigamento e coceira na mão direita. Está muito ansioso e não consegue dormir.",
+        "Trabalhador rural no Maranhão. Foi mordido por um morcego na mão há 6 semanas, enquanto dormia, e não procurou atendimento.",
+        "Ao receber um copo de água, tem espasmos violentos da faringe e do pescoço; um sopro de ar no rosto provoca o mesmo. Hipersalivação, febre de 39 °C e agitação alternada com períodos de lucidez.",
+        "RT-PCR na saliva e imunofluorescência em biópsia de pele da nuca positivas para o vírus da raiva."
+      ],
+      "comentario": "Raiva humana na forma furiosa, quase sempre fatal após os sintomas. A prevenção é a profilaxia pós-exposição: lavar a ferida e aplicar vacina e soro/imunoglobulina; exposição a morcego é sempre grave. Notificação imediata.",
+      "revisado": false
+    },
+    {
+      "id": "facil-ataque-de-panico",
+      "data": "2026-12-22",
+      "nivel": "facil",
+      "diagnostico": "Ataque de pânico",
+      "sinonimos": [
+        "ataque de panico",
+        "crise de panico",
+        "transtorno de panico",
+        "sindrome do panico",
+        "panico",
+        "crise de ansiedade",
+        "ansiedade aguda"
+      ],
+      "dicas": [
+        "Mulher, 29 anos, chega ao PS com falta de ar e dor no peito há 20 minutos.",
+        "Sentiu de repente o coração disparar, formigamento nas mãos e em volta da boca, tremor e a sensação de que ia morrer.",
+        "Sem comorbidades, não usa anticoncepcional nem drogas. Teve 3 episódios parecidos neste mês, todos melhorando sozinhos em até meia hora, e agora evita sair de casa sozinha.",
+        "Ansiosa, FR 28 irpm, SpO2 99%, FC 112 bpm que cai para 86 bpm em 15 minutos de acolhimento, PA 132x84 mmHg. Ausculta normal, panturrilhas livres.",
+        "ECG com taquicardia sinusal sem outras alterações, troponina negativa, D-dímero negativo, glicemia 92 mg/dL e TSH normal. Gasometria com alcalose respiratória (pCO2 28 mmHg)."
+      ],
+      "comentario": "Ataque de pânico: crise súbita de medo intenso com sintomas autonômicos e pico em minutos. No PS é diagnóstico de exclusão (ECG, troponina, glicemia); acolher, benzodiazepínico só pontual e encaminhar para ISRS e psicoterapia.",
+      "revisado": false
+    },
+    {
+      "id": "inter-colite-por-clostridioides-difficile",
+      "data": "2026-12-22",
+      "nivel": "inter",
+      "diagnostico": "Colite por Clostridioides difficile",
+      "sinonimos": [
+        "colite por clostridioides difficile",
+        "colite por clostridium difficile",
+        "colite por c difficile",
+        "colite pseudomembranosa",
+        "infeccao por clostridioides difficile",
+        "infeccao por c difficile",
+        "clostridioides difficile",
+        "clostridium difficile",
+        "c difficile"
+      ],
+      "dicas": [
+        "Mulher, 74 anos, com diarreia e dor abdominal há 4 dias.",
+        "São 10 a 12 evacuações aquosas por dia, de cheiro forte, sem sangue. Febre de 38,6 °C.",
+        "Teve alta há 10 dias de internação por pneumonia tratada com ceftriaxona e clindamicina. Usa omeprazol.",
+        "Desidratada, FC 112 bpm, PA 100x60 mmHg. Abdome distendido e doloroso difusamente, sem peritonite, ruídos presentes.",
+        "Leucócitos 28.000/mm³, creatinina 2,0 mg/dL (basal 0,8). GDH e toxinas A/B positivas nas fezes. Retossigmoidoscopia com placas amareladas aderidas à mucosa."
+      ],
+      "comentario": "Infecção grave por C. difficile (leucócitos > 15.000/mm³ ou creatinina > 1,5 mg/dL). Suspender antibióticos desnecessários e tratar com fidaxomicina ou vancomicina oral 125 mg 6/6 h; metronidazol não é mais primeira linha.",
+      "revisado": false
+    },
+    {
+      "id": "dificil-tuberculose-pleural",
+      "data": "2026-12-22",
+      "nivel": "dificil",
+      "diagnostico": "Tuberculose pleural",
+      "sinonimos": [
+        "tuberculose pleural",
+        "tb pleural",
+        "derrame pleural tuberculoso",
+        "pleurite tuberculosa",
+        "pleuris tuberculoso"
+      ],
+      "dicas": [
+        "Homem, 31 anos, com dor no lado direito do tórax e febre há 3 semanas.",
+        "A dor piora ao respirar fundo. Tem tosse seca, suor à noite e perdeu 4 kg.",
+        "Trabalha como agente penitenciário. HIV negativo há 6 meses. Nunca fumou.",
+        "Temperatura 38,1 °C. Macicez, frêmito diminuído e murmúrio vesicular abolido no terço inferior do hemitórax direito.",
+        "Toracocentese: exsudato com 85% de linfócitos, poucas células mesoteliais, glicose 72 mg/dL e ADA 78 U/L. Biópsia pleural com granuloma com necrose caseosa."
+      ],
+      "comentario": "Tuberculose pleural: derrame exsudativo linfocítico com ADA > 40 U/L em área de alta prevalência. Baciloscopia e cultura do líquido raramente positivam; tratar com RIPE por 6 meses.",
+      "revisado": false
+    },
+    {
+      "id": "mdificil-sindrome-de-marfan",
+      "data": "2026-12-22",
+      "nivel": "mdificil",
+      "diagnostico": "Síndrome de Marfan",
+      "sinonimos": [
+        "sindrome de marfan",
+        "marfan",
+        "doenca de marfan"
+      ],
+      "dicas": [
+        "Rapaz, 19 anos, jogador de vôlei, encaminhado ao cardiologista por sopro no exame pré-participação.",
+        "Usa óculos de grau alto desde a infância e enxerga mal mesmo com eles.",
+        "O pai morreu aos 38 anos de 'rompimento da aorta'. Aos 16 anos teve pneumotórax espontâneo.",
+        "Envergadura maior que a altura (relação 1,08), sinais do punho e do polegar positivos, pectus excavatum, escoliose e palato ogival. Sopro diastólico aspirativo no foco aórtico.",
+        "Ecocardiograma com dilatação da raiz da aorta (escore Z 3,5) e insuficiência aórtica. Lâmpada de fenda: ectopia lentis superotemporal bilateral. Variante patogênica em FBN1."
+      ],
+      "comentario": "Síndrome de Marfan (FBN1): ectopia lentis com dilatação da raiz aórtica fecha o diagnóstico pelos critérios de Ghent. Betabloqueador ou BRA, evitar esporte competitivo, eco seriado e cirurgia da raiz conforme o diâmetro.",
+      "revisado": false
     },
     {
       "id": "facil-convulsao-febril-simples",
